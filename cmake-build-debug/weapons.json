@@ -1,0 +1,3486 @@
+{
+    "WeaponClasses": [
+        {
+            "Class": "Assault Rifles",
+            "Weapons": [
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": true
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": true
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": true
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": true
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "FTAC Light",
+                    "Unlocked": true,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Kastov 74",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Krig C",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "M16",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "M4-S",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "R-2",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "SA87",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Class": "Battle Rifles",
+            "Weapons": [
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "C58",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Kastov 73",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Lienna 57",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "TAQ-F",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Class": "LMGs",
+            "Weapons": [
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "IP 545",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "LRC-308",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "SAW-H",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "SAW-L",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Class": "Launchers",
+            "Weapons": [
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "LAW",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Panzerfaust",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Stinger",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Class": "Marksman Rifles",
+            "Weapons": [
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "CAMRS",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Kastov 97",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Lienna 550",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "MK-18",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Tempus Torrent",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "VAP-M",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Class": "Melee",
+            "Weapons": [
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Breaching Tool",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Hunting Knife",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Scout Knife",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Class": "Pistols",
+            "Weapons": [
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Dianolli",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "GP13 Auto",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Lach-30",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Lach-45",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Lach-9",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Sykov",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "TAQ Handheld",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Class": "SMGs",
+            "Weapons": [
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "AMR9",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "FMG9",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Kastov-M",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Lachmann Sub",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "MD-97L",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Raptor-9",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "VAP 2",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "VAP 3",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "VCAR",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Class": "Shotguns",
+            "Weapons": [
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "M500",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "OCP500",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Olympia",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Roku 360",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Super Short",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Class": "Sniper Rifles",
+            "Weapons": [
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Kastov-M",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "LW3 – Tundra",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Ratio-H",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "CurrentLevel": 0,
+                    "M_CAMOS": [
+                        {
+                            "Name": "M_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "M_DARK_MATTER",
+                            "Status": false
+                        }
+                    ],
+                    "MaxLevel": 100,
+                    "Name": "Ratio-P",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

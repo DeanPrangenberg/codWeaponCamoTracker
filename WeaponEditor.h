@@ -19,6 +19,7 @@
 #include <QGridLayout>
 #include <QMap>
 #include <QPair>
+#include <QCoreApplication>
 
 class WeaponEditor : public QWidget {
 Q_OBJECT
@@ -32,25 +33,24 @@ private slots:
     void ensureFileExists();
     void createWeaponTile(const QString &weaponName, int index);
     void genJsonWeaponData();
-    void saveChangedData();
+    void liveUpdateWeaponData(const QString &weaponName, const QString &key, const QVariant &value);
+    void updateStatus();
 
 private:
     QComboBox *classComboBox;
     QWidget *weaponContainer;
     QComboBox *camoTypeComboBox;
     QGridLayout *weaponLayout; // Changed to QGridLayout
-    QPushButton *saveButton;
+    QLabel *statusLabel;
 
     QStringList weaponClasses;
     QMap<QString, QStringList> weaponMap;
-    QString fileName = "D:\\MyRepo\\c++ QT\\codWeaponCamoTracker\\weaponData.json"; // Updated to be relative to the application directory
-
-    QMap<QString, QList<QWidget*>> weaponWidgets; // To store widgets for each weapon
-    QJsonObject weaponData; // Add this member variable to store JSON data
+    QString fileName = "D:\\MyRepo\\c++ QT\\codWeaponCamoTracker\\weaponData.json";
 
     void initializeWeaponData();
-    void loadWeaponsForClass(const QString &classType);
     void setupUI();
+    void loadWeaponsForClass(const QString &weaponClass, const QString &camoType);
+    void camoLogic();
 };
 
 #endif // WEAPONEDITOR_H
