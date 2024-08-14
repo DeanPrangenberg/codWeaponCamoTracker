@@ -1,0 +1,5 @@
+G:\Jet_brains_IDEs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=G:/Jet_brains_IDEs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S "D:\MyRepo\c++ QT\codWeaponCamoTracker" -B "D:\MyRepo\c++ QT\codWeaponCamoTracker\cmake-build-debug"
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-debug
