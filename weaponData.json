@@ -4,27 +4,26 @@
             "Class": "Assault Rifles",
             "Weapons": [
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Name": "M_Camo2",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Name": "M_Camo3",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Name": "M_Camo4",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Name": "M_GOLD",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Name": "M_DIAMOND",
@@ -35,7 +34,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": true,
                     "Name": "FTAC Light",
                     "Unlocked": true,
                     "Z_CAMOS": [
@@ -70,7 +69,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -101,9 +99,9 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Kastov 74",
-                    "Unlocked": true,
+                    "Unlocked": false,
                     "Z_CAMOS": [
                         {
                             "Name": "Z_Camo1",
@@ -136,7 +134,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -167,9 +164,9 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Krig C",
-                    "Unlocked": true,
+                    "Unlocked": false,
                     "Z_CAMOS": [
                         {
                             "Name": "Z_Camo1",
@@ -202,7 +199,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -233,9 +229,9 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "M16",
-                    "Unlocked": true,
+                    "Unlocked": false,
                     "Z_CAMOS": [
                         {
                             "Name": "Z_Camo1",
@@ -268,7 +264,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -299,7 +294,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "M4-S",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -334,7 +329,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -365,7 +359,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "R-2",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -400,7 +394,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -431,7 +424,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "SA87",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -471,7 +464,6 @@
             "Class": "Battle Rifles",
             "Weapons": [
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -502,7 +494,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "C58",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -537,7 +529,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -568,7 +559,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Kastov 73",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -603,7 +594,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -634,7 +624,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Lienna 57",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -669,7 +659,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -700,7 +689,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "TAQ-F",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -740,7 +729,6 @@
             "Class": "LMGs",
             "Weapons": [
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -771,7 +759,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "IP 545",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -806,7 +794,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -837,7 +824,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "LRC-308",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -872,7 +859,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -903,7 +889,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "SAW-H",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -938,7 +924,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -969,7 +954,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "SAW-L",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -1009,7 +994,6 @@
             "Class": "Launchers",
             "Weapons": [
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -1040,7 +1024,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "LAW",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -1075,7 +1059,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -1106,7 +1089,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Panzerfaust",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -1141,7 +1124,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -1172,7 +1154,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Stinger",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -1212,7 +1194,6 @@
             "Class": "Marksman Rifles",
             "Weapons": [
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -1243,7 +1224,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "CAMRS",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -1278,7 +1259,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -1309,7 +1289,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Kastov 97",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -1344,7 +1324,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -1375,7 +1354,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Lienna 550",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -1410,7 +1389,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -1441,7 +1419,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "MK-18",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -1476,7 +1454,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -1507,7 +1484,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Tempus Torrent",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -1542,7 +1519,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -1573,7 +1549,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "VAP-M",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -1613,7 +1589,6 @@
             "Class": "Melee",
             "Weapons": [
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -1644,7 +1619,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Breaching Tool",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -1679,7 +1654,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -1710,7 +1684,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Hunting Knife",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -1745,7 +1719,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -1776,7 +1749,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Scout Knife",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -1816,7 +1789,6 @@
             "Class": "Pistols",
             "Weapons": [
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -1847,7 +1819,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Dianolli",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -1882,7 +1854,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -1913,7 +1884,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "GP13 Auto",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -1948,7 +1919,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -1979,7 +1949,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Lach-30",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -2014,7 +1984,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -2045,7 +2014,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Lach-45",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -2080,7 +2049,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -2111,7 +2079,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Lach-9",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -2146,7 +2114,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -2177,7 +2144,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Sykov",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -2212,7 +2179,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -2243,7 +2209,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "TAQ Handheld",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -2283,7 +2249,6 @@
             "Class": "SMGs",
             "Weapons": [
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -2314,7 +2279,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "AMR9",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -2349,7 +2314,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -2380,7 +2344,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "FMG9",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -2415,7 +2379,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -2446,7 +2409,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Lachmann Sub",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -2481,7 +2444,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -2512,7 +2474,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "MD-97L",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -2547,7 +2509,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -2578,7 +2539,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Raptor-9",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -2613,7 +2574,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -2644,7 +2604,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "VAP 2",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -2679,7 +2639,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -2710,7 +2669,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "VAP 3",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -2745,7 +2704,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -2776,7 +2734,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "VCAR",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -2816,7 +2774,6 @@
             "Class": "Shotguns",
             "Weapons": [
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -2847,7 +2804,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "M500",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -2882,7 +2839,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -2913,7 +2869,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "OCP500",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -2948,7 +2904,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -2979,7 +2934,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Olympia",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -3014,7 +2969,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -3045,7 +2999,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Roku 360",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -3080,7 +3034,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -3111,7 +3064,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Super Short",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -3151,7 +3104,6 @@
             "Class": "Sniper Rifles",
             "Weapons": [
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -3182,7 +3134,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Kastov-M",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -3217,7 +3169,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -3248,7 +3199,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "LW3 – Tundra",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -3283,7 +3234,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -3314,7 +3264,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Ratio-H",
                     "Unlocked": false,
                     "Z_CAMOS": [
@@ -3349,7 +3299,6 @@
                     ]
                 },
                 {
-                    "CurrentLevel": 0,
                     "M_CAMOS": [
                         {
                             "Name": "M_Camo1",
@@ -3380,7 +3329,7 @@
                             "Status": false
                         }
                     ],
-                    "MaxLevel": 100,
+                    "MaxedLevel": false,
                     "Name": "Ratio-P",
                     "Unlocked": false,
                     "Z_CAMOS": [

@@ -20,6 +20,7 @@ void WeaponEditor::setupUI() {
     };
     classComboBox->addItems(weaponClasses);
     classComboBox->setCurrentText("Assault Rifles");  // Set default selection
+    comboBoxes.push_back(classComboBox);
     connect(classComboBox, &QComboBox::currentTextChanged, this, &WeaponEditor::updateWeaponClass);
     mainLayout->addWidget(classComboBox);
 
@@ -28,24 +29,54 @@ void WeaponEditor::setupUI() {
     camoTypeComboBox->addItem("Multiplayer");
     camoTypeComboBox->addItem("Zombies");
     camoTypeComboBox->setCurrentText("Multiplayer");  // Set default selection
+    comboBoxes.push_back(camoTypeComboBox);
     connect(camoTypeComboBox, &QComboBox::currentTextChanged, this, &WeaponEditor::updateWeaponClass);
     mainLayout->addWidget(camoTypeComboBox);
 
-    // Status label
-    statusLabel = new QLabel();
-    mainLayout->addWidget(statusLabel);
+    // Status labels
+    QHBoxLayout *statusLayout = new QHBoxLayout();
+
+    globalUnlockedWeaponsLabel = new QLabel();
+    globalMaxedLevelWeaponsLabel = new QLabel();
+    darkMatterStatusLabel = new QLabel();
+    diamondStatusLabel = new QLabel();
+
+    // Add labels to statusLabels vector
+    statusLabels.push_back(globalUnlockedWeaponsLabel);
+    statusLabels.push_back(globalMaxedLevelWeaponsLabel);
+    statusLabels.push_back(darkMatterStatusLabel);
+    statusLabels.push_back(diamondStatusLabel);
+
+    // Set object names for labels
+    globalUnlockedWeaponsLabel->setObjectName("globalUnlockedWeaponsLabel");
+    globalMaxedLevelWeaponsLabel->setObjectName("globalMaxedLevelWeaponsLabel");
+    darkMatterStatusLabel->setObjectName("darkMatterStatusLabel");
+    diamondStatusLabel->setObjectName("diamondStatusLabel");
+
+    // Add labels to status layout
+    statusLayout->addWidget(globalUnlockedWeaponsLabel);
+    statusLayout->addWidget(globalMaxedLevelWeaponsLabel);
+    statusLayout->addWidget(darkMatterStatusLabel);
+    statusLayout->addWidget(diamondStatusLabel);
+
+    // Add status layout to main layout
+    mainLayout->addLayout(statusLayout);
 
     // Scroll area for displaying weapon tiles
-    QScrollArea *scrollArea = new QScrollArea();
+    scrollArea = new QScrollArea();
     weaponContainer = new QWidget();
     weaponLayout = new QGridLayout(); // Changed to QGridLayout
+    weaponLayout->setAlignment(Qt::AlignTop);
     weaponContainer->setLayout(weaponLayout);
+    weaponContainer->setStyleSheet("background-color: #272626; border: 2px solid #444444; border-radius: 10px;");
+
     scrollArea->setWidget(weaponContainer);
     scrollArea->setWidgetResizable(true);
     mainLayout->addWidget(scrollArea);
 
     // Initial update
     updateWeaponClass();
+    updateStyles();
 }
 
 void WeaponEditor::updateStatus() {
@@ -74,22 +105,22 @@ void WeaponEditor::updateStatus() {
     int goldCamoWeapons = 0;
     int goldCamoSelectedClassWeapons = 0;
     int totalClassWeapons = 0;
+    int maxedLevelWeapons = 0;
 
     for (const QJsonValue &classValue : weaponClassesArray) {
         QJsonObject classObject = classValue.toObject();
         QString weaponClassName = classObject["Class"].toString();
         QJsonArray weaponsArray = classObject["Weapons"].toArray();
 
-
         for (const QJsonValue &weaponValue : weaponsArray) {
             QJsonObject weaponObject = weaponValue.toObject();
             totalWeapons++;
 
             bool isUnlocked = weaponObject["Unlocked"].toBool();
+            bool maxLevel = weaponObject["MaxedLevel"].toBool();
 
-            if (isUnlocked) {
-                unlockedWeapons++;
-            }
+            if (isUnlocked) unlockedWeapons++;
+            if (maxLevel) maxedLevelWeapons++;
 
             QJsonArray camosArray;
             if (selectedCamoType == "M_GOLD") {
@@ -106,7 +137,6 @@ void WeaponEditor::updateStatus() {
                 QString camoName = camoObject["Name"].toString();
                 bool camoStatus = camoObject["Status"].toBool();
 
-
                 if (camoName == selectedCamoType && camoStatus) {
                     hasSelectedGoldCamo = true;
                     break;
@@ -115,19 +145,16 @@ void WeaponEditor::updateStatus() {
 
             if (hasSelectedGoldCamo) {
                 goldCamoWeapons++;
-                if (weaponClassName == selectedClass) {
-                    goldCamoSelectedClassWeapons++;
-                }
+                if (weaponClassName == selectedClass) goldCamoSelectedClassWeapons++;
             }
 
-            if (weaponClassName == selectedClass) {
-                totalClassWeapons++;
-            }
+            if (weaponClassName == selectedClass) totalClassWeapons++;
         }
     }
 
     if (totalWeapons > 0) {
         double unlockedPercentage = (static_cast<double>(unlockedWeapons) / totalWeapons) * 100;
+        double maxedLevelPercentage = (static_cast<double>(maxedLevelWeapons) / totalWeapons) * 100;
         double selectedGoldCamoPercentage = (static_cast<double>(goldCamoWeapons) / totalWeapons) * 100;
         double selectedClassGoldCamoPercentage = (totalClassWeapons > 0) ?
                                                  (static_cast<double>(goldCamoSelectedClassWeapons) / totalClassWeapons) * 100 : 0.0;
@@ -135,16 +162,19 @@ void WeaponEditor::updateStatus() {
         QString camoTypeText = (camoTypeComboBox->currentText() == "Multiplayer") ? "Multiplayer" : "Zombies";
         QString classNameText = selectedClass.isEmpty() ? "Not Selected" : selectedClass;
 
-        statusLabel->setText(QString("Global Unlocked Weapons: %1%\n"
-                                     "%2 Dark-Matter Status: %3%\n"
-                                     "%2 %4 Diamond Status: %5%")
-                                     .arg(QString::number(unlockedPercentage, 'f', 2))
-                                     .arg(camoTypeText)
-                                     .arg(QString::number(selectedGoldCamoPercentage, 'f', 2))
-                                     .arg(classNameText)
-                                     .arg(QString::number(selectedClassGoldCamoPercentage, 'f', 2)));
+        if (statusLabels.size() == 4) {
+            statusLabels[0]->setText(QString("Global Unlocked Weapons:\n%1%").arg(QString::number(unlockedPercentage, 'f', 2)));
+            statusLabels[1]->setText(QString("Global Maxed Level Weapons:\n%1%").arg(QString::number(maxedLevelPercentage, 'f', 2)));
+            statusLabels[2]->setText(QString("%1 Dark-Matter Status:\n%2%").arg(camoTypeText).arg(QString::number(selectedGoldCamoPercentage, 'f', 2)));
+            statusLabels[3]->setText(QString("%1 %2 Diamond Status:\n%3%").arg(classNameText).arg(camoTypeText).arg(QString::number(selectedClassGoldCamoPercentage, 'f', 2)));
+        }
     } else {
-        statusLabel->setText("No weapons found.");
+        if (statusLabels.size() == 4) {
+            statusLabels[0]->setText("No weapons found.");
+            statusLabels[1]->setText("No weapons found.");
+            statusLabels[2]->setText("No weapons found.");
+            statusLabels[3]->setText("No weapons found.");
+        }
     }
 }
 
@@ -206,25 +236,64 @@ void WeaponEditor::loadWeaponsForClass(const QString &weaponClass, const QString
 }
 
 void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
+
+    int spacingSize = 5;
+
     // Erstelle ein Widget für den Tile
     QWidget *tile = new QWidget();
-    tile->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding); // Expanding für flexibles Layout
+    tile->setFixedHeight(220);  // Feste Höhe
+    tile->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);  // Dynamische Breite, feste Höhe
+    tile->setStyleSheet(R"(
+        QWidget {
+            background-color: #333333;
+            }
+        )"
+    );
 
-    // Erstelle ein Layout für den Tile
     QVBoxLayout *tileLayout = new QVBoxLayout(tile);
-    tileLayout->setContentsMargins(0, 0, 0, 0); // Keine Margen
-    tileLayout->setSpacing(0); // Kein Abstand zwischen Widgets
+    tileLayout->setContentsMargins(10, 10, 10, 10); // Margen nach Wunsch anpassen
+
+    // Erstelle ein Widget für die Hintergrundfarbe oben im Tile
+    QWidget *colorHeaderWidget = new QWidget();
+    QHBoxLayout *colorHeaderLayout = new QHBoxLayout(colorHeaderWidget);
+    colorHeaderLayout->setContentsMargins(0, 0, 0, 0); // Keine Margen
+    colorHeaderWidget->setStyleSheet("border: none;");
+
+    QLabel *statusLabel = new QLabel("Camouflage Status:");
+    QLabel *colorLabel = new QLabel();
+    colorLabel->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
+
+    QString backgroundColor = "transparent";
+    colorLabel->setStyleSheet(QString("background-color: %1;").arg(backgroundColor));
+
+    colorHeaderLayout->addWidget(statusLabel);
+    colorHeaderLayout->addWidget(colorLabel);
+
+    tileLayout->addWidget(colorHeaderWidget); // Füge das Farb-Widget zum Tile hinzu
 
     // Erstelle ein Widget für den Inhalt des Tiles
     QWidget *contentWidget = new QWidget();
-    QFormLayout *contentLayout = new QFormLayout(contentWidget);
+    QVBoxLayout *contentLayout = new QVBoxLayout(contentWidget);
     contentLayout->setContentsMargins(0, 0, 0, 0); // Keine Margen
+    contentWidget->setStyleSheet("border: none;");
 
     // Display weapon name
+    QHBoxLayout *nameLayout = new QHBoxLayout();
     QLabel *nameLabel = new QLabel("Weapon Name:");
     QLineEdit *nameEdit = new QLineEdit(weaponName);
+    nameEdit->setAlignment(Qt::AlignCenter);
     nameEdit->setReadOnly(true);
-    contentLayout->addRow(nameLabel, nameEdit);
+    nameLayout->addWidget(nameLabel);
+    nameLayout->addWidget(nameEdit);
+    nameEdit->setStyleSheet(
+            "QLineEdit {"
+            "   border: 2px solid #444444;"
+            "   border-radius: 10px;"
+            "   background-color: #2e2e2e;"
+            "}"
+    );
+
+    contentLayout->addLayout(nameLayout);
 
     // Lade Waffendaten
     QFile file(fileName);
@@ -249,8 +318,7 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
     int weaponIndex = weaponsInClass.indexOf(weaponName);
 
     bool unlocked = false;
-    int currentLevel = 0;
-    int maxLevel = 100;
+    bool maxedLevel = false;
     QJsonArray mCamosArray;
     QJsonArray zCamosArray;
 
@@ -262,8 +330,7 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
                 if (weaponIndex < weaponsArray.size()) {
                     QJsonObject weaponObject = weaponsArray[weaponIndex].toObject();
                     unlocked = weaponObject["Unlocked"].toBool();
-                    currentLevel = weaponObject["CurrentLevel"].toInt();
-                    maxLevel = weaponObject["MaxLevel"].toInt();
+                    maxedLevel = weaponObject["MaxedLevel"].toBool(); // Neues Feld
                     mCamosArray = weaponObject["M_CAMOS"].toArray();
                     zCamosArray = weaponObject["Z_CAMOS"].toArray();
                 }
@@ -273,20 +340,56 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
     }
 
     // Display unlocked status
+    QHBoxLayout *unlockedLayout = new QHBoxLayout();
     QLabel *unlockedLabel = new QLabel("Unlocked:");
     QCheckBox *unlockedCheckBox = new QCheckBox();
     unlockedCheckBox->setChecked(unlocked);
-    contentLayout->addRow(unlockedLabel, unlockedCheckBox);
+    unlockedLayout->addWidget(unlockedLabel);
+    unlockedLayout->addWidget(unlockedCheckBox);
 
-    // Display current level
-    QLabel *levelLabel = new QLabel("Current Level:");
-    QLineEdit *levelEdit = new QLineEdit(QString::number(currentLevel));
-    contentLayout->addRow(levelLabel, levelEdit);
+    contentLayout->addLayout(unlockedLayout);
 
-    // Display max level
-    QLabel *maxLevelLabel = new QLabel("Max Level:");
-    QLineEdit *maxLevelEdit = new QLineEdit(QString::number(maxLevel));
-    contentLayout->addRow(maxLevelLabel, maxLevelEdit);
+    unlockedCheckBox->setStyleSheet(
+            "QCheckBox {"
+            "   color: #333333;"
+            "}"
+            "QCheckBox::indicator:unchecked {"
+            "   border: 2px solid #555555;"
+            "   border-radius: 5px;"
+            "   background-color: #8f0e00;"
+            "}"
+            "QCheckBox::indicator:checked {"
+            "   border: 2px solid #555555;"
+            "   border-radius: 5px;"
+            "   background-color: #328f00;"
+            "}"
+    );
+
+    // Display maxed level
+    QHBoxLayout *maxedLevelLayout = new QHBoxLayout();
+    QLabel *maxedLevelLabel = new QLabel("Maxed Level:");
+    QCheckBox *maxedLevelCheckBox = new QCheckBox();
+    maxedLevelCheckBox->setChecked(maxedLevel);
+    maxedLevelLayout->addWidget(maxedLevelLabel);
+    maxedLevelLayout->addWidget(maxedLevelCheckBox);
+
+    contentLayout->addLayout(maxedLevelLayout);
+
+    maxedLevelCheckBox->setStyleSheet(
+            "QCheckBox {"
+            "   color: #333333;"
+            "}"
+            "QCheckBox::indicator:unchecked {"
+            "   border: 2px solid #555555;"
+            "   border-radius: 5px;"
+            "   background-color: #8f0e00;"
+            "}"
+            "QCheckBox::indicator:checked {"
+            "   border: 2px solid #555555;"
+            "   border-radius: 5px;"
+            "   background-color: #328f00;"
+            "}"
+    );
 
     // Get selected camo type
     QString selectedCamoType = camoTypeComboBox->currentText();
@@ -300,48 +403,76 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
     }
 
     int totalCamos = camosToShow.size();
-    for (int i = 0; i < totalCamos; ++i) {
+    QVBoxLayout *camoVBoxLayout = new QVBoxLayout();
+    camoVBoxLayout->setContentsMargins(0, 0, 0, 0); // Keine Margen
+    camoVBoxLayout->setSpacing(spacingSize); // Einheitlicher Abstand zwischen den Tarnungen
+
+    int displayedCamos = std::max(0, totalCamos - 3); // Display all except last 3
+
+    for (int i = 0; i < displayedCamos; ++i) {
         QJsonObject camoObject = camosToShow[i].toObject();
         QString camoName = camoObject["Name"].toString();
         bool camoStatus = camoObject["Status"].toBool();
 
-        QLabel *camoLabel = new QLabel(camoName);
+        QHBoxLayout *camoLayout = new QHBoxLayout();
+        QLabel *camoLabel = new QLabel("    " + camoName + ":");
         QCheckBox *camoCheckBox = new QCheckBox();
+        camoCheckBox->setStyleSheet(
+                "QCheckBox {"
+                "   color: #333333;"
+                "}"
+                "QCheckBox::indicator:unchecked {"
+                "   border: 2px solid #555555;"
+                "   border-radius: 5px;"
+                "   background-color: #8f0e00;"
+                "}"
+                "QCheckBox::indicator:checked {"
+                "   border: 2px solid #555555;"
+                "   border-radius: 5px;"
+                "   background-color: #328f00;"
+                "}"
+        );
+
         camoCheckBox->setChecked(camoStatus);
-        contentLayout->addRow(camoLabel, camoCheckBox);
+
+        camoLayout->addWidget(camoLabel);
+        camoLayout->addWidget(camoCheckBox);
+        camoLayout->setContentsMargins(0, 0, 0, 0); // Keine Margen
+
+        QWidget *camoWidget = new QWidget();
+        camoWidget->setLayout(camoLayout);
+        camoWidget->setStyleSheet("border: none;");
+
+        camoVBoxLayout->addWidget(camoWidget);
 
         connect(camoCheckBox, &QCheckBox::stateChanged, [this, weaponName, camoName](int state) {
             liveUpdateWeaponData(weaponName, camoName, (state == Qt::Checked));
         });
     }
 
-    // Connect unlocked status change to liveUpdateWeaponData
+    // Erstelle ein Widget für die Tarnungen und setze das VBoxLayout darauf
+    QWidget *camoContainerWidget = new QWidget();
+    camoContainerWidget->setLayout(camoVBoxLayout);
+    camoContainerWidget->setContentsMargins(0, 0, 0, 0); // Keine Margen
+    camoContainerWidget->setStyleSheet("border: none;");
+
+    // Füge das Tarnungs-Widget zum ContentLayout hinzu
+    contentLayout->addWidget(new QLabel("Camos:"));
+    contentLayout->addWidget(camoContainerWidget);
+
     connect(unlockedCheckBox, &QCheckBox::stateChanged, [this, weaponName](int state) {
         liveUpdateWeaponData(weaponName, "Unlocked", (state == Qt::Checked));
     });
 
-    // Connect current level change to liveUpdateWeaponData
-    connect(levelEdit, &QLineEdit::textChanged, [this, weaponName](const QString &text) {
-        bool ok;
-        int level = text.toInt(&ok);
-        if (ok) {
-            liveUpdateWeaponData(weaponName, "CurrentLevel", level);
-        }
-    });
-
-    // Connect max level change to liveUpdateWeaponData
-    connect(maxLevelEdit, &QLineEdit::textChanged, [this, weaponName](const QString &text) {
-        bool ok;
-        int level = text.toInt(&ok);
-        if (ok) {
-            liveUpdateWeaponData(weaponName, "MaxLevel", level);
-        }
+    connect(maxedLevelCheckBox, &QCheckBox::stateChanged, [this, weaponName](int state) {
+        liveUpdateWeaponData(weaponName, "MaxedLevel", (state == Qt::Checked));
     });
 
     // Füge das contentWidget zum Tile hinzu
     tileLayout->addWidget(contentWidget);
 
-    QString backgroundColor = "transparent"; // Standardfarbe
+    // Erstelle die Farbe für das colorHeaderLabel
+    QString colorHeaderBackgroundColor = "#4d4d4d"; // Standardfarbe
     for (const QJsonValue &camoValue : camosToShow) {
         QJsonObject camoObject = camoValue.toObject();
         QString camoName = camoObject["Name"].toString();
@@ -349,24 +480,24 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
 
         if (camoStatus) {
             if (camoName.contains("GOLD")) {
-                backgroundColor = "#8a8101"; // Gold-Farbe
+                colorHeaderBackgroundColor = "#ffc400"; // Gold-Farbe
             } else if (camoName.contains("DIAMOND")) {
-                backgroundColor = "#001b47"; // Diamant-Farbe
+                colorHeaderBackgroundColor = "#4a7fe8"; // Diamant-Farbe
             } else if (camoName.contains("DARK_MATTER")) {
-                backgroundColor = "#2c0133"; // Dark Matter-Farbe
+                colorHeaderBackgroundColor = "#6b005f"; // Dark Matter-Farbe
             }
         }
     }
-    tile->setStyleSheet(QString("background-color: %1;").arg(backgroundColor)); // Hintergrundfarbe setzen
+    colorLabel->setStyleSheet(QString("background-color: %1;").arg(colorHeaderBackgroundColor)); // Hintergrundfarbe setzen
 
-    // Füge das Tile zu einem Layout hinzu, z.B. einem GridLayout (angenommen, weaponLayout ist ein QGridLayout)
-    weaponLayout->addWidget(tile, index / 3, index % 3); // Ändert sich auf 3 Tiles pro Reihe
+    // Füge das Tile zum Layout hinzu
+    weaponLayout->addWidget(tile, index / 3, index % 3); // Bleibe bei fester Positionierung der Tiles
 }
 
-void WeaponEditor::liveUpdateWeaponData(const QString &weaponName, const QString &key, const QVariant &value) {
+void WeaponEditor::liveUpdateWeaponData(const QString &weaponName, const QString &key, bool status) {
     QFile file(fileName);
     if (!file.open(QIODevice::ReadOnly)) {
-        qDebug() << "Error: Unable to open file.";
+        qDebug() << "Error: Unable to open file for reading.";
         return;
     }
 
@@ -379,62 +510,73 @@ void WeaponEditor::liveUpdateWeaponData(const QString &weaponName, const QString
         return;
     }
 
-    QJsonObject weaponData = doc.object();
-    QJsonArray weaponClassesArray = weaponData["WeaponClasses"].toArray();
+    QJsonObject json = doc.object();
+    QJsonArray weaponClassesArray = json["WeaponClasses"].toArray();
+    QString selectedClass = classComboBox->currentText();
+    QStringList weaponsInClass = weaponMap.value(selectedClass);
 
-    // Bearbeiten der Waffendaten
-    for (int i = 0; i < weaponClassesArray.size(); ++i) {
-        QJsonObject classObject = weaponClassesArray[i].toObject();
-        QJsonArray weaponsArray = classObject["Weapons"].toArray();
+    QJsonArray updatedWeaponClassesArray;
 
-        for (int j = 0; j < weaponsArray.size(); ++j) {
-            QJsonObject weaponObject = weaponsArray[j].toObject();
-            if (weaponObject["Name"].toString() == weaponName) {
-                // Prüfen, ob der Schlüssel zu M_CAMOS oder Z_CAMOS gehört
-                if (key.startsWith("M_")) {
-                    QJsonArray mCamosArray = weaponObject["M_CAMOS"].toArray();
-                    for (int k = 0; k < mCamosArray.size(); ++k) {
-                        QJsonObject camoObject = mCamosArray[k].toObject();
-                        if (camoObject["Name"].toString() == key) {
-                            camoObject["Status"] = QJsonValue::fromVariant(value);
-                            mCamosArray[k] = camoObject;
-                            break;
+    for (const QJsonValue &classValue : weaponClassesArray) {
+        QJsonObject classObject = classValue.toObject();
+        if (classObject["Class"].toString() == selectedClass) {
+            QJsonArray weaponsArray = classObject["Weapons"].toArray();
+            QJsonArray updatedWeaponsArray;
+
+            for (const QJsonValue &weaponValue : weaponsArray) {
+                QJsonObject weaponObject = weaponValue.toObject();
+                if (weaponObject["Name"].toString() == weaponName) {
+                    if (key == "Unlocked") {
+                        weaponObject["Unlocked"] = status;
+                    } else if (key == "MaxedLevel") {
+                        weaponObject["MaxedLevel"] = status;
+                    } else {
+                        // Handle camo updates
+                        bool isMultiplayer = key.startsWith("M_"); // Use a heuristic to determine if it's Multiplayer
+                        if (isMultiplayer) {
+                            QJsonArray camosArray = weaponObject["M_CAMOS"].toArray();
+                            for (int i = 0; i < camosArray.size(); ++i) {
+                                QJsonObject camoObject = camosArray[i].toObject();
+                                if (camoObject["Name"].toString() == key) {
+                                    camoObject["Status"] = status;
+                                    camosArray[i] = camoObject; // Update the array with the modified object
+                                    break;
+                                }
+                            }
+                            weaponObject["M_CAMOS"] = camosArray;
+                        } else {
+                            QJsonArray zCamosArray = weaponObject["Z_CAMOS"].toArray();
+                            for (int i = 0; i < zCamosArray.size(); ++i) {
+                                QJsonObject camoObject = zCamosArray[i].toObject();
+                                if (camoObject["Name"].toString() == key) {
+                                    camoObject["Status"] = status;
+                                    zCamosArray[i] = camoObject; // Update the array with the modified object
+                                    break;
+                                }
+                            }
+                            weaponObject["Z_CAMOS"] = zCamosArray;
                         }
                     }
-                    weaponObject["M_CAMOS"] = mCamosArray;
-                } else if (key.startsWith("Z_")) {
-                    QJsonArray zCamosArray = weaponObject["Z_CAMOS"].toArray();
-                    for (int k = 0; k < zCamosArray.size(); ++k) {
-                        QJsonObject camoObject = zCamosArray[k].toObject();
-                        if (camoObject["Name"].toString() == key) {
-                            camoObject["Status"] = QJsonValue::fromVariant(value);
-                            zCamosArray[k] = camoObject;
-                            break;
-                        }
-                    }
-                    weaponObject["Z_CAMOS"] = zCamosArray;
-                } else {
-                    weaponObject[key] = QJsonValue::fromVariant(value);
                 }
-
-                weaponsArray[j] = weaponObject;
-                break;
+                updatedWeaponsArray.append(weaponObject);
             }
+            classObject["Weapons"] = updatedWeaponsArray;
         }
-        classObject["Weapons"] = weaponsArray;
-        weaponClassesArray[i] = classObject;
+        updatedWeaponClassesArray.append(classObject);
     }
-    weaponData["WeaponClasses"] = weaponClassesArray;
 
-    QJsonDocument updatedDoc(weaponData);
-    QFile writeFile(fileName);
-    if (!writeFile.open(QIODevice::WriteOnly)) {
+    json["WeaponClasses"] = updatedWeaponClassesArray;
+
+    QJsonDocument updatedDoc(json);
+    if (!file.open(QIODevice::WriteOnly)) {
         qDebug() << "Error: Unable to open file for writing.";
         return;
     }
-    writeFile.write(updatedDoc.toJson());
-    writeFile.close();
+    file.write(updatedDoc.toJson());
+    file.close();
+
     camoLogic();
+    updateStatus();
     updateWeaponClass();
 }
 
@@ -449,7 +591,6 @@ void WeaponEditor::genJsonWeaponData() {
     QJsonObject json;
     QJsonArray classesArray;
 
-    // Definieren Sie die Camos für Multiplayer und Zombies
     QStringList mCamos = {
             "M_Camo1", "M_Camo2", "M_Camo3", "M_Camo4", "M_GOLD", "M_DIAMOND", "M_DARK_MATTER"
     };
@@ -468,8 +609,7 @@ void WeaponEditor::genJsonWeaponData() {
             QJsonObject weaponObject;
             weaponObject["Name"] = weaponName;
             weaponObject["Unlocked"] = false;
-            weaponObject["CurrentLevel"] = 0;
-            weaponObject["MaxLevel"] = 100;
+            weaponObject["MaxedLevel"] = false;  // Neues Feld
 
             // Fügen Sie Multiplayer Camos hinzu
             QJsonArray mCamosArray;
@@ -717,4 +857,118 @@ void WeaponEditor::camoLogic() {
     writeFile.write(updatedDoc.toJson());
     writeFile.close();
     updateStatus();
+}
+
+void WeaponEditor::updateStyles() {
+    // Stylesheet für die ComboBoxen
+    QString comboBoxStyle =
+            "QComboBox {"
+            "   border: 2px solid #444444;"
+            "   border-radius: 10px;"
+            "   padding: 5px 10px;"
+            "   color: #ffffff;"
+            "   font-size: 14px;"
+            "   min-width: 6em;"
+            "}"
+            "QComboBox::drop-down {"
+            "   subcontrol-origin: padding;"
+            "   subcontrol-position: top right;"
+            "   width: 20px;"
+            "   border-left-width: 1px;"
+            "   border-left-color: #444444;"
+            "   border-left-style: solid;"
+            "   border-top-right-radius: 10px;"
+            "   border-bottom-right-radius: 10px;"
+            "}"
+            "QComboBox::down-arrow {"
+            "   image: url(C:/Qt/Tools/QtDesignStudio/share/doc/qtcreator/qtdesignstudio/images/arrowdown.png);"
+            "   width: 10px;"
+            "   height: 10px;"
+            "}"
+            "QComboBox QAbstractItemView {"
+            "   border: 2px solid #444444;"
+            "   border-radius: 10px;"
+            "   background-color: #333333;"
+            "   color: #ffffff;"
+            "   selection-background-color: #555555;"
+            "   selection-color: #ffffff;"
+            "   padding: 5px;"
+            "   outline: none;"
+            "   margin: 0;"
+            "}"
+            "QComboBox QAbstractItemView::item {"
+            "   border-radius: 5px;"
+            "   padding: 5px;"
+            "   margin: 2px;"
+            "}";
+
+    // Anwenden des Stylesheets auf alle ComboBoxen
+    for (auto comboBox : comboBoxes) {
+        comboBox->setStyleSheet(comboBoxStyle);
+    }
+
+    // Stylesheet für die Statuslabels
+    QString statusLabelStyle =
+            "QLabel {"
+            "   border: 2px solid #444444;"
+            "   border-radius: 10px;"
+            "   background-color: #333333;"
+            "   color: #ffffff;"
+            "   padding: 10px;"
+            "   min-width: 200px;"
+            "   text-align: center;"
+            "}";
+
+    // Anwenden des Stylesheets auf alle Statuslabels
+    for (auto statusLabel : statusLabels) {
+        statusLabel->setStyleSheet(statusLabelStyle);
+    }
+
+    // Stylesheet für das weaponContainer-Widget und die Scrollbars
+    QString weaponContainerStyle = R"(
+        QWidget {
+            background-color: #272626;
+            border: 2px solid #444444;
+            border-radius: 10px;
+        }
+    )";
+
+    weaponContainer->setStyleSheet(weaponContainerStyle);
+
+    QString scrollbarStyle = R"(
+    QScrollArea {
+        border: none;
+        background: transparent;
+    }
+
+    QScrollBar:vertical, QScrollBar:horizontal {
+        border: none;
+        background: none;
+        width: 0px;
+        height: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
+        background: none;
+        border-radius: 0px;
+    }
+
+    QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical,
+    QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+        background: none;
+        width: 0px;
+        height: 0px;
+    }
+
+    QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical,
+    QScrollBar::left-arrow:horizontal, QScrollBar::right-arrow:horizontal {
+        background: none;
+        width: 0px;
+        height: 0px;
+    }
+)";
+
+    scrollArea->setStyleSheet(scrollbarStyle);
 }

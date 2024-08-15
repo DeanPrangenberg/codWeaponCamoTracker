@@ -33,19 +33,28 @@ private slots:
     void ensureFileExists();
     void createWeaponTile(const QString &weaponName, int index);
     void genJsonWeaponData();
-    void liveUpdateWeaponData(const QString &weaponName, const QString &key, const QVariant &value);
+    void liveUpdateWeaponData(const QString &weaponName, const QString &key, bool status);
     void updateStatus();
 
 private:
     QComboBox *classComboBox;
     QWidget *weaponContainer;
+    QScrollArea *scrollArea;
     QComboBox *camoTypeComboBox;
     QGridLayout *weaponLayout; // Changed to QGridLayout
-    QLabel *statusLabel;
-
+    QLabel *globalUnlockedWeaponsLabel;
+    QLabel *globalMaxedLevelWeaponsLabel;
+    QLabel *darkMatterStatusLabel;
+    QLabel *diamondStatusLabel;
     QStringList weaponClasses;
     QMap<QString, QStringList> weaponMap;
     QString fileName = "D:\\MyRepo\\c++ QT\\codWeaponCamoTracker\\weaponData.json";
+
+
+    // style
+    void updateStyles();
+    QVector<QComboBox*> comboBoxes;
+    QVector<QLabel*> statusLabels;
 
     void initializeWeaponData();
     void setupUI();

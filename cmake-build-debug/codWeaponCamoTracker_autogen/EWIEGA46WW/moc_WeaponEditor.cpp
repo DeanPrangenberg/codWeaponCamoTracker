@@ -50,7 +50,7 @@ static constexpr auto qt_meta_stringdata_CLASSWeaponEditorENDCLASS = QtMocHelper
     "genJsonWeaponData",
     "liveUpdateWeaponData",
     "key",
-    "value",
+    "status",
     "updateStatus"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
@@ -67,7 +67,7 @@ struct qt_meta_stringdata_CLASSWeaponEditorENDCLASS_t {
     char stringdata8[18];
     char stringdata9[21];
     char stringdata10[4];
-    char stringdata11[6];
+    char stringdata11[7];
     char stringdata12[13];
 };
 #define QT_MOC_LITERAL(ofs, len) \
@@ -85,8 +85,8 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSWeaponEditorENDCLASS_t qt_meta_
         QT_MOC_LITERAL(98, 17),  // "genJsonWeaponData"
         QT_MOC_LITERAL(116, 20),  // "liveUpdateWeaponData"
         QT_MOC_LITERAL(137, 3),  // "key"
-        QT_MOC_LITERAL(141, 5),  // "value"
-        QT_MOC_LITERAL(147, 12)   // "updateStatus"
+        QT_MOC_LITERAL(141, 6),  // "status"
+        QT_MOC_LITERAL(148, 12)   // "updateStatus"
     },
     "WeaponEditor",
     "updateWeaponClass",
@@ -99,7 +99,7 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSWeaponEditorENDCLASS_t qt_meta_
     "genJsonWeaponData",
     "liveUpdateWeaponData",
     "key",
-    "value",
+    "status",
     "updateStatus"
 };
 #undef QT_MOC_LITERAL
@@ -134,7 +134,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSWeaponEditorENDCLASS[] = {
     QMetaType::Void,
     QMetaType::Void, QMetaType::QString, QMetaType::Int,    6,    7,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QVariant,    6,   10,   11,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::Bool,    6,   10,   11,
     QMetaType::Void,
 
        0        // eod
@@ -165,7 +165,7 @@ Q_CONSTINIT const QMetaObject WeaponEditor::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
         QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const QVariant &, std::false_type>,
+        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
         // method 'updateStatus'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
@@ -183,7 +183,7 @@ void WeaponEditor::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         case 2: _t->ensureFileExists(); break;
         case 3: _t->createWeaponTile((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<int>>(_a[2]))); break;
         case 4: _t->genJsonWeaponData(); break;
-        case 5: _t->liveUpdateWeaponData((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<QVariant>>(_a[3]))); break;
+        case 5: _t->liveUpdateWeaponData((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<bool>>(_a[3]))); break;
         case 6: _t->updateStatus(); break;
         default: ;
         }
