@@ -1,0 +1,5 @@
+D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-release/CMakeFiles/codWeaponCamoTracker.dir
+D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-release/CMakeFiles/edit_cache.dir
+D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-release/CMakeFiles/rebuild_cache.dir
+D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-release/CMakeFiles/codWeaponCamoTracker_autogen_timestamp_deps.dir
+D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-release/CMakeFiles/codWeaponCamoTracker_autogen.dir

@@ -46,17 +46,28 @@ private:
     QLabel *globalUnlockedWeaponsLabel;
     QLabel *globalMaxedLevelWeaponsLabel;
     QLabel *darkMatterStatusLabel;
+    QLabel *polyatomicStatusLabel;
     QLabel *diamondStatusLabel;
     QStringList weaponClasses;
 
     //global var
     QMap<QString, QStringList> weaponMap;
-    QString fileName = "D:\\MyRepo\\c++ QT\\codWeaponCamoTracker\\weaponData.json";
+    QString fileName = "weaponData.json";
 
     // camos var
-    int masteryCamoAmount = 4;
+    int standardCamoAmount = 4;
     int autoUnlockCamoAmount = 1;
     int camoNameLableWidth = 95;
+
+    static constexpr int goldPos = 4;
+    static constexpr int diamondPos = 5;
+    static constexpr int polyatomicPos = 6;
+    static constexpr int darkMatterPos = 7;
+
+    QString goldName = "GOLD";
+    QString diamondName = "DIAMOND";
+    QString polyatomicName = "POLYATOMIC";
+    QString darkMatterName = "DARK_MATTER";
 
     // style
     void updateStyles();

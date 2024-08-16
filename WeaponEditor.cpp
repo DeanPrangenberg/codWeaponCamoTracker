@@ -15,14 +15,13 @@ void WeaponEditor::setupUI() {
     // Add class selection ComboBox
     classComboBox = new QComboBox();
     weaponClasses = QStringList{
-            "Assault Rifles", "SMGs", "Marksman Rifles", "Battle Rifles",
-            "LMGs", "Sniper Rifles", "Shotguns", "Pistols", "Launchers", "Melee"
+            "Assault Rifles", "SMGs", "Marksmans", "Battle Rifles",
+            "LMGs", "Snipers", "Shotguns", "Pistols", "Launchers", "Melee"
     };
     classComboBox->addItems(weaponClasses);
     classComboBox->setCurrentText("Assault Rifles");  // Set default selection
     comboBoxes.push_back(classComboBox);
     connect(classComboBox, &QComboBox::currentTextChanged, this, &WeaponEditor::updateWeaponClass);
-    mainLayout->addWidget(classComboBox);
 
     // Add camo type selection ComboBox
     camoTypeComboBox = new QComboBox();
@@ -31,32 +30,39 @@ void WeaponEditor::setupUI() {
     camoTypeComboBox->setCurrentText("Multiplayer");  // Set default selection
     comboBoxes.push_back(camoTypeComboBox);
     connect(camoTypeComboBox, &QComboBox::currentTextChanged, this, &WeaponEditor::updateWeaponClass);
-    mainLayout->addWidget(camoTypeComboBox);
 
+    QHBoxLayout *dropdownLayout = new QHBoxLayout;
+    dropdownLayout->addWidget(classComboBox);
+    dropdownLayout->addWidget(camoTypeComboBox);
+
+    mainLayout->addLayout(dropdownLayout);
     // Status labels
     QHBoxLayout *statusLayout = new QHBoxLayout();
 
     globalUnlockedWeaponsLabel = new QLabel();
     globalMaxedLevelWeaponsLabel = new QLabel();
     darkMatterStatusLabel = new QLabel();
+    polyatomicStatusLabel = new QLabel();
     diamondStatusLabel = new QLabel();
+
+    globalUnlockedWeaponsLabel->setObjectName("globalUnlockedWeaponsLabel");
+    globalMaxedLevelWeaponsLabel->setObjectName("globalMaxedLevelWeaponsLabel");
+    darkMatterStatusLabel->setObjectName("darkMatterStatusLabel");
+    polyatomicStatusLabel->setObjectName("polyatomicStatusLabel");
+    diamondStatusLabel->setObjectName("diamondStatusLabel");
 
     // Add labels to statusLabels vector
     statusLabels.push_back(globalUnlockedWeaponsLabel);
     statusLabels.push_back(globalMaxedLevelWeaponsLabel);
     statusLabels.push_back(darkMatterStatusLabel);
+    statusLabels.push_back(polyatomicStatusLabel);
     statusLabels.push_back(diamondStatusLabel);
-
-    // Set object names for labels
-    globalUnlockedWeaponsLabel->setObjectName("globalUnlockedWeaponsLabel");
-    globalMaxedLevelWeaponsLabel->setObjectName("globalMaxedLevelWeaponsLabel");
-    darkMatterStatusLabel->setObjectName("darkMatterStatusLabel");
-    diamondStatusLabel->setObjectName("diamondStatusLabel");
 
     // Add labels to status layout
     statusLayout->addWidget(globalUnlockedWeaponsLabel);
     statusLayout->addWidget(globalMaxedLevelWeaponsLabel);
     statusLayout->addWidget(darkMatterStatusLabel);
+    statusLayout->addWidget(polyatomicStatusLabel);
     statusLayout->addWidget(diamondStatusLabel);
 
     // Add status layout to main layout
@@ -102,10 +108,14 @@ void WeaponEditor::updateStatus() {
 
     int totalWeapons = 0;
     int unlockedWeapons = 0;
-    int goldCamoWeapons = 0;
-    int goldCamoSelectedClassWeapons = 0;
+    int maxedWeapons = 0;
+    int goldCamoWeapons = 0;  // Diamond Status (unverändert)
+    int goldCamoSelectedClassWeapons = 0;  // Diamond Status (unverändert)
     int totalClassWeapons = 0;
-    int maxedLevelWeapons = 0;
+    int polyatomicUnlockedCamos = 0;
+    int polyatomicTotalCamos = 0;
+    int darkMatterUnlockedCamos = 0;
+    int darkMatterTotalCamos = 0;
 
     for (const QJsonValue &classValue : weaponClassesArray) {
         QJsonObject classObject = classValue.toObject();
@@ -117,11 +127,12 @@ void WeaponEditor::updateStatus() {
             totalWeapons++;
 
             bool isUnlocked = weaponObject["Unlocked"].toBool();
-            bool maxLevel = weaponObject["MaxedLevel"].toBool();
-
             if (isUnlocked) unlockedWeapons++;
-            if (maxLevel) maxedLevelWeapons++;
 
+            bool isMaxed = weaponObject["MaxedLevel"].toBool();
+            if (isMaxed) maxedWeapons++;
+
+            // Diamond Status (unverändert)
             QJsonArray camosArray;
             if (selectedCamoType == "M_GOLD") {
                 camosArray = weaponObject["M_CAMOS"].toArray();
@@ -144,36 +155,82 @@ void WeaponEditor::updateStatus() {
             }
 
             if (hasSelectedGoldCamo) {
-                goldCamoWeapons++;
-                if (weaponClassName == selectedClass) goldCamoSelectedClassWeapons++;
+                goldCamoWeapons++;  // Zählt für den Diamond Status (unverändert)
+                if (weaponClassName == selectedClass) goldCamoSelectedClassWeapons++;  // Diamond Status (unverändert)
             }
 
             if (weaponClassName == selectedClass) totalClassWeapons++;
+
+            // Polyatomic-Anpassung: Alle Tarnungen außer der letzten 2 überprüfen
+            int camoCount = camosArray.size();
+            for (int i = 0; i < camoCount - 2; ++i) {  // Ignoriere die letzte Tarnung
+                QJsonObject camoObject = camosArray[i].toObject();
+                bool polyatomicCamoStatus = camoObject["Status"].toBool();
+
+                polyatomicTotalCamos++;  // Zähle jede Tarnung (außer der letzten)
+                if (polyatomicCamoStatus) polyatomicUnlockedCamos++;  // Zähle freigeschaltete Tarnungen
+            }
+
+            // Dark-Matter-Anpassung: Alle Tarnungen außer der letzten überprüfen
+            for (int i = 0; i < camoCount - 1; ++i) {  // Ignoriere die letzte Tarnung
+                QJsonObject camoObject = camosArray[i].toObject();
+                bool darkMatterCamoStatus = camoObject["Status"].toBool();
+
+                darkMatterTotalCamos++;  // Zähle jede Tarnung (außer der letzten)
+                if (darkMatterCamoStatus) darkMatterUnlockedCamos++;  // Zähle freigeschaltete Tarnungen
+            }
+
+
         }
     }
 
     if (totalWeapons > 0) {
         double unlockedPercentage = (static_cast<double>(unlockedWeapons) / totalWeapons) * 100;
-        double maxedLevelPercentage = (static_cast<double>(maxedLevelWeapons) / totalWeapons) * 100;
-        double selectedGoldCamoPercentage = (static_cast<double>(goldCamoWeapons) / totalWeapons) * 100;
+        double maxedPercentage = (static_cast<double>(maxedWeapons) / totalWeapons) * 100;
         double selectedClassGoldCamoPercentage = (totalClassWeapons > 0) ?
-                                                 (static_cast<double>(goldCamoSelectedClassWeapons) / totalClassWeapons) * 100 : 0.0;
+                                                 (static_cast<double>(goldCamoSelectedClassWeapons) / totalClassWeapons) * 100 : 0.0;  // Für den Diamond Status (unverändert)
+        double polyatomicPercentage = (darkMatterTotalCamos > 0) ? (static_cast<double>(polyatomicUnlockedCamos) / polyatomicTotalCamos) * 100 : 0.0;
+        double darkMatterPercentage = (darkMatterTotalCamos > 0) ? (static_cast<double>(darkMatterUnlockedCamos) / darkMatterTotalCamos) * 100 : 0.0;
 
         QString camoTypeText = (camoTypeComboBox->currentText() == "Multiplayer") ? "Multiplayer" : "Zombies";
         QString classNameText = selectedClass.isEmpty() ? "Not Selected" : selectedClass;
 
-        if (statusLabels.size() == 4) {
-            statusLabels[0]->setText(QString("Global Unlocked Weapons:\n%1%").arg(QString::number(unlockedPercentage, 'f', 2)));
-            statusLabels[1]->setText(QString("Global Maxed Level Weapons:\n%1%").arg(QString::number(maxedLevelPercentage, 'f', 2)));
-            statusLabels[2]->setText(QString("%1 Dark-Matter Status:\n%2%").arg(camoTypeText).arg(QString::number(selectedGoldCamoPercentage, 'f', 2)));
-            statusLabels[3]->setText(QString("%1 %2 Diamond Status:\n%3%").arg(classNameText).arg(camoTypeText).arg(QString::number(selectedClassGoldCamoPercentage, 'f', 2)));
+        if (statusLabels.size() == 5) {
+            statusLabels[0]->setText(QString("Unlocked Weapons Status:\n%1% (%2 out of %3)")
+            .arg(QString::number(unlockedPercentage,'f', 2))
+            .arg(unlockedWeapons)
+            .arg(totalWeapons));
+
+            statusLabels[1]->setText(QString("Maxed Level Weapons Status:\n%1% (%2 out of %3)")
+            .arg(QString::number(maxedPercentage, 'f', 2))
+            .arg(maxedWeapons)
+            .arg(totalWeapons));
+
+            statusLabels[2]->setText(QString("%1 Dark-Matter Status:\n%2% (%3 out of %4)")
+            .arg(camoTypeComboBox->currentText())
+            .arg(QString::number(darkMatterPercentage, 'f', 2))
+            .arg(darkMatterUnlockedCamos)
+            .arg(darkMatterTotalCamos));
+
+            statusLabels[3]->setText(QString("%1 Polyatomic Status:\n%2% (%3 out of %4)")
+            .arg(camoTypeComboBox->currentText())
+            .arg(QString::number(polyatomicPercentage, 'f', 2))
+            .arg(polyatomicUnlockedCamos)
+            .arg(polyatomicTotalCamos));
+
+            statusLabels[4]->setText(QString("%1 Diamond Status:\n%2% (%3 out of %4)")
+            .arg(classComboBox->currentText())
+            .arg(QString::number(selectedClassGoldCamoPercentage, 'f', 2))
+            .arg(goldCamoSelectedClassWeapons)
+            .arg(totalClassWeapons));
         }
     } else {
-        if (statusLabels.size() == 4) {
+        if (statusLabels.size() == 5) {
             statusLabels[0]->setText("No weapons found.");
             statusLabels[1]->setText("No weapons found.");
             statusLabels[2]->setText("No weapons found.");
             statusLabels[3]->setText("No weapons found.");
+            statusLabels[4]->setText("No weapons found.");
         }
     }
 }
@@ -490,12 +547,14 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
         bool camoStatus = camoObject["Status"].toBool();
 
         if (camoStatus) {
-            if (camoName.contains("GOLD")) {
+            if (camoName.contains(goldName)) {
                 colorHeaderBackgroundColor = "#ffc400"; // Gold-Farbe
-            } else if (camoName.contains("DIAMOND")) {
+            } else if (camoName.contains(diamondName)) {
                 colorHeaderBackgroundColor = "#4a7fe8"; // Diamant-Farbe
-            } else if (camoName.contains("DARK_MATTER")) {
-                colorHeaderBackgroundColor = "#6b005f"; // Dark Matter-Farbe
+            } else if (camoName.contains(polyatomicName)) {
+                colorHeaderBackgroundColor = "#6b005f"; // Polyatomic-Farbe
+            } else if (camoName.contains(darkMatterName)) {
+                colorHeaderBackgroundColor = "#eb4034"; // Dark Matter-Farbe
             }
         }
     }
@@ -706,6 +765,8 @@ void WeaponEditor::loadWeaponData() {
 }
 
 void WeaponEditor::camoLogic() {
+    QVector<QVector<QVector<QVector<bool>>>> camoStatus;
+
     QFile file(fileName);
     if (!file.open(QIODevice::ReadOnly)) {
         qDebug() << "Error: Unable to open file.";
@@ -723,173 +784,194 @@ void WeaponEditor::camoLogic() {
 
     QJsonObject weaponData = doc.object();
     QJsonArray weaponClassesArray = weaponData["WeaponClasses"].toArray();
+    camoStatus.clear();
 
-    bool allClassesGoldMultiplayer = true;
-    bool allClassesGoldZombies = true;
-
-    // Schleife durch alle Klassen (z.B. Assault Rifles, SMGs, etc.)
-    for (int i = 0; i < weaponClassesArray.size(); ++i) {
-        QJsonObject classObject = weaponClassesArray[i].toObject();
+    for (const QJsonValue& classValue : weaponClassesArray) {
+        QJsonObject classObject = classValue.toObject();
         QJsonArray weaponsArray = classObject["Weapons"].toArray();
 
-        bool classGoldMultiplayer = true;
-        bool classGoldZombies = true;
+        QVector<QVector<QVector<bool>>> classCamos;
 
-        // Schleife durch alle Waffen in dieser Klasse
-        for (int j = 0; j < weaponsArray.size(); ++j) {
-            QJsonObject weaponObject = weaponsArray[j].toObject();
+        for (const QJsonValue& weaponValue : weaponsArray) {
+            QJsonObject weaponObject = weaponValue.toObject();
             QJsonArray mCamosArray = weaponObject["M_CAMOS"].toArray();
             QJsonArray zCamosArray = weaponObject["Z_CAMOS"].toArray();
 
-            // Setze Mastery-Camos (Gold, Diamond, Dark Matter) auf false
-            for (int k = 4; k < 7; ++k) {
-                QJsonObject camoMObject = mCamosArray[k].toObject();
-                QJsonObject camoZObject = zCamosArray[k].toObject();
-                camoMObject["Status"] = false;
-                camoZObject["Status"] = false;
-                mCamosArray[k] = camoMObject;
-                zCamosArray[k] = camoZObject;
+            QVector<QVector<bool>> weaponCamos(2);
+
+            for (int i = 0; i < mCamosArray.size(); ++i) {
+                weaponCamos[0].append(mCamosArray[i].toObject()["Status"].toBool());
             }
 
-            weaponObject["M_CAMOS"] = mCamosArray;
-            weaponObject["Z_CAMOS"] = zCamosArray;
-            weaponsArray[j] = weaponObject;
+            for (int i = 0; i < zCamosArray.size(); ++i) {
+                weaponCamos[1].append(zCamosArray[i].toObject()["Status"].toBool());
+            }
 
-            bool allMultiplayerCamosUnlocked = true;
-            bool allZombiesCamosUnlocked = true;
+            classCamos.append(weaponCamos);
+        }
 
-            // Überprüfe alle regulären Multiplayer-Tarnungen (1-4)
-            for (int k = 0; k < 4; ++k) {
-                QJsonObject camoObject = mCamosArray[k].toObject();
-                if (!camoObject["Status"].toBool()) {
-                    allMultiplayerCamosUnlocked = false;
+        camoStatus.append(classCamos);
+    }
+
+    for (int camoMode = 0; camoMode < 2; ++camoMode) {
+        for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
+            for (QVector<QVector<bool>> &weaponVector : classVector) {
+                bool goldAllowedForWeapon = true;
+                for (int i = 0; i < standardCamoAmount; ++i) {
+                    if (!weaponVector[camoMode][i]) {
+                        goldAllowedForWeapon = false;
+                    }
+                }
+                if (!goldAllowedForWeapon) {
+                    weaponVector[camoMode][goldPos] = false;
                 }
             }
+        }
 
-            // Überprüfe alle regulären Zombies-Tarnungen (1-4)
-            for (int k = 0; k < 4; ++k) {
-                QJsonObject camoObject = zCamosArray[k].toObject();
-                if (!camoObject["Status"].toBool()) {
-                    allZombiesCamosUnlocked = false;
+        for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
+            bool diamondAllowedForWeapon = true;
+            for (QVector<QVector<bool>> &weaponVector : classVector) {
+                if (!weaponVector[camoMode][goldPos]) {
+                    diamondAllowedForWeapon = false;
                 }
             }
-
-            // Setze Gold, wenn alle regulären Tarnungen freigeschaltet sind
-            if (allMultiplayerCamosUnlocked) {
-                QJsonObject goldCamo = mCamosArray[4].toObject(); // Gold Tarnung
-                goldCamo["Status"] = true;
-                mCamosArray[4] = goldCamo;
-            } else {
-                classGoldMultiplayer = false;
+            for (QVector<QVector<bool>> &weaponVector : classVector) {
+                if (!diamondAllowedForWeapon) {
+                    weaponVector[camoMode][diamondPos] = false;
+                }
             }
-
-            if (allZombiesCamosUnlocked) {
-                QJsonObject goldCamo = zCamosArray[4].toObject();
-                goldCamo["Status"] = true;
-                zCamosArray[4] = goldCamo;
-            } else {
-                classGoldZombies = false;
-            }
-
-            weaponObject["M_CAMOS"] = mCamosArray;
-            weaponObject["Z_CAMOS"] = zCamosArray;
-            weaponsArray[j] = weaponObject;
         }
 
-        // Setze Diamond für die Klasse, wenn alle Waffen in dieser Klasse Gold haben
-        if (classGoldMultiplayer) {
-            for (int j = 0; j < weaponsArray.size(); ++j) {
-                QJsonObject weaponObject = weaponsArray[j].toObject();
-                QJsonArray mCamosArray = weaponObject["M_CAMOS"].toArray();
-
-                QJsonObject diamondCamo = mCamosArray[5].toObject(); // Diamond Tarnung
-                diamondCamo["Status"] = true;
-                mCamosArray[5] = diamondCamo;
-
-                weaponObject["M_CAMOS"] = mCamosArray;
-                weaponsArray[j] = weaponObject;
+        bool polyatomicAllowedForWeapon = true;
+        for (int i = 0; i < 2; ++i) {
+            for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
+                switch (i) {
+                    case 0:
+                        for (QVector<QVector<bool>> &weaponVector : classVector) {
+                            if (!weaponVector[camoMode][diamondPos]) {
+                                polyatomicAllowedForWeapon = false;
+                            }
+                        }
+                        break;
+                    case 1:
+                        for (QVector<QVector<bool>> &weaponVector : classVector) {
+                            if (!polyatomicAllowedForWeapon) {
+                                weaponVector[camoMode][polyatomicPos] = false;
+                            }
+                        }
+                        break;
+                }
             }
-        } else {
-            allClassesGoldMultiplayer = false;
         }
 
-        if (classGoldZombies) {
-            for (int j = 0; j < weaponsArray.size(); ++j) {
-                QJsonObject weaponObject = weaponsArray[j].toObject();
-                QJsonArray zCamosArray = weaponObject["Z_CAMOS"].toArray();
-
-                QJsonObject diamondCamo = zCamosArray[5].toObject();
-                diamondCamo["Status"] = true;
-                zCamosArray[5] = diamondCamo;
-
-                weaponObject["Z_CAMOS"] = zCamosArray;
-                weaponsArray[j] = weaponObject;
+        bool darkMatterAllowedForWeapon = true;
+        for (int i = 0; i < 2; ++i) {
+            for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
+                switch (i) {
+                    case 0:
+                        for (QVector<QVector<bool>> &weaponVector : classVector) {
+                            if (!weaponVector[camoMode][polyatomicPos]) {
+                                darkMatterAllowedForWeapon = false;
+                            }
+                        }
+                        break;
+                    case 1:
+                        for (QVector<QVector<bool>> &weaponVector : classVector) {
+                            weaponVector[camoMode][darkMatterPos] = darkMatterAllowedForWeapon;
+                        }
+                        break;
+                }
             }
-        } else {
-            allClassesGoldZombies = false;
-        }
-
-        classObject["Weapons"] = weaponsArray;
-        weaponClassesArray[i] = classObject;
-    }
-
-    // Setze Dark Matter, wenn alle Klassen Diamond haben
-    if (allClassesGoldMultiplayer) {
-        for (int i = 0; i < weaponClassesArray.size(); ++i) {
-            QJsonObject classObject = weaponClassesArray[i].toObject();
-            QJsonArray weaponsArray = classObject["Weapons"].toArray();
-
-            for (int j = 0; j < weaponsArray.size(); ++j) {
-                QJsonObject weaponObject = weaponsArray[j].toObject();
-                QJsonArray mCamosArray = weaponObject["M_CAMOS"].toArray();
-
-                QJsonObject darkMatterCamo = mCamosArray[6].toObject(); // Dark Matter Tarnung
-                darkMatterCamo["Status"] = true;
-                mCamosArray[6] = darkMatterCamo;
-
-                weaponObject["M_CAMOS"] = mCamosArray;
-                weaponsArray[j] = weaponObject;
-            }
-
-            classObject["Weapons"] = weaponsArray;
-            weaponClassesArray[i] = classObject;
         }
     }
-
-    if (allClassesGoldZombies) {
-        for (int i = 0; i < weaponClassesArray.size(); ++i) {
-            QJsonObject classObject = weaponClassesArray[i].toObject();
-            QJsonArray weaponsArray = classObject["Weapons"].toArray();
-
-            for (int j = 0; j < weaponsArray.size(); ++j) {
-                QJsonObject weaponObject = weaponsArray[j].toObject();
-                QJsonArray zCamosArray = weaponObject["Z_CAMOS"].toArray();
-
-                QJsonObject darkMatterCamo = zCamosArray[6].toObject();
-                darkMatterCamo["Status"] = true;
-                zCamosArray[6] = darkMatterCamo;
-
-                weaponObject["Z_CAMOS"] = zCamosArray;
-                weaponsArray[j] = weaponObject;
-            }
-
-            classObject["Weapons"] = weaponsArray;
-            weaponClassesArray[i] = classObject;
-        }
-    }
-
-    // Aktualisiere das JSON-Dokument
-    weaponData["WeaponClasses"] = weaponClassesArray;
-    QJsonDocument updatedDoc(weaponData);
 
     QFile writeFile(fileName);
     if (!writeFile.open(QIODevice::WriteOnly)) {
         qDebug() << "Error: Unable to open file for writing.";
         return;
     }
+
+    QJsonObject updatedWeaponData;
+    QJsonArray updatedWeaponClassesArray;
+
+    for (int classIndex = 0; classIndex < camoStatus.size(); ++classIndex) {
+        QJsonObject classObject;
+        QJsonArray weaponsArray;
+
+        for (int weaponIndex = 0; weaponIndex < camoStatus[classIndex].size(); ++weaponIndex) {
+            QJsonObject weaponObject;
+            QJsonArray mCamosArray;
+            QJsonArray zCamosArray;
+
+            for (int i = 0; i < camoStatus[classIndex][weaponIndex][0].size(); ++i) {
+                QJsonObject camoObject;
+                camoObject["Condition"] = QString("todo for Camo");  // Maintain the condition as placeholder
+                switch (i) {
+                    case goldPos:
+                        camoObject["Name"] = "M_" + goldName;
+                        break;
+                    case diamondPos:
+                        camoObject["Name"] = "M_" + diamondName;
+                        break;
+                    case polyatomicPos:
+                        camoObject["Name"] = "M_" + polyatomicName;
+                        break;
+                    case darkMatterPos:
+                        camoObject["Name"] = "M_" + darkMatterName;
+                        break;
+                    default:
+                        camoObject["Name"] = QString("M_Camo%1").arg(i + 1); // Maintain the names as placeholders
+                        break;
+                }
+                camoObject["Status"] = camoStatus[classIndex][weaponIndex][0][i];
+                mCamosArray.append(camoObject);
+            }
+
+            for (int i = 0; i < camoStatus[classIndex][weaponIndex][1].size(); ++i) {
+                QJsonObject camoObject;
+                camoObject["Condition"] = QString("todo for Camo");  // Maintain the condition as placeholder
+                switch (i) {
+                    case goldPos:
+                        camoObject["Name"] = "Z_" + goldName;
+                        break;
+                    case diamondPos:
+                        camoObject["Name"] = "Z_" + diamondName;
+                        break;
+                    case polyatomicPos:
+                        camoObject["Name"] = "Z_" + polyatomicName;
+                        break;
+                    case darkMatterPos:
+                        camoObject["Name"] = "Z_" + darkMatterName;
+                        break;
+                    default:
+                        camoObject["Name"] = QString("Z_Camo%1").arg(i + 1); // Maintain the names as placeholders
+                        break;
+                }
+                camoObject["Status"] = camoStatus[classIndex][weaponIndex][1][i];
+                zCamosArray.append(camoObject);
+            }
+
+            weaponObject["M_CAMOS"] = mCamosArray;
+            weaponObject["Z_CAMOS"] = zCamosArray;
+
+            // Ensure other weapon details are preserved
+            QJsonObject originalWeaponObject = weaponData["WeaponClasses"].toArray()[classIndex].toObject()["Weapons"].toArray()[weaponIndex].toObject();
+            weaponObject["Name"] = originalWeaponObject["Name"].toString();
+            weaponObject["MaxedLevel"] = originalWeaponObject["MaxedLevel"].toBool();
+            weaponObject["Unlocked"] = originalWeaponObject["Unlocked"].toBool();
+
+            weaponsArray.append(weaponObject);
+        }
+
+        classObject["Class"] = weaponData["WeaponClasses"].toArray()[classIndex].toObject()["Class"].toString();
+        classObject["Weapons"] = weaponsArray;
+        updatedWeaponClassesArray.append(classObject);
+    }
+
+    updatedWeaponData["WeaponClasses"] = updatedWeaponClassesArray;
+    QJsonDocument updatedDoc(updatedWeaponData);
     writeFile.write(updatedDoc.toJson());
     writeFile.close();
-    updateStatus();
 }
 
 void WeaponEditor::updateStyles() {
@@ -948,7 +1030,6 @@ void WeaponEditor::updateStyles() {
             "   background-color: #333333;"
             "   color: #ffffff;"
             "   padding: 10px;"
-            "   min-width: 200px;"
             "   text-align: center;"
             "}";
 

@@ -1,13 +1,4 @@
-G:\Jet_brains_IDEs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S "D:\MyRepo\c++ QT\codWeaponCamoTracker" -B "D:\MyRepo\c++ QT\codWeaponCamoTracker\cmake-build-debug"
-CMake Deprecation Warning:
-  Support for "Extra Generators" like
-
-    CodeBlocks
-
-  is deprecated and will be removed from a future version of CMake.  IDEs may
-  use the cmake-file-api(7) to view CMake-generated project build trees.
-
-
+G:\Jet_brains_IDEs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S "D:\MyRepo\c++ QT\codWeaponCamoTracker" -B "D:\MyRepo\c++ QT\codWeaponCamoTracker\cmake-build-debug"
 -- The C compiler identification is GNU 13.1.0
 -- The CXX compiler identification is GNU 13.1.0
 -- Detecting C compiler ABI info
@@ -20,13 +11,7 @@ CMake Deprecation Warning:
 -- Check for working CXX compiler: G:/Jet_brains_IDEs/CLion/bin/mingw/bin/g++.exe - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE  
--- Performing Test HAVE_STDATOMIC
--- Performing Test HAVE_STDATOMIC - Success
--- Found WrapAtomic: TRUE  
 -- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
--- Configuring done (8.3s)
--- Generating done (0.0s)
+-- Configuring done (6.2s)
+-- Generating done (0.1s)
 -- Build files have been written to: D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-debug
