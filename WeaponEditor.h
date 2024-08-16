@@ -37,25 +37,33 @@ private slots:
     void updateStatus();
 
 private:
+    // global hud elements
     QComboBox *classComboBox;
     QWidget *weaponContainer;
     QScrollArea *scrollArea;
     QComboBox *camoTypeComboBox;
-    QGridLayout *weaponLayout; // Changed to QGridLayout
+    QGridLayout *weaponLayout;
     QLabel *globalUnlockedWeaponsLabel;
     QLabel *globalMaxedLevelWeaponsLabel;
     QLabel *darkMatterStatusLabel;
     QLabel *diamondStatusLabel;
     QStringList weaponClasses;
+
+    //global var
     QMap<QString, QStringList> weaponMap;
     QString fileName = "D:\\MyRepo\\c++ QT\\codWeaponCamoTracker\\weaponData.json";
 
+    // camos var
+    int masteryCamoAmount = 4;
+    int autoUnlockCamoAmount = 1;
+    int camoNameLableWidth = 95;
 
     // style
     void updateStyles();
     QVector<QComboBox*> comboBoxes;
     QVector<QLabel*> statusLabels;
 
+    // functions
     void initializeWeaponData();
     void setupUI();
     void loadWeaponsForClass(const QString &weaponClass, const QString &camoType);

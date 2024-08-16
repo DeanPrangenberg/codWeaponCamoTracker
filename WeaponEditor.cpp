@@ -236,13 +236,10 @@ void WeaponEditor::loadWeaponsForClass(const QString &weaponClass, const QString
 }
 
 void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
-
-    int spacingSize = 5;
-
     // Erstelle ein Widget für den Tile
     QWidget *tile = new QWidget();
-    tile->setFixedHeight(220);  // Feste Höhe
-    tile->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);  // Dynamische Breite, feste Höhe
+    tile->setFixedHeight(295);
+    tile->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
     tile->setStyleSheet(R"(
         QWidget {
             background-color: #333333;
@@ -259,12 +256,9 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
     colorHeaderLayout->setContentsMargins(0, 0, 0, 0); // Keine Margen
     colorHeaderWidget->setStyleSheet("border: none;");
 
-    QLabel *statusLabel = new QLabel("Camouflage Status:");
+    QLabel *statusLabel = new QLabel("Camo Status:");
     QLabel *colorLabel = new QLabel();
     colorLabel->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
-
-    QString backgroundColor = "transparent";
-    colorLabel->setStyleSheet(QString("background-color: %1;").arg(backgroundColor));
 
     colorHeaderLayout->addWidget(statusLabel);
     colorHeaderLayout->addWidget(colorLabel);
@@ -342,6 +336,8 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
     // Display unlocked status
     QHBoxLayout *unlockedLayout = new QHBoxLayout();
     QLabel *unlockedLabel = new QLabel("Unlocked:");
+    unlockedLabel->setFixedWidth(camoNameLableWidth + 10);
+
     QCheckBox *unlockedCheckBox = new QCheckBox();
     unlockedCheckBox->setChecked(unlocked);
     unlockedLayout->addWidget(unlockedLabel);
@@ -368,6 +364,7 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
     // Display maxed level
     QHBoxLayout *maxedLevelLayout = new QHBoxLayout();
     QLabel *maxedLevelLabel = new QLabel("Maxed Level:");
+    maxedLevelLabel->setFixedWidth(camoNameLableWidth + 10);
     QCheckBox *maxedLevelCheckBox = new QCheckBox();
     maxedLevelCheckBox->setChecked(maxedLevel);
     maxedLevelLayout->addWidget(maxedLevelLabel);
@@ -404,18 +401,33 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
 
     int totalCamos = camosToShow.size();
     QVBoxLayout *camoVBoxLayout = new QVBoxLayout();
-    camoVBoxLayout->setContentsMargins(0, 0, 0, 0); // Keine Margen
-    camoVBoxLayout->setSpacing(spacingSize); // Einheitlicher Abstand zwischen den Tarnungen
 
-    int displayedCamos = std::max(0, totalCamos - 3); // Display all except last 3
+    int displayedCamos = std::max(0, totalCamos - autoUnlockCamoAmount); // Display all except last 3
 
     for (int i = 0; i < displayedCamos; ++i) {
         QJsonObject camoObject = camosToShow[i].toObject();
         QString camoName = camoObject["Name"].toString();
         bool camoStatus = camoObject["Status"].toBool();
+        QString camoCondition = camoObject["Condition"].toString();
 
         QHBoxLayout *camoLayout = new QHBoxLayout();
-        QLabel *camoLabel = new QLabel("    " + camoName + ":");
+        camoLayout->setContentsMargins(10, 0, 0, 0); // Margen (oben, links, unten, rechts) erhöhen
+
+        QLabel *camoLabel = new QLabel(camoName + ":");
+        camoLabel->setFixedWidth(camoNameLableWidth);
+        camoLabel->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Expanding);
+
+        QLineEdit *camoLineEdit = new QLineEdit(camoCondition);
+        camoLineEdit->setAlignment(Qt::AlignCenter);
+        camoLineEdit->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
+        camoLineEdit->setStyleSheet(
+                "QLineEdit {"
+                "   border: 2px solid #444444;"
+                "   border-radius: 10px;"
+                "   background-color: #2e2e2e;"
+                "}"
+        );
+
         QCheckBox *camoCheckBox = new QCheckBox();
         camoCheckBox->setStyleSheet(
                 "QCheckBox {"
@@ -437,13 +449,15 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
 
         camoLayout->addWidget(camoLabel);
         camoLayout->addWidget(camoCheckBox);
-        camoLayout->setContentsMargins(0, 0, 0, 0); // Keine Margen
+        camoLayout->addWidget(camoLineEdit);
 
         QWidget *camoWidget = new QWidget();
         camoWidget->setLayout(camoLayout);
-        camoWidget->setStyleSheet("border: none;");
+
 
         camoVBoxLayout->addWidget(camoWidget);
+        camoVBoxLayout->setSpacing(5); // Verhindert zusätzlichen Abstand zwischen den Camo-Widgets
+        camoVBoxLayout->setContentsMargins(0, 0, 0, 0); // Keine Margen
 
         connect(camoCheckBox, &QCheckBox::stateChanged, [this, weaponName, camoName](int state) {
             liveUpdateWeaponData(weaponName, camoName, (state == Qt::Checked));
@@ -455,9 +469,6 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
     camoContainerWidget->setLayout(camoVBoxLayout);
     camoContainerWidget->setContentsMargins(0, 0, 0, 0); // Keine Margen
     camoContainerWidget->setStyleSheet("border: none;");
-
-    // Füge das Tarnungs-Widget zum ContentLayout hinzu
-    contentLayout->addWidget(new QLabel("Camos:"));
     contentLayout->addWidget(camoContainerWidget);
 
     connect(unlockedCheckBox, &QCheckBox::stateChanged, [this, weaponName](int state) {
@@ -488,7 +499,13 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
             }
         }
     }
-    colorLabel->setStyleSheet(QString("background-color: %1;").arg(colorHeaderBackgroundColor)); // Hintergrundfarbe setzen
+    colorLabel->setStyleSheet(QString("QLabel {"
+                                      "   border: 2px solid #444444;"
+                                      "   border-radius: 10px;"
+                                      "   color: #ffffff;"
+                                      "   background-color: %1;"
+                                      "}"
+    ).arg(colorHeaderBackgroundColor));
 
     // Füge das Tile zum Layout hinzu
     weaponLayout->addWidget(tile, index / 3, index % 3); // Bleibe bei fester Positionierung der Tiles
@@ -592,10 +609,10 @@ void WeaponEditor::genJsonWeaponData() {
     QJsonArray classesArray;
 
     QStringList mCamos = {
-            "M_Camo1", "M_Camo2", "M_Camo3", "M_Camo4", "M_GOLD", "M_DIAMOND", "M_DARK_MATTER"
+            "M_Camo1", "M_Camo2", "M_Camo3", "M_Camo4", "M_GOLD", "M_DIAMOND", "M_POLYATOMIC", "M_DARK_MATTER"
     };
     QStringList zCamos = {
-            "Z_Camo1", "Z_Camo2", "Z_Camo3", "Z_Camo4", "Z_GOLD", "Z_DIAMOND", "Z_DARK_MATTER"
+            "Z_Camo1", "Z_Camo2", "Z_Camo3", "Z_Camo4", "Z_GOLD", "Z_DIAMOND", "Z_POLYATOMIC", "Z_DARK_MATTER"
     };
 
     for (const QString &className : weaponMap.keys()) {
@@ -617,6 +634,7 @@ void WeaponEditor::genJsonWeaponData() {
                 QJsonObject camoObject;
                 camoObject["Name"] = camoName;
                 camoObject["Status"] = false;
+                camoObject["Condition"] = "todo for Camo";
                 mCamosArray.append(camoObject);
             }
             weaponObject["M_CAMOS"] = mCamosArray;
@@ -627,6 +645,7 @@ void WeaponEditor::genJsonWeaponData() {
                 QJsonObject camoObject;
                 camoObject["Name"] = camoName;
                 camoObject["Status"] = false;
+                camoObject["Condition"] = "todo for Camo";
                 zCamosArray.append(camoObject);
             }
             weaponObject["Z_CAMOS"] = zCamosArray;
@@ -722,18 +741,32 @@ void WeaponEditor::camoLogic() {
             QJsonArray mCamosArray = weaponObject["M_CAMOS"].toArray();
             QJsonArray zCamosArray = weaponObject["Z_CAMOS"].toArray();
 
+            // Setze Mastery-Camos (Gold, Diamond, Dark Matter) auf false
+            for (int k = 4; k < 7; ++k) {
+                QJsonObject camoMObject = mCamosArray[k].toObject();
+                QJsonObject camoZObject = zCamosArray[k].toObject();
+                camoMObject["Status"] = false;
+                camoZObject["Status"] = false;
+                mCamosArray[k] = camoMObject;
+                zCamosArray[k] = camoZObject;
+            }
+
+            weaponObject["M_CAMOS"] = mCamosArray;
+            weaponObject["Z_CAMOS"] = zCamosArray;
+            weaponsArray[j] = weaponObject;
+
             bool allMultiplayerCamosUnlocked = true;
             bool allZombiesCamosUnlocked = true;
 
-            // Überprüfe alle Multiplayer-Tarnungen (außer Gold, Diamond, Dark Matter)
-            for (int k = 0; k < 4; ++k) { // Die ersten 4 Tarnungen sind die regulären Tarnungen
+            // Überprüfe alle regulären Multiplayer-Tarnungen (1-4)
+            for (int k = 0; k < 4; ++k) {
                 QJsonObject camoObject = mCamosArray[k].toObject();
                 if (!camoObject["Status"].toBool()) {
                     allMultiplayerCamosUnlocked = false;
                 }
             }
 
-            // Überprüfe alle Zombies-Tarnungen (außer Gold, Diamond, Dark Matter)
+            // Überprüfe alle regulären Zombies-Tarnungen (1-4)
             for (int k = 0; k < 4; ++k) {
                 QJsonObject camoObject = zCamosArray[k].toObject();
                 if (!camoObject["Status"].toBool()) {
@@ -741,7 +774,7 @@ void WeaponEditor::camoLogic() {
                 }
             }
 
-            // Setze Gold, wenn alle 4 Tarnungen freigeschaltet sind
+            // Setze Gold, wenn alle regulären Tarnungen freigeschaltet sind
             if (allMultiplayerCamosUnlocked) {
                 QJsonObject goldCamo = mCamosArray[4].toObject(); // Gold Tarnung
                 goldCamo["Status"] = true;
