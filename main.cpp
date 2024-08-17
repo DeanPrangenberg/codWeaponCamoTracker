@@ -8,7 +8,6 @@ int main(int argc, char *argv[]) {
     editor.setWindowTitle("Weapon Editor");
     editor.setFixedSize(1000, 978);
     editor.setWindowIcon(QIcon("windowIcon.png"));
-    editor.setWindowIcon(QIcon("windowIcon.png"));
     editor.show();
 
     return app.exec();

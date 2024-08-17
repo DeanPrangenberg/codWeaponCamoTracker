@@ -1,11 +1,5 @@
 G:\Jet_brains_IDEs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Release -G "MinGW Makefiles" -S "D:\MyRepo\c++ QT\codWeaponCamoTracker" -B "D:\MyRepo\c++ QT\codWeaponCamoTracker\cmake-build-release"
 -- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
 -- Configuring done (0.4s)
-CMake Error at CMakeLists.txt:19 (add_executable):
-  Cannot find source file:
-
-    D:/MyRepo/c++ QT/codWeaponCamoTracker/resources.rc
-
-
 -- Generating done (0.0s)
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Build files have been written to: D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-release
