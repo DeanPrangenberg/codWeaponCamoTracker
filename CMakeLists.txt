@@ -14,14 +14,30 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
+set(APP_ICON_RESOURCE_WINDOWS "${CMAKE_SOURCE_DIR}/resources.rc")
+
 add_executable(codWeaponCamoTracker main.cpp
         WeaponEditor.cpp
-        WeaponEditor.h)
+        WeaponEditor.h
+        ${APP_ICON_RESOURCE_WINDOWS})
+
 target_link_libraries(codWeaponCamoTracker
         Qt::Core
         Qt::Gui
         Qt::Widgets
 )
+
+# Verhindere das Konsolenfenster
+if (WIN32)
+    if (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
+        # MinGW nutzt eine andere Syntax für das Subsystem
+        set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-subsystem,windows -Wl,-e,mainCRTStartup")
+    elseif (CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
+        # MSVC verwendet /SUBSYSTEM:WINDOWS
+        set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /SUBSYSTEM:WINDOWS /ENTRY:mainCRTStartup")
+    endif()
+endif()
+
 
 if (WIN32 AND NOT DEFINED CMAKE_TOOLCHAIN_FILE)
     set(DEBUG_SUFFIX)

@@ -226,6 +226,14 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\codWeaponCamoTracker.dir\build.make CMakeFiles/codWeaponCamoTracker.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+resources.obj: resources.rc.obj
+.PHONY : resources.obj
+
+# target to build an object file
+resources.rc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\codWeaponCamoTracker.dir\build.make CMakeFiles/codWeaponCamoTracker.dir/resources.rc.obj
+.PHONY : resources.rc.obj
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -246,6 +254,7 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... resources.obj
 .PHONY : help
 
 
