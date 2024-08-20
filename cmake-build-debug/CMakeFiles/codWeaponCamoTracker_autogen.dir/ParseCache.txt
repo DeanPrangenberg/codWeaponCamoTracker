@@ -9,6 +9,7 @@ D:/MyRepo/c++ QT/codWeaponCamoTracker/WeaponEditor.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonValue
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/QMap
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/QPair
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/QTimer
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/q20functional.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/q20memory.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/q20type_traits.h
@@ -23,6 +24,7 @@ D:/MyRepo/c++ QT/codWeaponCamoTracker/WeaponEditor.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qatomic.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qatomic_cxx11.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qbasicatomic.h
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qbasictimer.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qbindingstorage.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qbytearray.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qbytearrayalgorithms.h
@@ -127,6 +129,7 @@ D:/MyRepo/c++ QT/codWeaponCamoTracker/WeaponEditor.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qtdeprecationmarkers.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qtenvironmentvariables.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qtextstream.h
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qtimer.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qtmetamacros.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qtnoop.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qtpreprocessorsupport.h
@@ -152,8 +155,11 @@ D:/MyRepo/c++ QT/codWeaponCamoTracker/WeaponEditor.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qfont.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qfontinfo.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qfontmetrics.h
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qguiapplication.h
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qguiapplication_platform.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qicon.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qimage.h
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qinputmethod.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qkeysequence.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qpaintdevice.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qpalette.h
@@ -176,6 +182,7 @@ D:/MyRepo/c++ QT/codWeaponCamoTracker/WeaponEditor.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qvalidator.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qwindowdefs.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qwindowdefs_win.h
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtWidgets/QApplication
  mdp:C:/Qt/6.6.1/mingw_64/include/QtWidgets/QCheckBox
  mdp:C:/Qt/6.6.1/mingw_64/include/QtWidgets/QComboBox
  mdp:C:/Qt/6.6.1/mingw_64/include/QtWidgets/QFormLayout
@@ -193,6 +200,7 @@ D:/MyRepo/c++ QT/codWeaponCamoTracker/WeaponEditor.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtWidgets/qabstractscrollarea.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtWidgets/qabstractslider.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtWidgets/qabstractspinbox.h
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtWidgets/qapplication.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtWidgets/qboxlayout.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtWidgets/qcheckbox.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtWidgets/qcombobox.h

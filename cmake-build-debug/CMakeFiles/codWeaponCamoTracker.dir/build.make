@@ -113,11 +113,17 @@ CMakeFiles/codWeaponCamoTracker.dir/WeaponEditor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/codWeaponCamoTracker.dir/WeaponEditor.cpp.s"
 	G:\Jet_brains_IDEs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\MyRepo\c++ QT\codWeaponCamoTracker\WeaponEditor.cpp" -o CMakeFiles\codWeaponCamoTracker.dir\WeaponEditor.cpp.s
 
+CMakeFiles/codWeaponCamoTracker.dir/resources.rc.obj: CMakeFiles/codWeaponCamoTracker.dir/flags.make
+CMakeFiles/codWeaponCamoTracker.dir/resources.rc.obj: D:/MyRepo/c++\ QT/codWeaponCamoTracker/resources.rc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\MyRepo\c++ QT\codWeaponCamoTracker\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building RC object CMakeFiles/codWeaponCamoTracker.dir/resources.rc.obj"
+	G:\Jet_brains_IDEs\CLion\bin\mingw\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) "D:\MyRepo\c++ QT\codWeaponCamoTracker\resources.rc" CMakeFiles\codWeaponCamoTracker.dir\resources.rc.obj
+
 # Object files for target codWeaponCamoTracker
 codWeaponCamoTracker_OBJECTS = \
 "CMakeFiles/codWeaponCamoTracker.dir/codWeaponCamoTracker_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/codWeaponCamoTracker.dir/main.cpp.obj" \
-"CMakeFiles/codWeaponCamoTracker.dir/WeaponEditor.cpp.obj"
+"CMakeFiles/codWeaponCamoTracker.dir/WeaponEditor.cpp.obj" \
+"CMakeFiles/codWeaponCamoTracker.dir/resources.rc.obj"
 
 # External object files for target codWeaponCamoTracker
 codWeaponCamoTracker_EXTERNAL_OBJECTS =
@@ -125,6 +131,7 @@ codWeaponCamoTracker_EXTERNAL_OBJECTS =
 codWeaponCamoTracker.exe: CMakeFiles/codWeaponCamoTracker.dir/codWeaponCamoTracker_autogen/mocs_compilation.cpp.obj
 codWeaponCamoTracker.exe: CMakeFiles/codWeaponCamoTracker.dir/main.cpp.obj
 codWeaponCamoTracker.exe: CMakeFiles/codWeaponCamoTracker.dir/WeaponEditor.cpp.obj
+codWeaponCamoTracker.exe: CMakeFiles/codWeaponCamoTracker.dir/resources.rc.obj
 codWeaponCamoTracker.exe: CMakeFiles/codWeaponCamoTracker.dir/build.make
 codWeaponCamoTracker.exe: C:/Qt/6.6.1/mingw_64/lib/libQt6Widgets.a
 codWeaponCamoTracker.exe: C:/Qt/6.6.1/mingw_64/lib/libQt6Gui.a
@@ -132,7 +139,7 @@ codWeaponCamoTracker.exe: C:/Qt/6.6.1/mingw_64/lib/libQt6Core.a
 codWeaponCamoTracker.exe: CMakeFiles/codWeaponCamoTracker.dir/linkLibs.rsp
 codWeaponCamoTracker.exe: CMakeFiles/codWeaponCamoTracker.dir/objects1.rsp
 codWeaponCamoTracker.exe: CMakeFiles/codWeaponCamoTracker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\MyRepo\c++ QT\codWeaponCamoTracker\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable codWeaponCamoTracker.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\MyRepo\c++ QT\codWeaponCamoTracker\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable codWeaponCamoTracker.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\codWeaponCamoTracker.dir\link.txt --verbose=$(VERBOSE)
 	G:\Jet_brains_IDEs\CLion\bin\cmake\win\x64\bin\cmake.exe -E make_directory "D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-debug/plugins/platforms/"
 	G:\Jet_brains_IDEs\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy C:/Qt/6.6.1/mingw_64/plugins/platforms/qwindows.dll "D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-debug/plugins/platforms/"

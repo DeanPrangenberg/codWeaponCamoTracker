@@ -496,4 +496,7 @@ CMakeFiles/codWeaponCamoTracker.dir/main.cpp.obj: \
  C:/Qt/6.6.1/mingw_64/include/QtCore/QPair \
  C:/Qt/6.6.1/mingw_64/include/QtCore/qpair.h \
  C:/Qt/6.6.1/mingw_64/include/QtCore/QCoreApplication \
- C:/Qt/6.6.1/mingw_64/include/QtCore/qcoreapplication.h
+ C:/Qt/6.6.1/mingw_64/include/QtCore/qcoreapplication.h \
+ C:/Qt/6.6.1/mingw_64/include/QtCore/QTimer \
+ C:/Qt/6.6.1/mingw_64/include/QtCore/qtimer.h \
+ C:/Qt/6.6.1/mingw_64/include/QtCore/qbasictimer.h

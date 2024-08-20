@@ -4,9 +4,11 @@
 WeaponEditor::WeaponEditor(QWidget *parent) : QWidget(parent) {
     initializeWeaponData();
     ensureFileExists();
-
     setupUI();
     loadWeaponData();
+    if (autoUnlockMasteryCamo) {
+        polyatomicStatusLabel->hide();
+    }
 }
 
 void WeaponEditor::setupUI() {
@@ -14,10 +16,10 @@ void WeaponEditor::setupUI() {
 
     // Add class selection ComboBox
     classComboBox = new QComboBox();
-    weaponClasses = QStringList{
-            "Assault Rifles", "SMGs", "Marksmans", "Battle Rifles",
-            "LMGs", "Snipers", "Shotguns", "Pistols", "Launchers", "Melee"
-    };
+
+    for (const auto& key : weaponMap.keys()) {
+        weaponClasses.append(key);
+    }
     classComboBox->addItems(weaponClasses);
     classComboBox->setCurrentText("Assault Rifles");  // Set default selection
     comboBoxes.push_back(classComboBox);
@@ -236,36 +238,44 @@ void WeaponEditor::updateStatus() {
 }
 
 void WeaponEditor::initializeWeaponData() {
-    // Initialize weapon data for demo purposes
     weaponMap["Assault Rifles"] = QStringList{
-            "FTAC Light", "Kastov 74", "Krig C", "M16", "M4-S", "R-2", "SA87"
+            "AMES 85", "Colt Model 723", "SIG SG 550", "XM4", "AK-74", "SR-3 Vikhr"
     };
+
     weaponMap["SMGs"] = QStringList{
-            "AMR9", "FMG9", "Lachmann Sub", "MD-97L", "Raptor-9", "VAP 2", "VAP 3", "VCAR"
+            "FAMAE SAF", "Jackal PDW", "MP5A3"
     };
+
     weaponMap["Marksman Rifles"] = QStringList{
-            "CAMRS", "Kastov 97", "Lienna 550", "MK-18", "Tempus Torrent", "VAP-M"
+            "SR-25"
     };
+
     weaponMap["Battle Rifles"] = QStringList{
-            "C58", "Kastov 73", "Lienna 57", "TAQ-F"
+            "PLACE_HOLDER"
     };
+
     weaponMap["LMGs"] = QStringList{
-            "IP 545", "LRC-308", "SAW-H", "SAW-L"
+            "AR10", "KSP 58"
     };
+
     weaponMap["Sniper Rifles"] = QStringList{
-            "Kastov-M", "LW3 – Tundra", "Ratio-H", "Ratio-P"
+            "LR 7.62"
     };
+
     weaponMap["Shotguns"] = QStringList{
-            "M500", "OCP500", "Olympia", "Roku 360", "Super Short"
+            "Marine SP"
     };
+
     weaponMap["Pistols"] = QStringList{
-            "Dianolli", "GP13 Auto", "Lach-30", "Lach-45", "Lach-9", "Sykov", "TAQ Handheld"
+            "Compact 92", "Makarov PM", "USP"
     };
+
     weaponMap["Launchers"] = QStringList{
-            "LAW", "Panzerfaust", "Stinger"
+            "PLACE_HOLDER"
     };
+
     weaponMap["Melee"] = QStringList{
-            "Breaching Tool", "Hunting Knife", "Scout Knife"
+            "Combat Knife"
     };
 }
 
@@ -295,7 +305,12 @@ void WeaponEditor::loadWeaponsForClass(const QString &weaponClass, const QString
 void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
     // Erstelle ein Widget für den Tile
     QWidget *tile = new QWidget();
-    tile->setFixedHeight(295);
+    if (autoUnlockMasteryCamo) {
+        tile->setFixedHeight(315 - 20); // polyatomic gibts nicht im standard system
+    } else {
+        tile->setFixedHeight(315);
+    }
+
     tile->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
     tile->setStyleSheet(R"(
         QWidget {
@@ -305,12 +320,12 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
     );
 
     QVBoxLayout *tileLayout = new QVBoxLayout(tile);
-    tileLayout->setContentsMargins(10, 10, 10, 10); // Margen nach Wunsch anpassen
+    tileLayout->setContentsMargins(10, 10, 10, 10);
 
-    // Erstelle ein Widget für die Hintergrundfarbe oben im Tile
+    // Erstelle ein Widget für die Waffen Camo status oben im Tile
     QWidget *colorHeaderWidget = new QWidget();
     QHBoxLayout *colorHeaderLayout = new QHBoxLayout(colorHeaderWidget);
-    colorHeaderLayout->setContentsMargins(0, 0, 0, 0); // Keine Margen
+    colorHeaderLayout->setContentsMargins(0, 0, 0, 0);
     colorHeaderWidget->setStyleSheet("border: none;");
 
     QLabel *statusLabel = new QLabel("Camo Status:");
@@ -320,12 +335,12 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
     colorHeaderLayout->addWidget(statusLabel);
     colorHeaderLayout->addWidget(colorLabel);
 
-    tileLayout->addWidget(colorHeaderWidget); // Füge das Farb-Widget zum Tile hinzu
+    tileLayout->addWidget(colorHeaderWidget);
 
     // Erstelle ein Widget für den Inhalt des Tiles
     QWidget *contentWidget = new QWidget();
     QVBoxLayout *contentLayout = new QVBoxLayout(contentWidget);
-    contentLayout->setContentsMargins(0, 0, 0, 0); // Keine Margen
+    contentLayout->setContentsMargins(0, 0, 0, 0);
     contentWidget->setStyleSheet("border: none;");
 
     // Display weapon name
@@ -381,7 +396,7 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
                 if (weaponIndex < weaponsArray.size()) {
                     QJsonObject weaponObject = weaponsArray[weaponIndex].toObject();
                     unlocked = weaponObject["Unlocked"].toBool();
-                    maxedLevel = weaponObject["MaxedLevel"].toBool(); // Neues Feld
+                    maxedLevel = weaponObject["MaxedLevel"].toBool();
                     mCamosArray = weaponObject["M_CAMOS"].toArray();
                     zCamosArray = weaponObject["Z_CAMOS"].toArray();
                 }
@@ -456,19 +471,19 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
         camosToShow = zCamosArray;
     }
 
-    int totalCamos = camosToShow.size();
     QVBoxLayout *camoVBoxLayout = new QVBoxLayout();
 
-    int displayedCamos = std::max(0, totalCamos - autoUnlockCamoAmount); // Display all except last 3
-
-    for (int i = 0; i < displayedCamos; ++i) {
+    for (int i = 0; i < camosToShow.size(); ++i) {
+        if (i == camosToShow.size() - 2 && autoUnlockMasteryCamo) {
+            continue;
+        }
         QJsonObject camoObject = camosToShow[i].toObject();
         QString camoName = camoObject["Name"].toString();
         bool camoStatus = camoObject["Status"].toBool();
         QString camoCondition = camoObject["Condition"].toString();
 
         QHBoxLayout *camoLayout = new QHBoxLayout();
-        camoLayout->setContentsMargins(10, 0, 0, 0); // Margen (oben, links, unten, rechts) erhöhen
+        camoLayout->setContentsMargins(10, 0, 0, 0);
 
         QLabel *camoLabel = new QLabel(camoName + ":");
         camoLabel->setFixedWidth(camoNameLableWidth);
@@ -511,10 +526,9 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
         QWidget *camoWidget = new QWidget();
         camoWidget->setLayout(camoLayout);
 
-
         camoVBoxLayout->addWidget(camoWidget);
-        camoVBoxLayout->setSpacing(5); // Verhindert zusätzlichen Abstand zwischen den Camo-Widgets
-        camoVBoxLayout->setContentsMargins(0, 0, 0, 0); // Keine Margen
+        camoVBoxLayout->setSpacing(5); // Abstand zwischen den Camos
+        camoVBoxLayout->setContentsMargins(0, 0, 0, 0);
 
         connect(camoCheckBox, &QCheckBox::stateChanged, [this, weaponName, camoName](int state) {
             liveUpdateWeaponData(weaponName, camoName, (state == Qt::Checked));
@@ -813,73 +827,124 @@ void WeaponEditor::camoLogic() {
         camoStatus.append(classCamos);
     }
 
-    for (int camoMode = 0; camoMode < 2; ++camoMode) {
-        for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
-            for (QVector<QVector<bool>> &weaponVector : classVector) {
-                bool goldAllowedForWeapon = true;
-                for (int i = 0; i < standardCamoAmount; ++i) {
-                    if (!weaponVector[camoMode][i]) {
-                        goldAllowedForWeapon = false;
+    // logic
+    if (autoUnlockMasteryCamo) {
+        // old cod logic
+        for (int camoMode = 0; camoMode < 2; ++camoMode) {
+            for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
+                for (QVector<QVector<bool>> &weaponVector : classVector) {
+                    bool goldAllowedForWeapon = true;
+                    for (int i = 0; i < standardCamoAmount; ++i) {
+                        if (!weaponVector[camoMode][i]) {
+                            goldAllowedForWeapon = false;
+                        }
+                    }
+                    weaponVector[camoMode][goldPos] = goldAllowedForWeapon;
+                }
+            }
+
+            for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
+                bool diamondAllowedForWeapon = true;
+                for (QVector<QVector<bool>> &weaponVector : classVector) {
+                    if (!weaponVector[camoMode][goldPos]) {
+                        diamondAllowedForWeapon = false;
                     }
                 }
-                if (!goldAllowedForWeapon) {
-                    weaponVector[camoMode][goldPos] = false;
+                for (QVector<QVector<bool>> &weaponVector : classVector) {
+                    weaponVector[camoMode][diamondPos] = diamondAllowedForWeapon;
+                }
+            }
+
+            bool darkMatterAllowedForWeapon = true;
+            for (int i = 0; i < 2; ++i) {
+                for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
+                    switch (i) {
+                        case 0:
+                            for (QVector<QVector<bool>> &weaponVector : classVector) {
+                                if (!weaponVector[camoMode][diamondPos]) {
+                                    darkMatterAllowedForWeapon = false;
+                                }
+                            }
+                            break;
+                        case 1:
+                            for (QVector<QVector<bool>> &weaponVector : classVector) {
+                                weaponVector[camoMode][darkMatterPos] = darkMatterAllowedForWeapon;
+                            }
+                            break;
+                    }
                 }
             }
         }
-
-        for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
-            bool diamondAllowedForWeapon = true;
-            for (QVector<QVector<bool>> &weaponVector : classVector) {
-                if (!weaponVector[camoMode][goldPos]) {
-                    diamondAllowedForWeapon = false;
-                }
-            }
-            for (QVector<QVector<bool>> &weaponVector : classVector) {
-                if (!diamondAllowedForWeapon) {
-                    weaponVector[camoMode][diamondPos] = false;
-                }
-            }
-        }
-
-        bool polyatomicAllowedForWeapon = true;
-        for (int i = 0; i < 2; ++i) {
+    } else {
+        // new cod logic
+        for (int camoMode = 0; camoMode < 2; ++camoMode) {
             for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
-                switch (i) {
-                    case 0:
-                        for (QVector<QVector<bool>> &weaponVector : classVector) {
-                            if (!weaponVector[camoMode][diamondPos]) {
-                                polyatomicAllowedForWeapon = false;
-                            }
+                for (QVector<QVector<bool>> &weaponVector : classVector) {
+                    bool goldAllowedForWeapon = true;
+                    for (int i = 0; i < standardCamoAmount; ++i) {
+                        if (!weaponVector[camoMode][i]) {
+                            goldAllowedForWeapon = false;
                         }
-                        break;
-                    case 1:
-                        for (QVector<QVector<bool>> &weaponVector : classVector) {
-                            if (!polyatomicAllowedForWeapon) {
-                                weaponVector[camoMode][polyatomicPos] = false;
-                            }
-                        }
-                        break;
+                    }
+                    if (!goldAllowedForWeapon) {
+                        weaponVector[camoMode][goldPos] = false;
+                    }
                 }
             }
-        }
 
-        bool darkMatterAllowedForWeapon = true;
-        for (int i = 0; i < 2; ++i) {
             for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
-                switch (i) {
-                    case 0:
-                        for (QVector<QVector<bool>> &weaponVector : classVector) {
-                            if (!weaponVector[camoMode][polyatomicPos]) {
-                                darkMatterAllowedForWeapon = false;
+                bool diamondAllowedForWeapon = true;
+                for (QVector<QVector<bool>> &weaponVector : classVector) {
+                    if (!weaponVector[camoMode][goldPos]) {
+                        diamondAllowedForWeapon = false;
+                    }
+                }
+                for (QVector<QVector<bool>> &weaponVector : classVector) {
+                    if (!diamondAllowedForWeapon) {
+                        weaponVector[camoMode][diamondPos] = false;
+                    }
+                }
+            }
+
+            bool polyatomicAllowedForWeapon = true;
+            for (int i = 0; i < 2; ++i) {
+                for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
+                    switch (i) {
+                        case 0:
+                            for (QVector<QVector<bool>> &weaponVector : classVector) {
+                                if (!weaponVector[camoMode][diamondPos]) {
+                                    polyatomicAllowedForWeapon = false;
+                                }
                             }
-                        }
-                        break;
-                    case 1:
-                        for (QVector<QVector<bool>> &weaponVector : classVector) {
-                            weaponVector[camoMode][darkMatterPos] = darkMatterAllowedForWeapon;
-                        }
-                        break;
+                            break;
+                        case 1:
+                            for (QVector<QVector<bool>> &weaponVector : classVector) {
+                                if (!polyatomicAllowedForWeapon) {
+                                    weaponVector[camoMode][polyatomicPos] = false;
+                                }
+                            }
+                            break;
+                    }
+                }
+            }
+
+            bool darkMatterAllowedForWeapon = true;
+            for (int i = 0; i < 2; ++i) {
+                for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
+                    switch (i) {
+                        case 0:
+                            for (QVector<QVector<bool>> &weaponVector : classVector) {
+                                if (!weaponVector[camoMode][polyatomicPos]) {
+                                    darkMatterAllowedForWeapon = false;
+                                }
+                            }
+                            break;
+                        case 1:
+                            for (QVector<QVector<bool>> &weaponVector : classVector) {
+                                weaponVector[camoMode][darkMatterPos] = darkMatterAllowedForWeapon;
+                            }
+                            break;
+                    }
                 }
             }
         }

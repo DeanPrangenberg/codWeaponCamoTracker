@@ -19,7 +19,9 @@
 #include <QGridLayout>
 #include <QMap>
 #include <QPair>
+#include <QApplication>
 #include <QCoreApplication>
+#include <QTimer>
 
 class WeaponEditor : public QWidget {
 Q_OBJECT
@@ -37,6 +39,8 @@ private slots:
     void updateStatus();
 
 private:
+    QTimer *timer;
+
     // global hud elements
     QComboBox *classComboBox;
     QWidget *weaponContainer;
@@ -55,8 +59,8 @@ private:
     QString fileName = "weaponData.json";
 
     // camos var
+    bool autoUnlockMasteryCamo = true;
     int standardCamoAmount = 4;
-    int autoUnlockCamoAmount = 1;
     int camoNameLableWidth = 95;
 
     static constexpr int goldPos = 4;

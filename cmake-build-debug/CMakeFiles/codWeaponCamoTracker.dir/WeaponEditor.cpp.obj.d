@@ -485,12 +485,20 @@ CMakeFiles/codWeaponCamoTracker.dir/WeaponEditor.cpp.obj: \
  C:/Qt/6.6.1/mingw_64/include/QtCore/qmap.h \
  C:/Qt/6.6.1/mingw_64/include/QtCore/QPair \
  C:/Qt/6.6.1/mingw_64/include/QtCore/qpair.h \
- C:/Qt/6.6.1/mingw_64/include/QtCore/QCoreApplication \
+ C:/Qt/6.6.1/mingw_64/include/QtWidgets/QApplication \
+ C:/Qt/6.6.1/mingw_64/include/QtWidgets/qapplication.h \
  C:/Qt/6.6.1/mingw_64/include/QtCore/qcoreapplication.h \
  C:/Qt/6.6.1/mingw_64/include/QtCore/qcoreevent.h \
  C:/Qt/6.6.1/mingw_64/include/QtCore/qeventloop.h \
  C:/Qt/6.6.1/mingw_64/include/QtCore/qnativeinterface.h \
  C:/Qt/6.6.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+ C:/Qt/6.6.1/mingw_64/include/QtGui/qguiapplication.h \
+ C:/Qt/6.6.1/mingw_64/include/QtGui/qinputmethod.h \
+ C:/Qt/6.6.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+ C:/Qt/6.6.1/mingw_64/include/QtCore/QCoreApplication \
  C:/Qt/6.6.1/mingw_64/include/QtCore/qcoreapplication.h \
+ C:/Qt/6.6.1/mingw_64/include/QtCore/QTimer \
+ C:/Qt/6.6.1/mingw_64/include/QtCore/qtimer.h \
+ C:/Qt/6.6.1/mingw_64/include/QtCore/qbasictimer.h \
  C:/Qt/6.6.1/mingw_64/include/QtCore/QDebug \
  C:/Qt/6.6.1/mingw_64/include/QtCore/qdebug.h
