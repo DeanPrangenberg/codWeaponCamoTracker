@@ -287,6 +287,10 @@ void WeaponEditor::initializeWeaponData() {
     weaponMap["Sniper Rifles"] = QStringList{
             "LR 7.62"
     };
+
+    for (int weaponsInClass : standardWeaponAmount) {
+        totalStandardWeaponAmount += weaponsInClass;
+    }
 }
 
 void WeaponEditor::updateWeaponClass() {
@@ -893,13 +897,9 @@ void WeaponEditor::camoLogic() {
         }
     } else {
         // new cod logic
-        int allStandardWeaponAmount = 0;
-
-        for (int weaponAmountInClass : standardWeaponAmount) {
-            allStandardWeaponAmount += weaponAmountInClass;
-        }
 
         for (int camoMode = 0; camoMode < 2; ++camoMode) {
+            // gold
             for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
                 for (QVector<QVector<bool>> &weaponVector : classVector) {
                     bool goldAllowedForWeapon = true;
@@ -914,58 +914,67 @@ void WeaponEditor::camoLogic() {
                 }
             }
 
+            // diamond
+            int diamondIndex = 0;
+            int goldInClass = 0;
             for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
-                bool diamondAllowedForWeapon = true;
+                goldInClass = 0;
                 for (QVector<QVector<bool>> &weaponVector : classVector) {
-                    if (!weaponVector[camoMode][goldPos]) {
-                        diamondAllowedForWeapon = false;
+                    if (weaponVector[camoMode][goldPos]) {
+                        ++goldInClass;
                     }
                 }
+
                 for (QVector<QVector<bool>> &weaponVector : classVector) {
-                    if (!diamondAllowedForWeapon) {
+                    if (goldInClass >= standardWeaponAmount[diamondIndex]) {
+                        if (!weaponVector[camoMode][goldPos]) {
+                            weaponVector[camoMode][diamondPos] = false;
+                        }
+                    } else {
                         weaponVector[camoMode][diamondPos] = false;
                     }
                 }
+                ++diamondIndex;
             }
 
-            bool polyatomicAllowedForWeapon = true;
-            for (int i = 0; i < 2; ++i) {
-                for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
-                    switch (i) {
-                        case 0:
-                            for (QVector<QVector<bool>> &weaponVector : classVector) {
-                                if (!weaponVector[camoMode][diamondPos]) {
-                                    polyatomicAllowedForWeapon = false;
-                                }
-                            }
-                            break;
-                        case 1:
-                            for (QVector<QVector<bool>> &weaponVector : classVector) {
-                                if (!polyatomicAllowedForWeapon) {
-                                    weaponVector[camoMode][polyatomicPos] = false;
-                                }
-                            }
-                            break;
+            // polyatomic
+            int diamondInAllClasses = 0;
+            for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
+                for (QVector<QVector<bool>> &weaponVector: classVector) {
+                    if (weaponVector[camoMode][diamondPos]) {
+                        ++diamondInAllClasses;
+                    }
+                }
+            }
+            for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
+                for (QVector<QVector<bool>> &weaponVector: classVector) {
+                    if (diamondInAllClasses >= totalStandardWeaponAmount) {
+                        if (!weaponVector[camoMode][diamondPos]) {
+                            weaponVector[camoMode][polyatomicPos] = false;
+                        }
+                    } else {
+                        weaponVector[camoMode][polyatomicPos] = false;
                     }
                 }
             }
 
-            bool darkMatterAllowedForWeapon = true;
-            for (int i = 0; i < 2; ++i) {
-                for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
-                    switch (i) {
-                        case 0:
-                            for (QVector<QVector<bool>> &weaponVector : classVector) {
-                                if (!weaponVector[camoMode][polyatomicPos]) {
-                                    darkMatterAllowedForWeapon = false;
-                                }
-                            }
-                            break;
-                        case 1:
-                            for (QVector<QVector<bool>> &weaponVector : classVector) {
-                                weaponVector[camoMode][darkMatterPos] = darkMatterAllowedForWeapon;
-                            }
-                            break;
+            // dark Matter
+            int polyatomicInAllClasses = 0;
+            for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
+                for (QVector<QVector<bool>> &weaponVector: classVector) {
+                    if (weaponVector[camoMode][polyatomicPos]) {
+                        ++polyatomicInAllClasses;
+                    }
+                }
+            }
+            for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
+                for (QVector<QVector<bool>> &weaponVector: classVector) {
+                    if (polyatomicInAllClasses >= totalStandardWeaponAmount) {
+                        if (!weaponVector[camoMode][polyatomicPos]) {
+                            weaponVector[camoMode][darkMatterPos] = false;
+                        }
+                    } else {
+                        weaponVector[camoMode][darkMatterPos] = false;
                     }
                 }
             }

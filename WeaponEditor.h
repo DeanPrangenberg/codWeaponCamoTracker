@@ -58,9 +58,10 @@ private:
     QMap<QString, QStringList> weaponMap;
     QString fileName = "weaponData.json";
     QVector<int> standardWeaponAmount;
+    int totalStandardWeaponAmount = 0;
 
     // camos var
-    bool autoUnlockMasteryCamo = true;
+    bool autoUnlockMasteryCamo = false;
     int standardCamoAmount = 4;
     int camoNameLableWidth = 95;
 
