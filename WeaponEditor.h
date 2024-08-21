@@ -61,7 +61,7 @@ private:
     int totalStandardWeaponAmount = 0;
 
     // camos var
-    bool autoUnlockMasteryCamo = false;
+    bool autoUnlockMasteryCamo = true;
     int standardCamoAmount = 4;
     int camoNameLableWidth = 95;
 

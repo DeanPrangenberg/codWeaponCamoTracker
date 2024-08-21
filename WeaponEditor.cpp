@@ -111,13 +111,20 @@ void WeaponEditor::updateStatus() {
     int totalWeapons = 0;
     int unlockedWeapons = 0;
     int maxedWeapons = 0;
-    int goldCamoWeapons = 0;  // Diamond Status (unverändert)
-    int goldCamoSelectedClassWeapons = 0;  // Diamond Status (unverändert)
+    int goldCamoWeapons = 0;
+    int goldInSelectedClass = 0;
     int totalClassWeapons = 0;
     int polyatomicUnlockedCamos = 0;
     int polyatomicTotalCamos = 0;
     int darkMatterUnlockedCamos = 0;
     int darkMatterTotalCamos = 0;
+
+    QMap<QString, int> weaponPerClass;
+    int index = 0;
+    for (auto it = weaponMap.constBegin(); it != weaponMap.constEnd(); ++it) {
+        weaponPerClass.insert(it.key(), standardWeaponAmount[index]);
+        ++index;
+    }
 
     for (const QJsonValue &classValue : weaponClassesArray) {
         QJsonObject classObject = classValue.toObject();
@@ -129,10 +136,14 @@ void WeaponEditor::updateStatus() {
             totalWeapons++;
 
             bool isUnlocked = weaponObject["Unlocked"].toBool();
-            if (isUnlocked) unlockedWeapons++;
+            if (isUnlocked) {
+                unlockedWeapons++;
+            }
 
             bool isMaxed = weaponObject["MaxedLevel"].toBool();
-            if (isMaxed) maxedWeapons++;
+            if (isMaxed) {
+                maxedWeapons++;
+            }
 
             // Diamond Status (unverändert)
             QJsonArray camosArray;
@@ -157,32 +168,23 @@ void WeaponEditor::updateStatus() {
             }
 
             if (hasSelectedGoldCamo) {
-                goldCamoWeapons++;  // Zählt für den Diamond Status (unverändert)
-                if (weaponClassName == selectedClass) goldCamoSelectedClassWeapons++;  // Diamond Status (unverändert)
+                goldCamoWeapons++;
+                if (weaponClassName == selectedClass) {
+                    goldInSelectedClass++;
+                }
             }
 
-            if (weaponClassName == selectedClass) totalClassWeapons++;
-
-            // Polyatomic-Anpassung: Alle Tarnungen außer der letzten 2 überprüfen
-            int camoCount = camosArray.size();
-            for (int i = 0; i < camoCount - 2; ++i) {  // Ignoriere die letzte Tarnung
-                QJsonObject camoObject = camosArray[i].toObject();
-                bool polyatomicCamoStatus = camoObject["Status"].toBool();
-
-                polyatomicTotalCamos++;  // Zähle jede Tarnung (außer der letzten)
-                if (polyatomicCamoStatus) polyatomicUnlockedCamos++;  // Zähle freigeschaltete Tarnungen
+            if (weaponClassName == selectedClass) {
+                totalClassWeapons++;
             }
-
-            // Dark-Matter-Anpassung: Alle Tarnungen außer der letzten überprüfen
-            for (int i = 0; i < camoCount - 1; ++i) {  // Ignoriere die letzte Tarnung
-                QJsonObject camoObject = camosArray[i].toObject();
-                bool darkMatterCamoStatus = camoObject["Status"].toBool();
-
-                darkMatterTotalCamos++;  // Zähle jede Tarnung (außer der letzten)
-                if (darkMatterCamoStatus) darkMatterUnlockedCamos++;  // Zähle freigeschaltete Tarnungen
+            if (camosArray[polyatomicPos].toObject()["Status"].toBool()) {
+                polyatomicUnlockedCamos++;
             }
-
-
+            if (camosArray[darkMatterPos].toObject()["Status"].toBool()) {
+                darkMatterUnlockedCamos++;
+            }
+            polyatomicTotalCamos++;
+            darkMatterTotalCamos++;
         }
     }
 
@@ -190,9 +192,9 @@ void WeaponEditor::updateStatus() {
         double unlockedPercentage = (static_cast<double>(unlockedWeapons) / totalWeapons) * 100;
         double maxedPercentage = (static_cast<double>(maxedWeapons) / totalWeapons) * 100;
         double selectedClassGoldCamoPercentage = (totalClassWeapons > 0) ?
-                                                 (static_cast<double>(goldCamoSelectedClassWeapons) / totalClassWeapons) * 100 : 0.0;  // Für den Diamond Status (unverändert)
-        double polyatomicPercentage = (darkMatterTotalCamos > 0) ? (static_cast<double>(polyatomicUnlockedCamos) / polyatomicTotalCamos) * 100 : 0.0;
-        double darkMatterPercentage = (darkMatterTotalCamos > 0) ? (static_cast<double>(darkMatterUnlockedCamos) / darkMatterTotalCamos) * 100 : 0.0;
+                                                 (static_cast<double>(goldInSelectedClass) / weaponPerClass[selectedClass]) * 100 : 0.0;  // Für den Diamond Status (unverändert)
+        double polyatomicPercentage = (darkMatterTotalCamos > 0) ? (static_cast<double>(polyatomicUnlockedCamos) / totalStandardWeaponAmount) * 100 : 0.0;
+        double darkMatterPercentage = (darkMatterTotalCamos > 0) ? (static_cast<double>(darkMatterUnlockedCamos) / totalStandardWeaponAmount) * 100 : 0.0;
 
         QString camoTypeText = (camoTypeComboBox->currentText() == "Multiplayer") ? "Multiplayer" : "Zombies";
         QString classNameText = selectedClass.isEmpty() ? "Not Selected" : selectedClass;
@@ -208,23 +210,24 @@ void WeaponEditor::updateStatus() {
             .arg(maxedWeapons)
             .arg(totalWeapons));
 
-            statusLabels[2]->setText(QString("%1 Dark-Matter Status:\n%2% (%3 out of %4)")
+            statusLabels[2]->setText(QString("%1 Dark-Matter Status:\n%2% (%3 %4 out of %5)")
             .arg(camoTypeComboBox->currentText())
             .arg(QString::number(darkMatterPercentage, 'f', 2))
             .arg(darkMatterUnlockedCamos)
-            .arg(darkMatterTotalCamos));
+            .arg((autoUnlockMasteryCamo) ? "diamonds" : "polyatomics")
+            .arg(totalStandardWeaponAmount));
 
-            statusLabels[3]->setText(QString("%1 Polyatomic Status:\n%2% (%3 out of %4)")
+            statusLabels[3]->setText(QString("%1 Polyatomic Status:\n%2% (%3 diamonds out of %4)")
             .arg(camoTypeComboBox->currentText())
             .arg(QString::number(polyatomicPercentage, 'f', 2))
             .arg(polyatomicUnlockedCamos)
-            .arg(polyatomicTotalCamos));
+            .arg(totalStandardWeaponAmount));
 
-            statusLabels[4]->setText(QString("%1 Diamond Status:\n%2% (%3 out of %4)")
+            statusLabels[4]->setText(QString("%1 Diamond Status:\n%2% (%3 golds out of %4)")
             .arg(classComboBox->currentText())
             .arg(QString::number(selectedClassGoldCamoPercentage, 'f', 2))
-            .arg(goldCamoSelectedClassWeapons)
-            .arg(totalClassWeapons));
+            .arg(goldInSelectedClass)
+            .arg(weaponPerClass[selectedClass]));
         }
     } else {
         if (statusLabels.size() == 5) {
@@ -890,7 +893,7 @@ void WeaponEditor::camoLogic() {
             if (diamondClassesUnlocked >= standardWeaponAmount.size()) {
                 for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
                     for (QVector<QVector<bool>> &weaponVector : classVector) {
-                        weaponVector[camoMode][darkMatterPos] = weaponVector[camoMode][goldPos];
+                        weaponVector[camoMode][darkMatterPos] = weaponVector[camoMode][diamondPos];
                     }
                 }
             }
@@ -967,14 +970,11 @@ void WeaponEditor::camoLogic() {
                     }
                 }
             }
-            for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
-                for (QVector<QVector<bool>> &weaponVector: classVector) {
-                    if (polyatomicInAllClasses >= totalStandardWeaponAmount) {
-                        if (!weaponVector[camoMode][polyatomicPos]) {
-                            weaponVector[camoMode][darkMatterPos] = false;
-                        }
-                    } else {
-                        weaponVector[camoMode][darkMatterPos] = false;
+
+            if (polyatomicInAllClasses >= totalStandardWeaponAmount) {
+                for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
+                    for (QVector<QVector<bool>> &weaponVector : classVector) {
+                        weaponVector[camoMode][darkMatterPos] = weaponVector[camoMode][polyatomicPos];
                     }
                 }
             }
