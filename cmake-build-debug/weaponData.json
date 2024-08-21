@@ -468,17 +468,17 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo4",
-                            "Status": true
+                            "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_GOLD",
-                            "Status": true
+                            "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DIAMOND",
-                            "Status": true
+                            "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
@@ -488,7 +488,7 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DARK_MATTER",
-                            "Status": true
+                            "Status": false
                         }
                     ],
                     "MaxedLevel": false,

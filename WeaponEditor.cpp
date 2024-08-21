@@ -14,6 +14,35 @@ WeaponEditor::WeaponEditor(QWidget *parent) : QWidget(parent) {
 void WeaponEditor::setupUI() {
     QVBoxLayout *mainLayout = new QVBoxLayout(this);
 
+    QWidget *logoWidget = new QWidget(this);
+    logoWidget->setStyleSheet(QString("QWidget {"
+                                      "   border: 2px solid #444444;"
+                                      "   border-radius: 10px;"
+                                      "   background-color: #2d2d2d;"
+                                      "   color: #ffffff;"
+                                      "}"));
+    logoWidget->setFixedHeight(45);
+
+    QHBoxLayout *logoLayout = new QHBoxLayout();
+    logoLayout->setContentsMargins(0, 0, 0, 0); // Entfernen Sie die Standard-Ränder
+
+    QLabel *logoLabel = new QLabel(logoWidget);
+    logoLabel->setFixedSize(200, 39);
+    logoLabel->setScaledContents(true);
+    QPixmap logoPixmap("logoBig.png");
+    logoLabel->setPixmap(logoPixmap);
+    logoLabel->setAlignment(Qt::AlignCenter);
+    logoLabel->setStyleSheet("QLabel { border: none; }");
+
+    logoLayout->addStretch();
+    logoLayout->addWidget(logoLabel);
+    logoLayout->addStretch();
+
+    logoWidget->setLayout(logoLayout);
+
+    mainLayout->addWidget(logoWidget);
+
+
     // Add class selection ComboBox
     classComboBox = new QComboBox();
 
@@ -372,7 +401,7 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
             "QLineEdit {"
             "   border: 2px solid #444444;"
             "   border-radius: 10px;"
-            "   background-color: #2e2e2e;"
+            "   background-color: #2d2d2d;"
             "}"
     );
 
@@ -513,7 +542,7 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
                 "QLineEdit {"
                 "   border: 2px solid #444444;"
                 "   border-radius: 10px;"
-                "   background-color: #2e2e2e;"
+                "   background-color: #2d2d2d;"
                 "}"
         );
 
@@ -576,16 +605,27 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
         QJsonObject camoObject = camoValue.toObject();
         QString camoName = camoObject["Name"].toString();
         bool camoStatus = camoObject["Status"].toBool();
-
-        if (camoStatus) {
-            if (camoName.contains(goldName)) {
-                colorHeaderBackgroundColor = "#ffc400"; // Gold-Farbe
-            } else if (camoName.contains(diamondName)) {
-                colorHeaderBackgroundColor = "#4a7fe8"; // Diamant-Farbe
-            } else if (camoName.contains(polyatomicName)) {
-                colorHeaderBackgroundColor = "#6b005f"; // Polyatomic-Farbe
-            } else if (camoName.contains(darkMatterName)) {
-                colorHeaderBackgroundColor = "#eb4034"; // Dark Matter-Farbe
+        if (autoUnlockMasteryCamo) {
+            if (camoStatus) {
+                if (camoName.contains(goldName)) {
+                    colorHeaderBackgroundColor = "#ffc400"; // Gold-Farbe
+                } else if (camoName.contains(diamondName)) {
+                    colorHeaderBackgroundColor = "#4a7fe8"; // Diamant-Farbe
+                } else if (camoName.contains(darkMatterName)) {
+                    colorHeaderBackgroundColor = "#eb4034"; // Dark Matter-Farbe
+                }
+            }
+        } else {
+            if (camoStatus) {
+                if (camoName.contains(goldName)) {
+                    colorHeaderBackgroundColor = "#ffc400"; // Gold-Farbe
+                } else if (camoName.contains(diamondName)) {
+                    colorHeaderBackgroundColor = "#4a7fe8"; // Diamant-Farbe
+                } else if (camoName.contains(polyatomicName)) {
+                    colorHeaderBackgroundColor = "#6b005f"; // Polyatomic-Farbe
+                } else if (camoName.contains(darkMatterName)) {
+                    colorHeaderBackgroundColor = "#eb4034"; // Dark Matter-Farbe
+                }
             }
         }
     }
@@ -1123,7 +1163,7 @@ void WeaponEditor::updateStyles() {
             "QLabel {"
             "   border: 2px solid #444444;"
             "   border-radius: 10px;"
-            "   background-color: #333333;"
+            "   background-color: #2d2d2d;"
             "   color: #ffffff;"
             "   padding: 10px;"
             "   text-align: center;"
@@ -1137,7 +1177,7 @@ void WeaponEditor::updateStyles() {
     // Stylesheet für das weaponContainer-Widget und die Scrollbars
     QString weaponContainerStyle = R"(
         QWidget {
-            background-color: #272626;
+            background-color: #2a2a2a;
             border: 2px solid #444444;
             border-radius: 10px;
         }
