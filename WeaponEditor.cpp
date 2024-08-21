@@ -238,44 +238,54 @@ void WeaponEditor::updateStatus() {
 }
 
 void WeaponEditor::initializeWeaponData() {
+    standardWeaponAmount.push_back(5);
     weaponMap["Assault Rifles"] = QStringList{
-            "AMES 85", "Colt Model 723", "SIG SG 550", "XM4", "AK-74", "SR-3 Vikhr"
+            "AK-74", "AMES 85", "Colt Model 723", "SIG SG 550", "SR-3 Vikhr", "XM4"
     };
 
-    weaponMap["SMGs"] = QStringList{
-            "FAMAE SAF", "Jackal PDW", "MP5A3"
-    };
-
-    weaponMap["Marksman Rifles"] = QStringList{
-            "SR-25"
-    };
-
+    standardWeaponAmount.push_back(1);
     weaponMap["Battle Rifles"] = QStringList{
             "PLACE_HOLDER"
     };
 
+    standardWeaponAmount.push_back(2);
     weaponMap["LMGs"] = QStringList{
             "AR10", "KSP 58"
     };
 
-    weaponMap["Sniper Rifles"] = QStringList{
-            "LR 7.62"
-    };
-
-    weaponMap["Shotguns"] = QStringList{
-            "Marine SP"
-    };
-
-    weaponMap["Pistols"] = QStringList{
-            "Compact 92", "Makarov PM", "USP"
-    };
-
+    standardWeaponAmount.push_back(1);
     weaponMap["Launchers"] = QStringList{
             "PLACE_HOLDER"
     };
 
+    standardWeaponAmount.push_back(1);
+    weaponMap["Marksman Rifles"] = QStringList{
+            "SR-25"
+    };
+
+    standardWeaponAmount.push_back(1);
     weaponMap["Melee"] = QStringList{
             "Combat Knife"
+    };
+
+    standardWeaponAmount.push_back(3);
+    weaponMap["Pistols"] = QStringList{
+            "Compact 92", "Makarov PM", "USP"
+    };
+
+    standardWeaponAmount.push_back(3);
+    weaponMap["SMGs"] = QStringList{
+            "FAMAE SAF", "Jackal PDW", "MP5A3"
+    };
+
+    standardWeaponAmount.push_back(1);
+    weaponMap["Shotguns"] = QStringList{
+            "Marine SP"
+    };
+
+    standardWeaponAmount.push_back(1);
+    weaponMap["Sniper Rifles"] = QStringList{
+            "LR 7.62"
     };
 }
 
@@ -310,8 +320,8 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
     } else {
         tile->setFixedHeight(315);
     }
+    tile->setFixedWidth(316);
 
-    tile->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
     tile->setStyleSheet(R"(
         QWidget {
             background-color: #333333;
@@ -831,6 +841,7 @@ void WeaponEditor::camoLogic() {
     if (autoUnlockMasteryCamo) {
         // old cod logic
         for (int camoMode = 0; camoMode < 2; ++camoMode) {
+            // gold
             for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
                 for (QVector<QVector<bool>> &weaponVector : classVector) {
                     bool goldAllowedForWeapon = true;
@@ -843,40 +854,51 @@ void WeaponEditor::camoLogic() {
                 }
             }
 
+            // diamond
+            int index = 0;
             for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
-                bool diamondAllowedForWeapon = true;
+                int goldForDiamond = 0;
                 for (QVector<QVector<bool>> &weaponVector : classVector) {
-                    if (!weaponVector[camoMode][goldPos]) {
-                        diamondAllowedForWeapon = false;
+                    if (weaponVector[camoMode][goldPos]) {
+                        ++goldForDiamond;
                     }
                 }
+
+                if (goldForDiamond >= standardWeaponAmount[index]) {
+                    for (QVector<QVector<bool>> &weaponVector : classVector) {
+                        weaponVector[camoMode][diamondPos] = weaponVector[camoMode][goldPos];
+                    }
+                }
+                ++index;
+            }
+
+            // dark matter
+            int diamondClassesUnlocked = 0;
+            for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
                 for (QVector<QVector<bool>> &weaponVector : classVector) {
-                    weaponVector[camoMode][diamondPos] = diamondAllowedForWeapon;
+                    if (weaponVector[camoMode][diamondPos]) {
+                        ++diamondClassesUnlocked;
+                        break;
+                    }
                 }
             }
 
-            bool darkMatterAllowedForWeapon = true;
-            for (int i = 0; i < 2; ++i) {
+            if (diamondClassesUnlocked >= standardWeaponAmount.size()) {
                 for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
-                    switch (i) {
-                        case 0:
-                            for (QVector<QVector<bool>> &weaponVector : classVector) {
-                                if (!weaponVector[camoMode][diamondPos]) {
-                                    darkMatterAllowedForWeapon = false;
-                                }
-                            }
-                            break;
-                        case 1:
-                            for (QVector<QVector<bool>> &weaponVector : classVector) {
-                                weaponVector[camoMode][darkMatterPos] = darkMatterAllowedForWeapon;
-                            }
-                            break;
+                    for (QVector<QVector<bool>> &weaponVector : classVector) {
+                        weaponVector[camoMode][darkMatterPos] = weaponVector[camoMode][goldPos];
                     }
                 }
             }
         }
     } else {
         // new cod logic
+        int allStandardWeaponAmount = 0;
+
+        for (int weaponAmountInClass : standardWeaponAmount) {
+            allStandardWeaponAmount += weaponAmountInClass;
+        }
+
         for (int camoMode = 0; camoMode < 2; ++camoMode) {
             for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
                 for (QVector<QVector<bool>> &weaponVector : classVector) {

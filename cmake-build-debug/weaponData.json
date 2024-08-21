@@ -33,7 +33,7 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DIAMOND",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
@@ -43,363 +43,7 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DARK_MATTER",
-                            "Status": false
-                        }
-                    ],
-                    "MaxedLevel": false,
-                    "Name": "AMES 85",
-                    "Unlocked": false,
-                    "Z_CAMOS": [
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_Camo1",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_Camo2",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_Camo3",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_Camo4",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_GOLD",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_DIAMOND",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_POLYATOMIC",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_DARK_MATTER",
-                            "Status": false
-                        }
-                    ]
-                },
-                {
-                    "M_CAMOS": [
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_Camo1",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_Camo2",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_Camo3",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_Camo4",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_GOLD",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_DIAMOND",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_POLYATOMIC",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_DARK_MATTER",
-                            "Status": false
-                        }
-                    ],
-                    "MaxedLevel": false,
-                    "Name": "Colt Model 723",
-                    "Unlocked": false,
-                    "Z_CAMOS": [
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_Camo1",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_Camo2",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_Camo3",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_Camo4",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_GOLD",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_DIAMOND",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_POLYATOMIC",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_DARK_MATTER",
-                            "Status": false
-                        }
-                    ]
-                },
-                {
-                    "M_CAMOS": [
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_Camo1",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_Camo2",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_Camo3",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_Camo4",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_GOLD",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_DIAMOND",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_POLYATOMIC",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_DARK_MATTER",
-                            "Status": false
-                        }
-                    ],
-                    "MaxedLevel": false,
-                    "Name": "SIG SG 550",
-                    "Unlocked": false,
-                    "Z_CAMOS": [
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_Camo1",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_Camo2",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_Camo3",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_Camo4",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_GOLD",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_DIAMOND",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_POLYATOMIC",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_DARK_MATTER",
-                            "Status": false
-                        }
-                    ]
-                },
-                {
-                    "M_CAMOS": [
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_Camo1",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_Camo2",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_Camo3",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_Camo4",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_GOLD",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_DIAMOND",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_POLYATOMIC",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_DARK_MATTER",
-                            "Status": false
-                        }
-                    ],
-                    "MaxedLevel": false,
-                    "Name": "XM4",
-                    "Unlocked": false,
-                    "Z_CAMOS": [
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_Camo1",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_Camo2",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_Camo3",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_Camo4",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_GOLD",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_DIAMOND",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_POLYATOMIC",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "Z_DARK_MATTER",
-                            "Status": false
-                        }
-                    ]
-                },
-                {
-                    "M_CAMOS": [
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_Camo1",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_Camo2",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_Camo3",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_Camo4",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_GOLD",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_DIAMOND",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_POLYATOMIC",
-                            "Status": false
-                        },
-                        {
-                            "Condition": "todo for Camo",
-                            "Name": "M_DARK_MATTER",
-                            "Status": false
+                            "Status": true
                         }
                     ],
                     "MaxedLevel": false,
@@ -453,17 +97,195 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo1",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo2",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo3",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_Camo4",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_GOLD",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_DIAMOND",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_POLYATOMIC",
                             "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_DARK_MATTER",
+                            "Status": true
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "AMES 85",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_POLYATOMIC",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_Camo1",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_Camo2",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_Camo3",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_Camo4",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_GOLD",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_DIAMOND",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_POLYATOMIC",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_DARK_MATTER",
+                            "Status": true
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "Colt Model 723",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_POLYATOMIC",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_Camo1",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_Camo2",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_Camo3",
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
@@ -488,11 +310,189 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DARK_MATTER",
+                            "Status": true
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "SIG SG 550",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_Camo1",
                             "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_POLYATOMIC",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_Camo1",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_Camo2",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_Camo3",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_Camo4",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_GOLD",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_DIAMOND",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_POLYATOMIC",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_DARK_MATTER",
+                            "Status": true
                         }
                     ],
                     "MaxedLevel": false,
                     "Name": "SR-3 Vikhr",
+                    "Unlocked": false,
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_Camo1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_Camo2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_Camo3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_Camo4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_GOLD",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_DIAMOND",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_POLYATOMIC",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Z_DARK_MATTER",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_Camo1",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_Camo2",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_Camo3",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_Camo4",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_GOLD",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_DIAMOND",
+                            "Status": true
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_POLYATOMIC",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "M_DARK_MATTER",
+                            "Status": true
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "XM4",
                     "Unlocked": false,
                     "Z_CAMOS": [
                         {
@@ -547,32 +547,32 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo1",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo2",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo3",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo4",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_GOLD",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DIAMOND",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
@@ -582,7 +582,7 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DARK_MATTER",
-                            "Status": false
+                            "Status": true
                         }
                     ],
                     "MaxedLevel": false,
@@ -641,32 +641,32 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo1",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo2",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo3",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo4",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_GOLD",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DIAMOND",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
@@ -676,7 +676,7 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DARK_MATTER",
-                            "Status": false
+                            "Status": true
                         }
                     ],
                     "MaxedLevel": false,
@@ -730,32 +730,32 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo1",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo2",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo3",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo4",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_GOLD",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DIAMOND",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
@@ -765,7 +765,7 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DARK_MATTER",
-                            "Status": false
+                            "Status": true
                         }
                     ],
                     "MaxedLevel": false,
@@ -824,32 +824,32 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo1",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo2",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo3",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo4",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_GOLD",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DIAMOND",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
@@ -859,7 +859,7 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DARK_MATTER",
-                            "Status": false
+                            "Status": true
                         }
                     ],
                     "MaxedLevel": false,
@@ -918,32 +918,32 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo1",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo2",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo3",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo4",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_GOLD",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DIAMOND",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
@@ -953,7 +953,7 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DARK_MATTER",
-                            "Status": false
+                            "Status": true
                         }
                     ],
                     "MaxedLevel": false,
@@ -1012,32 +1012,32 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo1",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo2",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo3",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo4",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_GOLD",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DIAMOND",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
@@ -1047,7 +1047,7 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DARK_MATTER",
-                            "Status": false
+                            "Status": true
                         }
                     ],
                     "MaxedLevel": false,
@@ -1106,32 +1106,32 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo1",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo2",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo3",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo4",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_GOLD",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DIAMOND",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
@@ -1141,7 +1141,7 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DARK_MATTER",
-                            "Status": false
+                            "Status": true
                         }
                     ],
                     "MaxedLevel": false,
@@ -1195,32 +1195,32 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo1",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo2",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo3",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo4",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_GOLD",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DIAMOND",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
@@ -1230,7 +1230,7 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DARK_MATTER",
-                            "Status": false
+                            "Status": true
                         }
                     ],
                     "MaxedLevel": false,
@@ -1284,32 +1284,32 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo1",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo2",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo3",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo4",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_GOLD",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DIAMOND",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
@@ -1319,7 +1319,7 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DARK_MATTER",
-                            "Status": false
+                            "Status": true
                         }
                     ],
                     "MaxedLevel": false,
@@ -1378,32 +1378,32 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo1",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo2",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo3",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo4",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_GOLD",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DIAMOND",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
@@ -1413,7 +1413,7 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DARK_MATTER",
-                            "Status": false
+                            "Status": true
                         }
                     ],
                     "MaxedLevel": false,
@@ -1467,32 +1467,32 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo1",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo2",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo3",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo4",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_GOLD",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DIAMOND",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
@@ -1502,7 +1502,7 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DARK_MATTER",
-                            "Status": false
+                            "Status": true
                         }
                     ],
                     "MaxedLevel": false,
@@ -1556,32 +1556,32 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo1",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo2",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo3",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo4",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_GOLD",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DIAMOND",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
@@ -1591,7 +1591,7 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DARK_MATTER",
-                            "Status": false
+                            "Status": true
                         }
                     ],
                     "MaxedLevel": false,
@@ -1650,32 +1650,32 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo1",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo2",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo3",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo4",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_GOLD",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DIAMOND",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
@@ -1685,7 +1685,7 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DARK_MATTER",
-                            "Status": false
+                            "Status": true
                         }
                     ],
                     "MaxedLevel": false,
@@ -1744,32 +1744,32 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo1",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo2",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo3",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_Camo4",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_GOLD",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DIAMOND",
-                            "Status": false
+                            "Status": true
                         },
                         {
                             "Condition": "todo for Camo",
@@ -1779,7 +1779,7 @@
                         {
                             "Condition": "todo for Camo",
                             "Name": "M_DARK_MATTER",
-                            "Status": false
+                            "Status": true
                         }
                     ],
                     "MaxedLevel": false,
