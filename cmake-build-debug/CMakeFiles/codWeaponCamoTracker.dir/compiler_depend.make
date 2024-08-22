@@ -9,8 +9,13 @@ CMakeFiles/codWeaponCamoTracker.dir/WeaponEditor.cpp.obj: D:/MyRepo/c++\ QT/codW
   C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonDocument \
   C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonObject \
   C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonValue \
+  C:/Qt/6.6.1/mingw_64/include/QtCore/QList \
   C:/Qt/6.6.1/mingw_64/include/QtCore/QMap \
+  C:/Qt/6.6.1/mingw_64/include/QtCore/QObject \
   C:/Qt/6.6.1/mingw_64/include/QtCore/QPair \
+  C:/Qt/6.6.1/mingw_64/include/QtCore/QRect \
+  C:/Qt/6.6.1/mingw_64/include/QtCore/QSize \
+  C:/Qt/6.6.1/mingw_64/include/QtCore/QSizeF \
   C:/Qt/6.6.1/mingw_64/include/QtCore/QTimer \
   C:/Qt/6.6.1/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/q20memory.h \
@@ -97,6 +102,7 @@ CMakeFiles/codWeaponCamoTracker.dir/WeaponEditor.cpp.obj: D:/MyRepo/c++\ QT/codW
   C:/Qt/6.6.1/mingw_64/include/QtCore/qoverload.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qpair.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qpoint.h \
+  C:/Qt/6.6.1/mingw_64/include/QtCore/qpointer.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qprocessordetection.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qrect.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qrefcount.h \
@@ -149,11 +155,15 @@ CMakeFiles/codWeaponCamoTracker.dir/WeaponEditor.cpp.obj: D:/MyRepo/c++\ QT/codW
   C:/Qt/6.6.1/mingw_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qxptype_traits.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/QResizeEvent \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/QTransform \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qaction.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qbitmap.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qbrush.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qcolor.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qcursor.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/qevent.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/qeventpoint.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qfont.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qfontinfo.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qfontmetrics.h \
@@ -161,6 +171,7 @@ CMakeFiles/codWeaponCamoTracker.dir/WeaponEditor.cpp.obj: D:/MyRepo/c++\ QT/codW
   C:/Qt/6.6.1/mingw_64/include/QtGui/qguiapplication_platform.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qicon.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qimage.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/qinputdevice.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qinputmethod.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qpaintdevice.h \
@@ -169,10 +180,12 @@ CMakeFiles/codWeaponCamoTracker.dir/WeaponEditor.cpp.obj: D:/MyRepo/c++\ QT/codW
   C:/Qt/6.6.1/mingw_64/include/QtGui/qpicture.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qpixelformat.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qpixmap.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/qpointingdevice.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qpolygon.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qregion.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qrgb.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qrgba64.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/qscreen.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qtextcursor.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qtextdocument.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qtextformat.h \
@@ -182,6 +195,8 @@ CMakeFiles/codWeaponCamoTracker.dir/WeaponEditor.cpp.obj: D:/MyRepo/c++\ QT/codW
   C:/Qt/6.6.1/mingw_64/include/QtGui/qtguiglobal.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qtransform.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qvalidator.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/qvector2d.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/qvectornd.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.6.1/mingw_64/include/QtWidgets/QApplication \
@@ -503,8 +518,13 @@ CMakeFiles/codWeaponCamoTracker.dir/codWeaponCamoTracker_autogen/mocs_compilatio
   C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonDocument \
   C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonObject \
   C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonValue \
+  C:/Qt/6.6.1/mingw_64/include/QtCore/QList \
   C:/Qt/6.6.1/mingw_64/include/QtCore/QMap \
+  C:/Qt/6.6.1/mingw_64/include/QtCore/QObject \
   C:/Qt/6.6.1/mingw_64/include/QtCore/QPair \
+  C:/Qt/6.6.1/mingw_64/include/QtCore/QRect \
+  C:/Qt/6.6.1/mingw_64/include/QtCore/QSize \
+  C:/Qt/6.6.1/mingw_64/include/QtCore/QSizeF \
   C:/Qt/6.6.1/mingw_64/include/QtCore/QTimer \
   C:/Qt/6.6.1/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/q20memory.h \
@@ -591,6 +611,7 @@ CMakeFiles/codWeaponCamoTracker.dir/codWeaponCamoTracker_autogen/mocs_compilatio
   C:/Qt/6.6.1/mingw_64/include/QtCore/qoverload.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qpair.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qpoint.h \
+  C:/Qt/6.6.1/mingw_64/include/QtCore/qpointer.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qprocessordetection.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qrect.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qrefcount.h \
@@ -644,11 +665,15 @@ CMakeFiles/codWeaponCamoTracker.dir/codWeaponCamoTracker_autogen/mocs_compilatio
   C:/Qt/6.6.1/mingw_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qxptype_traits.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/QResizeEvent \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/QTransform \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qaction.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qbitmap.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qbrush.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qcolor.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qcursor.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/qevent.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/qeventpoint.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qfont.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qfontinfo.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qfontmetrics.h \
@@ -656,6 +681,7 @@ CMakeFiles/codWeaponCamoTracker.dir/codWeaponCamoTracker_autogen/mocs_compilatio
   C:/Qt/6.6.1/mingw_64/include/QtGui/qguiapplication_platform.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qicon.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qimage.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/qinputdevice.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qinputmethod.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qpaintdevice.h \
@@ -664,10 +690,12 @@ CMakeFiles/codWeaponCamoTracker.dir/codWeaponCamoTracker_autogen/mocs_compilatio
   C:/Qt/6.6.1/mingw_64/include/QtGui/qpicture.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qpixelformat.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qpixmap.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/qpointingdevice.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qpolygon.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qregion.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qrgb.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qrgba64.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/qscreen.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qtextcursor.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qtextdocument.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qtextformat.h \
@@ -677,6 +705,8 @@ CMakeFiles/codWeaponCamoTracker.dir/codWeaponCamoTracker_autogen/mocs_compilatio
   C:/Qt/6.6.1/mingw_64/include/QtGui/qtguiglobal.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qtransform.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qvalidator.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/qvector2d.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/qvectornd.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.6.1/mingw_64/include/QtWidgets/QApplication \
@@ -999,8 +1029,13 @@ CMakeFiles/codWeaponCamoTracker.dir/main.cpp.obj: D:/MyRepo/c++\ QT/codWeaponCam
   C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonDocument \
   C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonObject \
   C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonValue \
+  C:/Qt/6.6.1/mingw_64/include/QtCore/QList \
   C:/Qt/6.6.1/mingw_64/include/QtCore/QMap \
+  C:/Qt/6.6.1/mingw_64/include/QtCore/QObject \
   C:/Qt/6.6.1/mingw_64/include/QtCore/QPair \
+  C:/Qt/6.6.1/mingw_64/include/QtCore/QRect \
+  C:/Qt/6.6.1/mingw_64/include/QtCore/QSize \
+  C:/Qt/6.6.1/mingw_64/include/QtCore/QSizeF \
   C:/Qt/6.6.1/mingw_64/include/QtCore/QTimer \
   C:/Qt/6.6.1/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/q20memory.h \
@@ -1087,6 +1122,7 @@ CMakeFiles/codWeaponCamoTracker.dir/main.cpp.obj: D:/MyRepo/c++\ QT/codWeaponCam
   C:/Qt/6.6.1/mingw_64/include/QtCore/qoverload.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qpair.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qpoint.h \
+  C:/Qt/6.6.1/mingw_64/include/QtCore/qpointer.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qprocessordetection.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qrect.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qrefcount.h \
@@ -1139,11 +1175,15 @@ CMakeFiles/codWeaponCamoTracker.dir/main.cpp.obj: D:/MyRepo/c++\ QT/codWeaponCam
   C:/Qt/6.6.1/mingw_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qxptype_traits.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/QResizeEvent \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/QTransform \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qaction.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qbitmap.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qbrush.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qcolor.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qcursor.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/qevent.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/qeventpoint.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qfont.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qfontinfo.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qfontmetrics.h \
@@ -1151,6 +1191,7 @@ CMakeFiles/codWeaponCamoTracker.dir/main.cpp.obj: D:/MyRepo/c++\ QT/codWeaponCam
   C:/Qt/6.6.1/mingw_64/include/QtGui/qguiapplication_platform.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qicon.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qimage.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/qinputdevice.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qinputmethod.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qpaintdevice.h \
@@ -1159,10 +1200,12 @@ CMakeFiles/codWeaponCamoTracker.dir/main.cpp.obj: D:/MyRepo/c++\ QT/codWeaponCam
   C:/Qt/6.6.1/mingw_64/include/QtGui/qpicture.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qpixelformat.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qpixmap.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/qpointingdevice.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qpolygon.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qregion.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qrgb.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qrgba64.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/qscreen.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qtextcursor.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qtextdocument.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qtextformat.h \
@@ -1172,6 +1215,8 @@ CMakeFiles/codWeaponCamoTracker.dir/main.cpp.obj: D:/MyRepo/c++\ QT/codWeaponCam
   C:/Qt/6.6.1/mingw_64/include/QtGui/qtguiglobal.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qtransform.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qvalidator.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/qvector2d.h \
+  C:/Qt/6.6.1/mingw_64/include/QtGui/qvectornd.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.6.1/mingw_64/include/QtWidgets/QApplication \
@@ -1491,15 +1536,15 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonValue:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qarraydata.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits:
+C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonDocument:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/enable_special_members.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonDocument:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/QCoreApplication:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/utility:
 
@@ -1509,95 +1554,121 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qatomic.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qcborvalue.h:
 
-D:/MyRepo/c++\ QT/codWeaponCamoTracker/WeaponEditor.cpp:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qcborcommon.h:
+
+D:/MyRepo/c++\ QT/codWeaponCamoTracker/WeaponEditor.cpp:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/QMap:
 
-C:/Qt/6.6.1/mingw_64/include/QtGui/qtextdocument.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/QFile:
+
+C:/Qt/6.6.1/mingw_64/include/QtGui/qtextdocument.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonArray:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonObject:
 
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/QList:
+
+C:/Qt/6.6.1/mingw_64/include/QtGui/qwindowdefs.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtGui/qcolor.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qcontainertools_impl.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qconstructormacros.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qtversionchecks.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/QObject:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_dir.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h:
+
 C:/Qt/6.6.1/mingw_64/include/QtCore/QPair:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h:
+C:/Qt/6.6.1/mingw_64/include/QtCore/qexceptionhandling.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/auto_ptr.h:
+C:/Qt/6.6.1/mingw_64/include/QtCore/QRect:
+
+C:/Qt/6.6.1/mingw_64/include/QtWidgets/qtwidgetsexports.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/QSize:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/QSizeF:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/QTimer:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qarraydataops.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/auto_ptr.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qglobal.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits:
 
-C:/Qt/6.6.1/mingw_64/include/QtGui/qtextcursor.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qflags.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qswap.h:
+C:/Qt/6.6.1/mingw_64/include/QtGui/qtextcursor.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qcoreapplication.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qswap.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/q20functional.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qbytearray.h:
 
+C:/Qt/6.6.1/mingw_64/include/QtCore/qarraydataops.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qglobal.h:
+
 G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/limits.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/q20memory.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/q20type_traits.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qsize.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/qglobalstatic.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/q23utility.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qforeach.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qabstractitemmodel.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtWidgets/QMessageBox:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qfile.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qconfig.h:
+C:/Qt/6.6.1/mingw_64/include/QtWidgets/QMessageBox:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream:
+C:/Qt/6.6.1/mingw_64/include/QtCore/qconfig.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qabstractscrollarea.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtGui/qtguiglobal.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/qmap.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qalgorithms.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qanystringview.h:
+C:/Qt/6.6.1/mingw_64/include/QtCore/qmap.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtGui/qtguiglobal.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qbytearrayview.h:
 
+C:/Qt/6.6.1/mingw_64/include/QtCore/qanystringview.h:
+
 C:/Qt/6.6.1/mingw_64/include/QtCore/qcompare_impl.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qtconfiginclude.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qarraydatapointer.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qtconfiginclude.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qcontiguouscache.h:
 
@@ -1613,17 +1684,17 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qbasictimer.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qbasicatomic.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/utility.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qstringfwd.h:
+C:/Qt/6.6.1/mingw_64/include/QtCore/qbindingstorage.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qiodevice.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qbindingstorage.h:
+C:/Qt/6.6.1/mingw_64/include/QtCore/qstringfwd.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/utility.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qbytearrayalgorithms.h:
 
@@ -1631,17 +1702,17 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qbytearraylist.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qfunctionaltools_impl.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qcalendar.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/sys/types.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/streambuf:
+C:/Qt/6.6.1/mingw_64/include/QtCore/qcontainerfwd.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/charconv.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qcontainerfwd.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/streambuf:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_init_exception.h:
 
@@ -1651,41 +1722,31 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qcompare.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qcompilerdetection.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qfunctionpointer.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtGui/qcolor.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/qcontainertools_impl.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/qtversionchecks.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/qconstructormacros.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qcontainerinfo.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qdebug.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/span:
+C:/Qt/6.6.1/mingw_64/include/QtCore/qdebug.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qcoreapplication_platform.h:
 
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/span:
+
 C:/Qt/6.6.1/mingw_64/include/QtCore/qdatetime.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qcoreevent.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_numeric_defs.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qcoreevent.h:
+C:/Qt/6.6.1/mingw_64/include/QtCore/qdarwinhelpers.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_uninitialized.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/qdarwinhelpers.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/string.h:
 
@@ -1699,19 +1760,23 @@ C:/Qt/6.6.1/mingw_64/include/QtWidgets/qapplication.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qeventloop.h:
 
+C:/Qt/6.6.1/mingw_64/include/QtCore/qfiledevice.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qtnoop.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/filesystem:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qfunctionpointer.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qgenericatomic.h:
+
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/QLineEdit:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qstringview.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qgenericatomic.h:
+C:/Qt/6.6.1/mingw_64/include/QtCore/qglobalstatic.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qexceptionhandling.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/filesystem:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/qtnoop.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/qfiledevice.h:
+C:/Qt/6.6.1/mingw_64/include/QtCore/qsize.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qhash.h:
 
@@ -1727,13 +1792,13 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qiterable.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qiterator.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qjsonarray.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtWidgets/qtabwidget.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qjsondocument.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtWidgets/qtabwidget.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h:
 
@@ -1743,19 +1808,19 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qjsonvalue.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc:
 
-C:/Qt/6.6.1/mingw_64/include/QtGui/qpen.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qlatin1stringview.h:
 
+C:/Qt/6.6.1/mingw_64/include/QtGui/qpen.h:
+
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtGui/qtgui-config.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qline.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtGui/qtgui-config.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h:
 
@@ -1771,19 +1836,19 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qlogging.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qmalloc.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/system_error:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qmargins.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qnativeinterface.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/system_error:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qmath.h:
 
+C:/Qt/6.6.1/mingw_64/include/QtCore/qnativeinterface.h:
+
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/chrono:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qmetacontainer.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qmetatype.h:
 
@@ -1791,33 +1856,37 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qminmax.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread_unistd.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qnamespace.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qnumeric.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qobject.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qobject_impl.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qobjectdefs.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/gamma.tcc:
 
-C:/Qt/6.6.1/mingw_64/include/QtWidgets/qlineedit.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qobjectdefs_impl.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtWidgets/qlineedit.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qoverload.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/vadefs.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qpair.h:
 
+G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/vadefs.h:
+
 C:/Qt/6.6.1/mingw_64/include/QtCore/qpoint.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qpointer.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qprocessordetection.h:
 
@@ -1835,43 +1904,43 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qscopeguard.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qset.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_path.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qshareddata.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_path.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qshareddata_impl.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qsharedpointer.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qsharedpointer_impl.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qvariant.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qstring.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qvariant.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qstringalgorithms.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qstringbuilder.h:
 
+C:/Qt/6.6.1/mingw_64/include/QtCore/qstringconverter_base.h:
+
 G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qstringconverter_base.h:
+C:/Qt/6.6.1/mingw_64/include/QtCore/qstringlist.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/qstringlist.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qwidget.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qstringliteral.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_wait.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qstringmatcher.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_wait.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint:
 
@@ -1881,41 +1950,41 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qsysinfo.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qsystemdetection.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_laguerre.tcc:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qtclasshelpermacros.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qtconfigmacros.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qtcore-config.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qtcoreexports.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qtdeprecationmarkers.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qtmochelpers.h:
+C:/Qt/6.6.1/mingw_64/include/QtCore/qtenvironmentvariables.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qbrush.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qtenvironmentvariables.h:
+C:/Qt/6.6.1/mingw_64/include/QtCore/qtmochelpers.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qtextstream.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_numeric.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qtextstream.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qtimer.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qtmetamacros.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qtpreprocessorsupport.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/numeric_traits.h:
 
@@ -1925,33 +1994,33 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qttranslation.h:
 
 D:/MyRepo/c++\ QT/codWeaponCamoTracker/main.cpp:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qttypetraits.h:
 
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h:
+
 C:/Qt/6.6.1/mingw_64/include/QtCore/qtversion.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qtypeinfo.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtGui/qpicture.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_list.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array:
 
-C:/Qt/6.6.1/mingw_64/include/QtGui/qpicture.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/qtypeinfo.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtGui/qguiapplication.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qtypes.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stream_iterator.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qurl.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/errno.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stream_iterator.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qutf8stringview.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qutf8stringview.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/errno.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/quuid.h:
 
@@ -1959,33 +2028,55 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qvarlengtharray.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdint.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/typeinfo:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h:
+C:/Qt/6.6.1/mingw_64/include/QtCore/qversiontagging.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qversiontagging.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdint.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/typeinfo:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qxptype_traits.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtGui/qaction.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtWidgets/qslider.h:
+C:/Qt/6.6.1/mingw_64/include/QtGui/QResizeEvent:
+
+C:/Qt/6.6.1/mingw_64/include/QtGui/QTransform:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/concurrence.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtGui/qaction.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qbitmap.h:
 
+C:/Qt/6.6.1/mingw_64/include/QtWidgets/qslider.h:
+
 C:/Qt/6.6.1/mingw_64/include/QtGui/qcursor.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtGui/qevent.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc:
+
+C:/Qt/6.6.1/mingw_64/include/QtWidgets/qdialog.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtGui/qeventpoint.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qfont.h:
 
+C:/Qt/6.6.1/mingw_64/include/QtGui/qfontinfo.h:
+
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.tcc:
 
-C:/Qt/6.6.1/mingw_64/include/QtGui/qfontinfo.h:
+C:/Qt/6.6.1/mingw_64/include/QtGui/qinputdevice.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qfontmetrics.h:
 
@@ -2005,17 +2096,19 @@ C:/Qt/6.6.1/mingw_64/include/QtGui/qpalette.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qpixelformat.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move_only_function.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtGui/qpixmap.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cerrno:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move_only_function.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtGui/qpointingdevice.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qpolygon.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cerrno:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qregion.h:
 
@@ -2023,13 +2116,15 @@ C:/Qt/6.6.1/mingw_64/include/QtGui/qrgb.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qrgba64.h:
 
+C:/Qt/6.6.1/mingw_64/include/QtGui/qscreen.h:
+
 C:/Qt/6.6.1/mingw_64/include/QtGui/qtextformat.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qtextoption.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_function.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtGui/qtguiexports.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_function.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h:
 
@@ -2037,13 +2132,15 @@ C:/Qt/6.6.1/mingw_64/include/QtGui/qtransform.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtWidgets/QGridLayout:
-
 C:/Qt/6.6.1/mingw_64/include/QtGui/qvalidator.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h:
+C:/Qt/6.6.1/mingw_64/include/QtWidgets/QGridLayout:
 
-C:/Qt/6.6.1/mingw_64/include/QtGui/qwindowdefs.h:
+C:/Qt/6.6.1/mingw_64/include/QtGui/qvector2d.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtGui/qvectornd.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qwindowdefs_win.h:
 
@@ -2057,9 +2154,9 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/QComboBox:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdfloat:
-
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/QFormLayout:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdfloat:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/unordered_map:
 
@@ -2067,9 +2164,9 @@ C:/Qt/6.6.1/mingw_64/include/QtWidgets/QLabel:
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/QLayout:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/QPushButton:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/QScrollArea:
 
@@ -2089,13 +2186,11 @@ C:/Qt/6.6.1/mingw_64/include/QtWidgets/qabstractspinbox.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qboxlayout.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/codecvt:
-
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qcheckbox.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtWidgets/qcombobox.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/codecvt:
 
-C:/Qt/6.6.1/mingw_64/include/QtWidgets/qdialog.h:
+C:/Qt/6.6.1/mingw_64/include/QtWidgets/qcombobox.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qformlayout.h:
 
@@ -2107,19 +2202,19 @@ C:/Qt/6.6.1/mingw_64/include/QtWidgets/qlabel.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qlayout.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qlayoutitem.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tree.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qmessagebox.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/time.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tree.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtWidgets/qpushbutton.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtWidgets/qpushbutton.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/time.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qrubberband.h:
 
@@ -2131,31 +2226,29 @@ C:/Qt/6.6.1/mingw_64/include/QtWidgets/qsizepolicy.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qstyle.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/algorithmfwd.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qstyleoption.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/algorithmfwd.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qtabbar.h:
 
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h:
+
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qtwidgets-config.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtWidgets/qtwidgetsexports.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hash_bytes.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hash_bytes.h:
 
 D:/MyRepo/c++\ QT/codWeaponCamoTracker/WeaponEditor.h:
 
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef:
+
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono_io.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/atomic:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono_io.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/binders.h:
 
@@ -2167,37 +2260,27 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/alloc_traits.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/process.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/concept_check.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/concept_check.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_dir.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/erase_if.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h:
 
@@ -2209,17 +2292,17 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_fwd.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functexcept.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functional_hash.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable_policy.h:
 
@@ -2227,15 +2310,15 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/atomicity.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/atomicity.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc:
+G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h:
 
@@ -2247,9 +2330,9 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/max_size_type.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h:
 
@@ -2267,23 +2350,19 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cctype:
 
+G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h:
+
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/concurrence.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_base.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/quoted_string.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_base.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h:
 
@@ -2297,19 +2376,19 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread_compat.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_atomic.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio:
+G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread_compat.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h:
 
@@ -2349,8 +2428,6 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unordered_map.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc:
@@ -2371,9 +2448,9 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdlib:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstring:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime:
 
@@ -2381,23 +2458,21 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/format:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/modified_bessel_func.tcc:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iomanip:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/modified_bessel_func.tcc:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/map:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numbers:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream:
 
@@ -2417,9 +2492,9 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/hypergeometric.tcc:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_hermite.tcc:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/legendre_function.tcc:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_hermite.tcc:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/riemann_zeta.tcc:
 
@@ -2457,9 +2532,9 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/ctype.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/locale.h:
 
-codWeaponCamoTracker_autogen/mocs_compilation.cpp:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/malloc.h:
+
+codWeaponCamoTracker_autogen/mocs_compilation.cpp:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/math.h:
 

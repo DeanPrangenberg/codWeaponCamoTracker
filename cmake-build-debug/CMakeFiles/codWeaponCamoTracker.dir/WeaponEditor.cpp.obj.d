@@ -500,5 +500,25 @@ CMakeFiles/codWeaponCamoTracker.dir/WeaponEditor.cpp.obj: \
  C:/Qt/6.6.1/mingw_64/include/QtCore/QTimer \
  C:/Qt/6.6.1/mingw_64/include/QtCore/qtimer.h \
  C:/Qt/6.6.1/mingw_64/include/QtCore/qbasictimer.h \
+ C:/Qt/6.6.1/mingw_64/include/QtGui/QResizeEvent \
+ C:/Qt/6.6.1/mingw_64/include/QtGui/qevent.h \
+ C:/Qt/6.6.1/mingw_64/include/QtCore/qpointer.h \
+ C:/Qt/6.6.1/mingw_64/include/QtGui/qeventpoint.h \
+ C:/Qt/6.6.1/mingw_64/include/QtGui/qvector2d.h \
+ C:/Qt/6.6.1/mingw_64/include/QtGui/qvectornd.h \
+ C:/Qt/6.6.1/mingw_64/include/QtGui/qpointingdevice.h \
+ C:/Qt/6.6.1/mingw_64/include/QtGui/qinputdevice.h \
+ C:/Qt/6.6.1/mingw_64/include/QtGui/qscreen.h \
+ C:/Qt/6.6.1/mingw_64/include/QtCore/QList \
+ C:/Qt/6.6.1/mingw_64/include/QtCore/qlist.h \
+ C:/Qt/6.6.1/mingw_64/include/QtCore/QObject \
+ C:/Qt/6.6.1/mingw_64/include/QtCore/qobject.h \
+ C:/Qt/6.6.1/mingw_64/include/QtCore/QRect \
+ C:/Qt/6.6.1/mingw_64/include/QtCore/qrect.h \
+ C:/Qt/6.6.1/mingw_64/include/QtCore/QSize \
+ C:/Qt/6.6.1/mingw_64/include/QtCore/qsize.h \
+ C:/Qt/6.6.1/mingw_64/include/QtCore/QSizeF \
+ C:/Qt/6.6.1/mingw_64/include/QtGui/QTransform \
+ C:/Qt/6.6.1/mingw_64/include/QtGui/qtransform.h \
  C:/Qt/6.6.1/mingw_64/include/QtCore/QDebug \
  C:/Qt/6.6.1/mingw_64/include/QtCore/qdebug.h

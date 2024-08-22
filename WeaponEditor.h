@@ -22,6 +22,7 @@
 #include <QApplication>
 #include <QCoreApplication>
 #include <QTimer>
+#include <QResizeEvent>
 
 class WeaponEditor : public QWidget {
 Q_OBJECT
@@ -29,11 +30,16 @@ Q_OBJECT
 public:
     explicit WeaponEditor(QWidget *parent = nullptr);
 
+protected:
+    void resizeEvent(QResizeEvent *event) override {
+        updateWeaponClass();
+    }
+
 private slots:
     void updateWeaponClass();
     void loadWeaponData();
     void ensureFileExists();
-    void createWeaponTile(const QString &weaponName, int index);
+    void createWeaponTile(const QString &weaponName, int index, int rowSize);
     void genJsonWeaponData();
     void liveUpdateWeaponData(const QString &weaponName, const QString &key, bool status);
     void updateStatus();
@@ -83,7 +89,7 @@ private:
     // functions
     void initializeWeaponData();
     void setupUI();
-    void loadWeaponsForClass(const QString &weaponClass, const QString &camoType);
+    void loadWeaponsForClass(const QString &weaponClass);
     void camoLogic();
 };
 

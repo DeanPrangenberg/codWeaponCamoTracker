@@ -27,7 +27,7 @@ void WeaponEditor::setupUI() {
     logoLayout->setContentsMargins(0, 0, 0, 0); // Entfernen Sie die Standard-Ränder
 
     QLabel *logoLabel = new QLabel(logoWidget);
-    logoLabel->setFixedSize(200, 39);
+    logoLabel->setFixedSize(200, 40);
     logoLabel->setScaledContents(true);
     QPixmap logoPixmap("logoBig.png");
     logoLabel->setPixmap(logoPixmap);
@@ -327,12 +327,11 @@ void WeaponEditor::initializeWeaponData() {
 
 void WeaponEditor::updateWeaponClass() {
     QString selectedClass = classComboBox->currentText();
-    QString selectedCamoType = camoTypeComboBox->currentText();
-    loadWeaponsForClass(selectedClass, selectedCamoType);
+    loadWeaponsForClass(selectedClass);
     updateStatus();
 }
 
-void WeaponEditor::loadWeaponsForClass(const QString &weaponClass, const QString &camoType) {
+void WeaponEditor::loadWeaponsForClass(const QString &weaponClass) {
     // Clear existing layout items
     while (QLayoutItem *item = weaponLayout->takeAt(0)) {
         if (item->widget()) {
@@ -341,22 +340,27 @@ void WeaponEditor::loadWeaponsForClass(const QString &weaponClass, const QString
         delete item;
     }
 
-    // Load the weapons for the class
+    int widgetWidth = width();
+    const int minTileSize = 316;
+    int numTilesPerRow = widgetWidth / minTileSize;
+    if (numTilesPerRow < 2) {
+        numTilesPerRow = 2;
+    }
+
     QStringList weaponNames = weaponMap.value(weaponClass);
     for (int i = 0; i < weaponNames.size(); ++i) {
-        createWeaponTile(weaponNames[i], i);
+        createWeaponTile(weaponNames[i], i, numTilesPerRow);
     }
 }
 
-void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
+void WeaponEditor::createWeaponTile(const QString &weaponName, int index, int rowSize) {
     // Erstelle ein Widget für den Tile
     QWidget *tile = new QWidget();
     if (autoUnlockMasteryCamo) {
-        tile->setFixedHeight(315 - 20); // polyatomic gibts nicht im standard system
+        tile->setFixedHeight(315 - 20);
     } else {
         tile->setFixedHeight(315);
     }
-    tile->setFixedWidth(316);
 
     tile->setStyleSheet(R"(
         QWidget {
@@ -637,8 +641,7 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index) {
                                       "}"
     ).arg(colorHeaderBackgroundColor));
 
-    // Füge das Tile zum Layout hinzu
-    weaponLayout->addWidget(tile, index / 3, index % 3); // Bleibe bei fester Positionierung der Tiles
+    weaponLayout->addWidget(tile, index / rowSize, index % rowSize);
 }
 
 void WeaponEditor::liveUpdateWeaponData(const QString &weaponName, const QString &key, bool status) {

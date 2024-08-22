@@ -7,8 +7,13 @@ D:/MyRepo/c++ QT/codWeaponCamoTracker/WeaponEditor.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonDocument
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonObject
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonValue
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/QList
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/QMap
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/QObject
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/QPair
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/QRect
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/QSize
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/QSizeF
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/QTimer
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/q20functional.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/q20memory.h
@@ -95,6 +100,7 @@ D:/MyRepo/c++ QT/codWeaponCamoTracker/WeaponEditor.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qoverload.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qpair.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qpoint.h
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qpointer.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qprocessordetection.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qrect.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qrefcount.h
@@ -147,11 +153,15 @@ D:/MyRepo/c++ QT/codWeaponCamoTracker/WeaponEditor.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qvarlengtharray.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qversiontagging.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtCore/qxptype_traits.h
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/QResizeEvent
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/QTransform
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qaction.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qbitmap.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qbrush.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qcolor.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qcursor.h
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qevent.h
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qeventpoint.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qfont.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qfontinfo.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qfontmetrics.h
@@ -159,6 +169,7 @@ D:/MyRepo/c++ QT/codWeaponCamoTracker/WeaponEditor.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qguiapplication_platform.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qicon.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qimage.h
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qinputdevice.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qinputmethod.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qkeysequence.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qpaintdevice.h
@@ -167,10 +178,12 @@ D:/MyRepo/c++ QT/codWeaponCamoTracker/WeaponEditor.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qpicture.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qpixelformat.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qpixmap.h
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qpointingdevice.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qpolygon.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qregion.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qrgb.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qrgba64.h
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qscreen.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qtextcursor.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qtextdocument.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qtextformat.h
@@ -180,6 +193,8 @@ D:/MyRepo/c++ QT/codWeaponCamoTracker/WeaponEditor.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qtguiglobal.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qtransform.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qvalidator.h
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qvector2d.h
+ mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qvectornd.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qwindowdefs.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtGui/qwindowdefs_win.h
  mdp:C:/Qt/6.6.1/mingw_64/include/QtWidgets/QApplication
