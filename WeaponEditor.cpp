@@ -540,6 +540,7 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index, int ro
         camoLabel->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Expanding);
 
         QLineEdit *camoLineEdit = new QLineEdit(camoCondition);
+        camoLineEdit->setToolTip(camoCondition);
         camoLineEdit->setAlignment(Qt::AlignCenter);
         camoLineEdit->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
         camoLineEdit->setStyleSheet(

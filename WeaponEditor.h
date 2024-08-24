@@ -45,8 +45,6 @@ private slots:
     void updateStatus();
 
 private:
-    QTimer *timer;
-
     // global hud elements
     QComboBox *classComboBox;
     QWidget *weaponContainer;
