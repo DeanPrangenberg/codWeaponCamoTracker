@@ -14,7 +14,10 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
-set(APP_ICON_RESOURCE_WINDOWS "${CMAKE_SOURCE_DIR}/resources.rc")
+set(APP_ICON_RESOURCE_WINDOWS "${CMAKE_SOURCE_DIR}/resources.rc"
+        ui.cpp
+        file.cpp
+        logic.cpp)
 
 add_executable(codWeaponCamoTracker main.cpp
         WeaponEditor.cpp

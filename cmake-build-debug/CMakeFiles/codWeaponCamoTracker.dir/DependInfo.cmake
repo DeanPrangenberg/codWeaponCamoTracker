@@ -39,7 +39,10 @@ set(CMAKE_RC_TARGET_INCLUDE_PATH
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/MyRepo/c++ QT/codWeaponCamoTracker/WeaponEditor.cpp" "CMakeFiles/codWeaponCamoTracker.dir/WeaponEditor.cpp.obj" "gcc" "CMakeFiles/codWeaponCamoTracker.dir/WeaponEditor.cpp.obj.d"
   "D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-debug/codWeaponCamoTracker_autogen/mocs_compilation.cpp" "CMakeFiles/codWeaponCamoTracker.dir/codWeaponCamoTracker_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/codWeaponCamoTracker.dir/codWeaponCamoTracker_autogen/mocs_compilation.cpp.obj.d"
+  "D:/MyRepo/c++ QT/codWeaponCamoTracker/file.cpp" "CMakeFiles/codWeaponCamoTracker.dir/file.cpp.obj" "gcc" "CMakeFiles/codWeaponCamoTracker.dir/file.cpp.obj.d"
+  "D:/MyRepo/c++ QT/codWeaponCamoTracker/logic.cpp" "CMakeFiles/codWeaponCamoTracker.dir/logic.cpp.obj" "gcc" "CMakeFiles/codWeaponCamoTracker.dir/logic.cpp.obj.d"
   "D:/MyRepo/c++ QT/codWeaponCamoTracker/main.cpp" "CMakeFiles/codWeaponCamoTracker.dir/main.cpp.obj" "gcc" "CMakeFiles/codWeaponCamoTracker.dir/main.cpp.obj.d"
+  "D:/MyRepo/c++ QT/codWeaponCamoTracker/ui.cpp" "CMakeFiles/codWeaponCamoTracker.dir/ui.cpp.obj" "gcc" "CMakeFiles/codWeaponCamoTracker.dir/ui.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
