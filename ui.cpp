@@ -130,14 +130,6 @@ void WeaponEditor::updateStatus() {
     QJsonArray weaponClassesArray = weaponData["WeaponClasses"].toArray();
 
     QString selectedCamoType = camoTypeComboBox->currentText();
-    QString camoName;
-    if (selectedCamoType == "Multiplayer") {
-        camoName = "Gold";
-    } else if (selectedCamoType == "Warzone") {
-        camoName = "Gold Tiger";
-    } else {
-        camoName = "Mystic Gold";
-    }
 
     QString selectedClass = classComboBox->currentText();
 
