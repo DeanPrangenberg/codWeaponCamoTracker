@@ -31,16 +31,21 @@ void WeaponEditor::camoLogic() {
         for (const QJsonValue& weaponValue : weaponsArray) {
             QJsonObject weaponObject = weaponValue.toObject();
             QJsonArray mCamosArray = weaponObject["M_CAMOS"].toArray();
+            QJsonArray wCamosArray = weaponObject["W_CAMOS"].toArray();
             QJsonArray zCamosArray = weaponObject["Z_CAMOS"].toArray();
 
-            QVector<QVector<bool>> weaponCamos(2);
+            QVector<QVector<bool>> weaponCamos(3);
 
             for (int i = 0; i < mCamosArray.size(); ++i) {
                 weaponCamos[0].append(mCamosArray[i].toObject()["Status"].toBool());
             }
 
+            for (int i = 0; i < wCamosArray.size(); ++i) {
+                weaponCamos[1].append(wCamosArray[i].toObject()["Status"].toBool());
+            }
+
             for (int i = 0; i < zCamosArray.size(); ++i) {
-                weaponCamos[1].append(zCamosArray[i].toObject()["Status"].toBool());
+                weaponCamos[2].append(zCamosArray[i].toObject()["Status"].toBool());
             }
 
             classCamos.append(weaponCamos);
@@ -52,7 +57,7 @@ void WeaponEditor::camoLogic() {
     // logic
     if (autoUnlockMasteryCamo) {
         // old cod logic
-        for (int camoMode = 0; camoMode < 2; ++camoMode) {
+        for (int camoMode = 0; camoMode < 3; ++camoMode) {
             // gold
             for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
                 for (QVector<QVector<bool>> &weaponVector : classVector) {
@@ -106,7 +111,7 @@ void WeaponEditor::camoLogic() {
     } else {
         // new cod logic
 
-        for (int camoMode = 0; camoMode < 2; ++camoMode) {
+        for (int camoMode = 0; camoMode < 3; ++camoMode) {
             // gold
             for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
                 for (QVector<QVector<bool>> &weaponVector : classVector) {
@@ -114,10 +119,12 @@ void WeaponEditor::camoLogic() {
                     for (int i = 0; i < standardCamoAmount; ++i) {
                         if (!weaponVector[camoMode][i]) {
                             goldAllowedForWeapon = false;
+                            qDebug() << "set Gold false";
                         }
                     }
                     if (!goldAllowedForWeapon) {
                         weaponVector[camoMode][goldPos] = false;
+                        qDebug() << "set Gold false";
                     }
                 }
             }
@@ -176,10 +183,13 @@ void WeaponEditor::camoLogic() {
                 }
             }
 
-            if (polyatomicInAllClasses >= totalStandardWeaponAmount) {
-                for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
-                    for (QVector<QVector<bool>> &weaponVector : classVector) {
+
+            for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
+                for (QVector<QVector<bool>> &weaponVector : classVector) {
+                    if (polyatomicInAllClasses >= totalStandardWeaponAmount) {
                         weaponVector[camoMode][darkMatterPos] = weaponVector[camoMode][polyatomicPos];
+                    } else {
+                        weaponVector[camoMode][darkMatterPos] = false;
                     }
                 }
             }
@@ -202,6 +212,7 @@ void WeaponEditor::camoLogic() {
         for (int weaponIndex = 0; weaponIndex < camoStatus[classIndex].size(); ++weaponIndex) {
             QJsonObject weaponObject;
             QJsonArray mCamosArray;
+            QJsonArray wCamosArray;
             QJsonArray zCamosArray;
 
             for (int i = 0; i < camoStatus[classIndex][weaponIndex][0].size(); ++i) {
@@ -209,16 +220,16 @@ void WeaponEditor::camoLogic() {
                 camoObject["Condition"] = QString("todo for Camo");  // Maintain the condition as placeholder
                 switch (i) {
                     case goldPos:
-                        camoObject["Name"] = "M_" + goldName;
+                        camoObject["Name"] = mCamos[goldPos];
                         break;
                     case diamondPos:
-                        camoObject["Name"] = "M_" + diamondName;
+                        camoObject["Name"] = mCamos[diamondPos];
                         break;
                     case polyatomicPos:
-                        camoObject["Name"] = "M_" + polyatomicName;
+                        camoObject["Name"] = mCamos[polyatomicPos];
                         break;
                     case darkMatterPos:
-                        camoObject["Name"] = "M_" + darkMatterName;
+                        camoObject["Name"] = mCamos[darkMatterPos];
                         break;
                     default:
                         camoObject["Name"] = QString("M_Camo%1").arg(i + 1); // Maintain the names as placeholders
@@ -233,26 +244,51 @@ void WeaponEditor::camoLogic() {
                 camoObject["Condition"] = QString("todo for Camo");  // Maintain the condition as placeholder
                 switch (i) {
                     case goldPos:
-                        camoObject["Name"] = "Z_" + goldName;
+                        camoObject["Name"] = wCamos[goldPos];
                         break;
                     case diamondPos:
-                        camoObject["Name"] = "Z_" + diamondName;
+                        camoObject["Name"] = wCamos[diamondPos];
                         break;
                     case polyatomicPos:
-                        camoObject["Name"] = "Z_" + polyatomicName;
+                        camoObject["Name"] = wCamos[polyatomicPos];
                         break;
                     case darkMatterPos:
-                        camoObject["Name"] = "Z_" + darkMatterName;
+                        camoObject["Name"] = wCamos[darkMatterPos];
+                        break;
+                    default:
+                        camoObject["Name"] = QString("W_Camo%1").arg(i + 1); // Maintain the names as placeholders
+                        break;
+                }
+                camoObject["Status"] = camoStatus[classIndex][weaponIndex][1][i];
+                wCamosArray.append(camoObject);
+            }
+
+            for (int i = 0; i < camoStatus[classIndex][weaponIndex][2].size(); ++i) {
+                QJsonObject camoObject;
+                camoObject["Condition"] = QString("todo for Camo");  // Maintain the condition as placeholder
+                switch (i) {
+                    case goldPos:
+                        camoObject["Name"] = zCamos[goldPos];
+                        break;
+                    case diamondPos:
+                        camoObject["Name"] = zCamos[diamondPos];
+                        break;
+                    case polyatomicPos:
+                        camoObject["Name"] = zCamos[polyatomicPos];
+                        break;
+                    case darkMatterPos:
+                        camoObject["Name"] = zCamos[darkMatterPos];
                         break;
                     default:
                         camoObject["Name"] = QString("Z_Camo%1").arg(i + 1); // Maintain the names as placeholders
                         break;
                 }
-                camoObject["Status"] = camoStatus[classIndex][weaponIndex][1][i];
+                camoObject["Status"] = camoStatus[classIndex][weaponIndex][2][i];
                 zCamosArray.append(camoObject);
             }
 
             weaponObject["M_CAMOS"] = mCamosArray;
+            weaponObject["W_CAMOS"] = wCamosArray;
             weaponObject["Z_CAMOS"] = zCamosArray;
 
             // Ensure other weapon details are preserved
@@ -298,9 +334,9 @@ void WeaponEditor::loadWeaponsForClass(const QString &weaponClass) {
 }
 
 void WeaponEditor::initializeWeaponData() {
-    standardWeaponAmount.push_back(5);
+    standardWeaponAmount.push_back(3);
     weaponMap["Assault Rifles"] = QStringList{
-            "AK-74", "AMES 85", "Colt Model 723", "SIG SG 550", "SR-3 Vikhr", "XM4"
+            "AK-74", "AMES 85", "XM4"
     };
 
     standardWeaponAmount.push_back(1);
@@ -308,19 +344,19 @@ void WeaponEditor::initializeWeaponData() {
             "PLACE_HOLDER"
     };
 
-    standardWeaponAmount.push_back(2);
+    standardWeaponAmount.push_back(1);
     weaponMap["LMGs"] = QStringList{
-            "AR10", "KSP 58"
+            "XMG"
     };
 
     standardWeaponAmount.push_back(1);
     weaponMap["Launchers"] = QStringList{
-            "PLACE_HOLDER"
+            "Cigma 2B"
     };
 
-    standardWeaponAmount.push_back(1);
+    standardWeaponAmount.push_back(2);
     weaponMap["Marksman Rifles"] = QStringList{
-            "SR-25"
+            "Swat 5.56", "DM-10"
     };
 
     standardWeaponAmount.push_back(1);
@@ -328,14 +364,14 @@ void WeaponEditor::initializeWeaponData() {
             "Combat Knife"
     };
 
-    standardWeaponAmount.push_back(3);
+    standardWeaponAmount.push_back(2);
     weaponMap["Pistols"] = QStringList{
-            "Compact 92", "Makarov PM", "USP"
+            "GS45", "9mm PM"
     };
 
     standardWeaponAmount.push_back(3);
     weaponMap["SMGs"] = QStringList{
-            "FAMAE SAF", "Jackal PDW", "MP5A3"
+            "C9", "Tanto .22", "Jackal PDW"
     };
 
     standardWeaponAmount.push_back(1);
@@ -343,9 +379,9 @@ void WeaponEditor::initializeWeaponData() {
             "Marine SP"
     };
 
-    standardWeaponAmount.push_back(1);
+    standardWeaponAmount.push_back(2);
     weaponMap["Sniper Rifles"] = QStringList{
-            "LR 7.62"
+            "SVD","LR 7.62"
     };
 
     for (int weaponsInClass : standardWeaponAmount) {

@@ -7,13 +7,9 @@ codWeaponCamoTracker_autogen/timestamp: C:/Qt/6.6.1/mingw_64/include/QtCore/QCor
   C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonDocument \
   C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonObject \
   C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonValue \
-  C:/Qt/6.6.1/mingw_64/include/QtCore/QList \
   C:/Qt/6.6.1/mingw_64/include/QtCore/QMap \
-  C:/Qt/6.6.1/mingw_64/include/QtCore/QObject \
   C:/Qt/6.6.1/mingw_64/include/QtCore/QPair \
-  C:/Qt/6.6.1/mingw_64/include/QtCore/QRect \
-  C:/Qt/6.6.1/mingw_64/include/QtCore/QSize \
-  C:/Qt/6.6.1/mingw_64/include/QtCore/QSizeF \
+  C:/Qt/6.6.1/mingw_64/include/QtCore/QTimer \
   C:/Qt/6.6.1/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/q20type_traits.h \
@@ -28,6 +24,7 @@ codWeaponCamoTracker_autogen/timestamp: C:/Qt/6.6.1/mingw_64/include/QtCore/QCor
   C:/Qt/6.6.1/mingw_64/include/QtCore/qatomic.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qatomic_cxx11.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qbasicatomic.h \
+  C:/Qt/6.6.1/mingw_64/include/QtCore/qbasictimer.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qbindingstorage.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qbytearray.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -98,7 +95,6 @@ codWeaponCamoTracker_autogen/timestamp: C:/Qt/6.6.1/mingw_64/include/QtCore/QCor
   C:/Qt/6.6.1/mingw_64/include/QtCore/qoverload.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qpair.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qpoint.h \
-  C:/Qt/6.6.1/mingw_64/include/QtCore/qpointer.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qprocessordetection.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qrect.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qrefcount.h \
@@ -133,6 +129,7 @@ codWeaponCamoTracker_autogen/timestamp: C:/Qt/6.6.1/mingw_64/include/QtCore/QCor
   C:/Qt/6.6.1/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qtenvironmentvariables.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qtextstream.h \
+  C:/Qt/6.6.1/mingw_64/include/QtCore/qtimer.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qtmetamacros.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qtnoop.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -150,15 +147,11 @@ codWeaponCamoTracker_autogen/timestamp: C:/Qt/6.6.1/mingw_64/include/QtCore/QCor
   C:/Qt/6.6.1/mingw_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.6.1/mingw_64/include/QtCore/qxptype_traits.h \
-  C:/Qt/6.6.1/mingw_64/include/QtGui/QResizeEvent \
-  C:/Qt/6.6.1/mingw_64/include/QtGui/QTransform \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qaction.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qbitmap.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qbrush.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qcolor.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qcursor.h \
-  C:/Qt/6.6.1/mingw_64/include/QtGui/qevent.h \
-  C:/Qt/6.6.1/mingw_64/include/QtGui/qeventpoint.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qfont.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qfontinfo.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qfontmetrics.h \
@@ -166,7 +159,6 @@ codWeaponCamoTracker_autogen/timestamp: C:/Qt/6.6.1/mingw_64/include/QtCore/QCor
   C:/Qt/6.6.1/mingw_64/include/QtGui/qguiapplication_platform.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qicon.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qimage.h \
-  C:/Qt/6.6.1/mingw_64/include/QtGui/qinputdevice.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qinputmethod.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qpaintdevice.h \
@@ -175,12 +167,10 @@ codWeaponCamoTracker_autogen/timestamp: C:/Qt/6.6.1/mingw_64/include/QtCore/QCor
   C:/Qt/6.6.1/mingw_64/include/QtGui/qpicture.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qpixelformat.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qpixmap.h \
-  C:/Qt/6.6.1/mingw_64/include/QtGui/qpointingdevice.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qpolygon.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qregion.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qrgb.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qrgba64.h \
-  C:/Qt/6.6.1/mingw_64/include/QtGui/qscreen.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qtextcursor.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qtextdocument.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qtextformat.h \
@@ -190,8 +180,6 @@ codWeaponCamoTracker_autogen/timestamp: C:/Qt/6.6.1/mingw_64/include/QtCore/QCor
   C:/Qt/6.6.1/mingw_64/include/QtGui/qtguiglobal.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qtransform.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qvalidator.h \
-  C:/Qt/6.6.1/mingw_64/include/QtGui/qvector2d.h \
-  C:/Qt/6.6.1/mingw_64/include/QtGui/qvectornd.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.6.1/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.6.1/mingw_64/include/QtWidgets/QApplication \
@@ -382,34 +370,115 @@ codWeaponCamoTracker_autogen/timestamp: C:/Qt/6.6.1/mingw_64/include/QtCore/QCor
   codWeaponCamoTracker_autogen/moc_predefs.h \
   D:/MyRepo/c++\ QT/codWeaponCamoTracker/main.cpp \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/bin/cmake.exe \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeMinGWFindMake.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindVulkan.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake \
+  G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Determine-CXX.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake \
   G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake \
@@ -682,9 +751,11 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qarraydata.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits:
 
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/enable_special_members.h:
+
 C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonDocument:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/enable_special_members.h:
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h:
 
@@ -700,53 +771,19 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/QMap:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonArray:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonArray:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/QJsonObject:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/QList:
-
-C:/Qt/6.6.1/mingw_64/include/QtGui/qwindowdefs.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/qfunctionpointer.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtGui/qcolor.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/qcontainertools_impl.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/qconstructormacros.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/qtversionchecks.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/QObject:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_dir.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/QPair:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qstringview.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h:
 
-C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:
+C:/Qt/6.6.1/mingw_64/include/QtCore/QTimer:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qgenericatomic.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtWidgets/QLineEdit:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/qexceptionhandling.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/QRect:
-
-C:/Qt/6.6.1/mingw_64/include/QtWidgets/qtwidgetsexports.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/QSize:
-
-C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/QSizeF:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/auto_ptr.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qglobal.h:
 
@@ -762,9 +799,13 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qswap.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/q20functional.h:
 
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
+
 C:/Qt/6.6.1/mingw_64/include/QtCore/qbytearray.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/q20memory.h:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets-relwithdebinfo.cmake:
 
@@ -772,15 +813,29 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/q20type_traits.h:
 
+C:/Qt/6.6.1/mingw_64/include/QtCore/qglobalstatic.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qsize.h:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake:
+
 C:/Qt/6.6.1/mingw_64/include/QtCore/q23utility.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qforeach.h:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
 
 G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qabstractitemmodel.h:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qfile.h:
 
@@ -789,6 +844,8 @@ C:/Qt/6.6.1/mingw_64/include/QtWidgets/QMessageBox:
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qconfig.h:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qalgorithms.h:
 
@@ -814,6 +871,10 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qarraydatapointer.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qtconfiginclude.h:
 
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp:
+
 C:/Qt/6.6.1/mingw_64/include/QtCore/qcontiguouscache.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qassert.h:
@@ -832,11 +893,19 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qtaggedpointer.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qfloat16.h:
 
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake:
+
 C:/Qt/6.6.1/mingw_64/include/QtCore/qatomic_cxx11.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qbasictimer.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qbasicatomic.h:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/utility.h:
 
@@ -846,6 +915,8 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qiodevice.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qstringfwd.h:
 
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake:
+
 C:/Qt/6.6.1/mingw_64/include/QtCore/qbytearrayalgorithms.h:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake:
@@ -854,9 +925,11 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qfunctionaltools_impl.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qbytearraylist.h:
 
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h:
+
 C:/Qt/6.6.1/mingw_64/include/QtCore/qcalendar.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h:
+C:/Qt/6.6.1/mingw_64/include/QtCore/qhash.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/streambuf:
 
@@ -864,19 +937,29 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qcontainerfwd.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/charconv.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_init_exception.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qchar.h:
 
-C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginConfig.cmake:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h:
+
+C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginConfig.cmake:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qcompare.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qcompilerdetection.h:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qfunctionpointer.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtGui/qcolor.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qcontainertools_impl.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qconstructormacros.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qtversionchecks.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
 
@@ -894,9 +977,9 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qcoreapplication_platform.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qdatetime.h:
 
-C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h:
+
+C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_numeric_defs.h:
 
@@ -904,9 +987,9 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qcoreevent.h:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qdarwinhelpers.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_uninitialized.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qdarwinhelpers.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qdatastream.h:
 
@@ -914,7 +997,21 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qendian.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qapplication.h:
 
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake:
+
 C:/Qt/6.6.1/mingw_64/include/QtCore/qeventloop.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qstringview.h:
+
+C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qgenericatomic.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtWidgets/QLineEdit:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qexceptionhandling.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/filesystem:
 
@@ -922,15 +1019,7 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qfiledevice.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qtnoop.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qglobalstatic.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/qsize.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/qhash.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qhashfunctions.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qiodevicebase.h:
 
@@ -942,29 +1031,29 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qiterable.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qiterator.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qjsonarray.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qjsonarray.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qjsondocument.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qtabwidget.h:
 
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h:
+
 CMakeFiles/3.29.6/CMakeCXXCompiler.cmake:
 
 G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qjsonobject.h:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qjsonvalue.h:
 
 G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qlatin1stringview.h:
 
@@ -982,9 +1071,9 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qlist.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qlocale.h:
 
-C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h:
+
+C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qlogging.h:
 
@@ -993,6 +1082,8 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qmalloc.h:
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/system_error:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qmargins.h:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qmath.h:
 
@@ -1036,15 +1127,11 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qpair.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qpoint.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/qpointer.h:
-
-C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:
-
 C:/Qt/6.6.1/mingw_64/include/QtCore/qprocessordetection.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qrect.h:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qrefcount.h:
 
@@ -1062,9 +1149,9 @@ C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginAdditionalTarg
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qset.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qshareddata.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_path.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qshareddata.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream:
 
@@ -1092,6 +1179,8 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qstringconverter_base.h:
 
 G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake:
 
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
+
 G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qstringlist.h:
@@ -1102,6 +1191,8 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qstringliteral.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qstringmatcher.h:
 
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:
+
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_wait.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qstringtokenizer.h:
@@ -1110,11 +1201,23 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qsysinfo.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qsystemdetection.h:
 
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_laguerre.tcc:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in:
+
 C:/Qt/6.6.1/mingw_64/include/QtCore/qtclasshelpermacros.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qtconfigmacros.h:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessTargets.cmake:
 
@@ -1128,17 +1231,27 @@ G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/bin/cmake.exe:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qtdeprecationmarkers.h:
 
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake:
+
 C:/Qt/6.6.1/mingw_64/include/QtCore/qtenvironmentvariables.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qbrush.h:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qtextstream.h:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_numeric.h:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtCore/qtextstream.h:
+C:/Qt/6.6.1/mingw_64/include/QtCore/qtimer.h:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake:
 
@@ -1150,11 +1263,11 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qtresource.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qttranslation.h:
 
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h:
+
 C:/Qt/6.6.1/mingw_64/include/QtCore/qttypetraits.h:
 
 D:/MyRepo/c++\ QT/codWeaponCamoTracker/main.cpp:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtCore/qtversion.h:
 
@@ -1186,25 +1299,17 @@ C:/Qt/6.6.1/mingw_64/include/QtCore/qvarlengtharray.h:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake:
 
-C:/Qt/6.6.1/mingw_64/include/QtCore/qversiontagging.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/typeinfo:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake:
 
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtCore/qversiontagging.h:
+
 C:/Qt/6.6.1/mingw_64/include/QtCore/qxptype_traits.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtGui/QResizeEvent:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/concurrence.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtGui/QTransform:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qaction.h:
 
@@ -1214,29 +1319,17 @@ C:/Qt/6.6.1/mingw_64/include/QtWidgets/qslider.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qcursor.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype:
-
-C:/Qt/6.6.1/mingw_64/include/QtGui/qevent.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtGui/qeventpoint.h:
-
-G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake:
-
-C:/Qt/6.6.1/mingw_64/include/QtWidgets/qdialog.h:
-
-C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake:
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qfont.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtGui/qfontinfo.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.tcc:
 
-C:/Qt/6.6.1/mingw_64/include/QtGui/qinputdevice.h:
+C:/Qt/6.6.1/mingw_64/include/QtGui/qfontinfo.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qfontmetrics.h:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qicon.h:
 
@@ -1248,6 +1341,8 @@ C:/Qt/6.6.1/mingw_64/include/QtGui/qinputmethod.h:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake:
 
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake:
+
 C:/Qt/6.6.1/mingw_64/include/QtGui/qkeysequence.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qpaintdevice.h:
@@ -1258,11 +1353,9 @@ C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qpixelformat.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtGui/qpixmap.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move_only_function.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtGui/qpointingdevice.h:
+C:/Qt/6.6.1/mingw_64/include/QtGui/qpixmap.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cerrno:
 
@@ -1274,31 +1367,23 @@ C:/Qt/6.6.1/mingw_64/include/QtGui/qrgb.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qrgba64.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtGui/qscreen.h:
-
-C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:
-
 C:/Qt/6.6.1/mingw_64/include/QtGui/qtextformat.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qtextoption.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_function.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qtguiexports.h:
 
 CMakeFiles/3.29.6/CMakeSystem.cmake:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_function.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtGui/qtransform.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qvalidator.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/QGridLayout:
 
-C:/Qt/6.6.1/mingw_64/include/QtGui/qvector2d.h:
-
-C:/Qt/6.6.1/mingw_64/include/QtGui/qvectornd.h:
+C:/Qt/6.6.1/mingw_64/include/QtGui/qwindowdefs.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtGui/qwindowdefs_win.h:
 
@@ -1308,13 +1393,13 @@ C:/Qt/6.6.1/mingw_64/include/QtWidgets/QApplication:
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/QCheckBox:
 
-C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersion.cmake:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h:
-
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/QComboBox:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h:
+
+C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersion.cmake:
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/QFormLayout:
 
@@ -1338,9 +1423,11 @@ C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginConfig
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake:
 
-C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake:
-
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qabstractbutton.h:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake:
+
+C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake:
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qabstractslider.h:
 
@@ -1362,6 +1449,12 @@ C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateAddition
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qcombobox.h:
 
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake:
+
+C:/Qt/6.6.1/mingw_64/include/QtWidgets/qdialog.h:
+
+C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake:
+
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qformlayout.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qframe.h:
@@ -1374,9 +1467,9 @@ C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.c
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qlayout.h:
 
-C:/Qt/6.6.1/mingw_64/include/QtWidgets/qlayoutitem.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h:
+
+C:/Qt/6.6.1/mingw_64/include/QtWidgets/qlayoutitem.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tree.h:
 
@@ -1394,7 +1487,7 @@ C:/Qt/6.6.1/mingw_64/include/QtWidgets/qrubberband.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qscrollarea.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h:
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qsizepolicy.h:
 
@@ -1416,11 +1509,13 @@ C:/Qt/6.6.1/mingw_64/include/QtWidgets/qtabbar.h:
 
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qtwidgets-config.h:
 
+C:/Qt/6.6.1/mingw_64/include/QtWidgets/qtwidgetsexports.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hash_bytes.h:
+
 C:/Qt/6.6.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h:
 
 G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hash_bytes.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/format:
 
@@ -1428,7 +1523,11 @@ C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake:
 
+C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:
+
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/utility:
 
@@ -1443,6 +1542,8 @@ C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6/QtFeatureCommon.cmake:
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake:
 
@@ -1462,9 +1563,11 @@ C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginAdditionalT
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
 
-C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake:
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functexcept.h:
+
+C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake:
 
@@ -1484,6 +1587,10 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake:
 
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Determine-CXX.cmake:
+
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/_timeval.h:
@@ -1496,7 +1603,11 @@ C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake:
 
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake:
+
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake:
 
 G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake:
 
@@ -1518,6 +1629,8 @@ C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointMinGW32Target.cmake:
 
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake:
+
 G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake:
@@ -1533,6 +1646,10 @@ C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets-
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateVersionlessTargets.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h:
+
+C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake:
 
@@ -1550,17 +1667,13 @@ C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cctype:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake:
 
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake:
+
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake:
 
@@ -1572,9 +1685,9 @@ C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake:
 
-C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h:
+
+C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath:
 
@@ -1584,9 +1697,9 @@ C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTa
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake:
 
-C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_conv.h:
+
+C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake:
 
@@ -1616,13 +1729,15 @@ C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake:
 
-C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets-relwithdebinfo.cmake:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_ptr.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale:
 
 G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_ptr.h:
+
+C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets-relwithdebinfo.cmake:
+
+C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
 
@@ -1643,6 +1758,8 @@ C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetIn
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake:
 
 C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake:
 
@@ -1666,8 +1783,6 @@ CMakeFiles/3.29.6/CMakeCCompiler.cmake:
 
 codWeaponCamoTracker_autogen/moc_predefs.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_algobase.h:
-
 G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake:
 
 G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake:
@@ -1680,6 +1795,18 @@ G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonL
 
 G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake:
 
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/ell_integral.tcc:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake:
+
 G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h:
 
 G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:
@@ -1688,23 +1815,97 @@ G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGeneric
 
 G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake:
 
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeMinGWFindMake.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake:
+
 G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake:
 
 G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h:
-
 G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake:
 
-G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_relops.h:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable_policy.h:
 
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
+
 G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
 
 G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake:
 
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/atomicity.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake:
+
 G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake:
+
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:
 
 G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindVulkan.cmake:
 
@@ -1718,15 +1919,13 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:
 
+G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:
+
 G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/atomic:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono_io.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/auto_ptr.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/binders.h:
 
@@ -1734,15 +1933,11 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/align.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h:
 
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc:
+
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/concept_check.h:
 
@@ -1750,27 +1945,33 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/erase_if.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_init_exception.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/erase_if.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_defines.h:
 
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_dir.h:
+
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_fwd.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functional_hash.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/atomicity.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc:
 
@@ -1786,29 +1987,35 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/mofunc_impl.h:
 
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h:
+
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/nested_exception.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_allocator.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/quoted_string.h:
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_base.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/quoted_string.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_algo.h:
 
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_algobase.h:
+
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_base.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h:
 
@@ -1820,6 +2027,10 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h:
 
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc:
+
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_mutex.h:
@@ -1828,6 +2039,8 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h:
 
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h:
+
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_map.h:
@@ -1835,8 +2048,6 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_multimap.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_raw_storage_iter.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_relops.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h:
 
@@ -1880,11 +2091,13 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar:
 
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype:
+
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/alloc_traits.h:
+
+G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/concurrence.h:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/numeric_traits.h:
 
@@ -1932,8 +2145,6 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/beta_function.tcc:
 
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/ell_integral.tcc:
-
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/exp_integral.tcc:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/gamma.tcc:
@@ -1943,10 +2154,6 @@ G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_hermite.tcc:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/legendre_function.tcc:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h:
-
-G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_laguerre.tcc:
 
 G:/Jet_brains_IDEs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/special_function_util.h:
 

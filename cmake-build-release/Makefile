@@ -202,6 +202,54 @@ codWeaponCamoTracker_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\codWeaponCamoTracker.dir\build.make CMakeFiles/codWeaponCamoTracker.dir/codWeaponCamoTracker_autogen/mocs_compilation.cpp.s
 .PHONY : codWeaponCamoTracker_autogen/mocs_compilation.cpp.s
 
+file.obj: file.cpp.obj
+.PHONY : file.obj
+
+# target to build an object file
+file.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\codWeaponCamoTracker.dir\build.make CMakeFiles/codWeaponCamoTracker.dir/file.cpp.obj
+.PHONY : file.cpp.obj
+
+file.i: file.cpp.i
+.PHONY : file.i
+
+# target to preprocess a source file
+file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\codWeaponCamoTracker.dir\build.make CMakeFiles/codWeaponCamoTracker.dir/file.cpp.i
+.PHONY : file.cpp.i
+
+file.s: file.cpp.s
+.PHONY : file.s
+
+# target to generate assembly for a file
+file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\codWeaponCamoTracker.dir\build.make CMakeFiles/codWeaponCamoTracker.dir/file.cpp.s
+.PHONY : file.cpp.s
+
+logic.obj: logic.cpp.obj
+.PHONY : logic.obj
+
+# target to build an object file
+logic.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\codWeaponCamoTracker.dir\build.make CMakeFiles/codWeaponCamoTracker.dir/logic.cpp.obj
+.PHONY : logic.cpp.obj
+
+logic.i: logic.cpp.i
+.PHONY : logic.i
+
+# target to preprocess a source file
+logic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\codWeaponCamoTracker.dir\build.make CMakeFiles/codWeaponCamoTracker.dir/logic.cpp.i
+.PHONY : logic.cpp.i
+
+logic.s: logic.cpp.s
+.PHONY : logic.s
+
+# target to generate assembly for a file
+logic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\codWeaponCamoTracker.dir\build.make CMakeFiles/codWeaponCamoTracker.dir/logic.cpp.s
+.PHONY : logic.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -234,6 +282,30 @@ resources.rc.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\codWeaponCamoTracker.dir\build.make CMakeFiles/codWeaponCamoTracker.dir/resources.rc.obj
 .PHONY : resources.rc.obj
 
+ui.obj: ui.cpp.obj
+.PHONY : ui.obj
+
+# target to build an object file
+ui.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\codWeaponCamoTracker.dir\build.make CMakeFiles/codWeaponCamoTracker.dir/ui.cpp.obj
+.PHONY : ui.cpp.obj
+
+ui.i: ui.cpp.i
+.PHONY : ui.i
+
+# target to preprocess a source file
+ui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\codWeaponCamoTracker.dir\build.make CMakeFiles/codWeaponCamoTracker.dir/ui.cpp.i
+.PHONY : ui.cpp.i
+
+ui.s: ui.cpp.s
+.PHONY : ui.s
+
+# target to generate assembly for a file
+ui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\codWeaponCamoTracker.dir\build.make CMakeFiles/codWeaponCamoTracker.dir/ui.cpp.s
+.PHONY : ui.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -251,10 +323,19 @@ help:
 	@echo ... codWeaponCamoTracker_autogen/mocs_compilation.obj
 	@echo ... codWeaponCamoTracker_autogen/mocs_compilation.i
 	@echo ... codWeaponCamoTracker_autogen/mocs_compilation.s
+	@echo ... file.obj
+	@echo ... file.i
+	@echo ... file.s
+	@echo ... logic.obj
+	@echo ... logic.i
+	@echo ... logic.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... resources.obj
+	@echo ... ui.obj
+	@echo ... ui.i
+	@echo ... ui.s
 .PHONY : help
 
 

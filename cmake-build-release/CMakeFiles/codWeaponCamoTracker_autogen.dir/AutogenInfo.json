@@ -435,7 +435,10 @@
 	"SOURCES" : 
 	[
 		[ "D:/MyRepo/c++ QT/codWeaponCamoTracker/WeaponEditor.cpp", "MU", null ],
-		[ "D:/MyRepo/c++ QT/codWeaponCamoTracker/main.cpp", "MU", null ]
+		[ "D:/MyRepo/c++ QT/codWeaponCamoTracker/file.cpp", "MU", null ],
+		[ "D:/MyRepo/c++ QT/codWeaponCamoTracker/logic.cpp", "MU", null ],
+		[ "D:/MyRepo/c++ QT/codWeaponCamoTracker/main.cpp", "MU", null ],
+		[ "D:/MyRepo/c++ QT/codWeaponCamoTracker/ui.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

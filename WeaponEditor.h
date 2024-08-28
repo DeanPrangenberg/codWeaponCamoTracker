@@ -51,11 +51,12 @@ private:
     QScrollArea *scrollArea;
     QComboBox *camoTypeComboBox;
     QGridLayout *weaponLayout;
-    QLabel *globalUnlockedWeaponsLabel;
-    QLabel *globalMaxedLevelWeaponsLabel;
+    QLabel *unlockedWeaponsLabel;
+    QLabel *maxedLevelWeaponsLabel;
     QLabel *darkMatterStatusLabel;
-    QLabel *polyatomicStatusLabel;
-    QLabel *diamondStatusLabel;
+    QLabel *polyatomicWeaponsStatusLabel;
+    QLabel *diamondWeaponsStatusLabel;
+    QLabel *goldInClassStatusLabel;
     QStringList weaponClasses;
 
     //global var
@@ -65,8 +66,9 @@ private:
     int totalStandardWeaponAmount = 0;
 
     // camos var
-    bool autoUnlockMasteryCamo = true;
+    bool autoUnlockMasteryCamo = false;
     int standardCamoAmount = 4;
+    int masteryCamoAmount = 4;
     int camoNameLableWidth = 95;
 
     static constexpr int goldPos = 4;
@@ -74,10 +76,15 @@ private:
     static constexpr int polyatomicPos = 6;
     static constexpr int darkMatterPos = 7;
 
-    QString goldName = "GOLD";
-    QString diamondName = "DIAMOND";
-    QString polyatomicName = "POLYATOMIC";
-    QString darkMatterName = "DARK_MATTER";
+    QStringList mCamos = {
+            "M_Camo1", "M_Camo2", "M_Camo3", "M_Camo4", "Gold", "Diamond", "Dark Spine", "Dark Matter"
+    };
+    QStringList zCamos = {
+            "Z_Camo1", "Z_Camo2", "Z_Camo3", "Z_Camo4", "Mystic Gold", "Opal", "Afterlife", "Nebula"
+    };
+    QStringList wCamos = {
+            "W_Camo1", "W_Camo2", "W_Camo3", "W_Camo4", "Gold Tiger", "Kings's Ransom", "Catalyst", "Abyss"
+    };
 
     // style
     void updateStyles();

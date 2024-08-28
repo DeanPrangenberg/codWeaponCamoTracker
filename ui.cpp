@@ -46,6 +46,7 @@ void WeaponEditor::setupUI() {
     // Add camo type selection ComboBox
     camoTypeComboBox = new QComboBox();
     camoTypeComboBox->addItem("Multiplayer");
+    camoTypeComboBox->addItem("Warzone");
     camoTypeComboBox->addItem("Zombies");
     camoTypeComboBox->setCurrentText("Multiplayer");  // Set default selection
     comboBoxes.push_back(camoTypeComboBox);
@@ -59,31 +60,35 @@ void WeaponEditor::setupUI() {
     // Status labels
     QHBoxLayout *statusLayout = new QHBoxLayout();
 
-    globalUnlockedWeaponsLabel = new QLabel();
-    globalMaxedLevelWeaponsLabel = new QLabel();
+    unlockedWeaponsLabel = new QLabel();
+    maxedLevelWeaponsLabel = new QLabel();
     darkMatterStatusLabel = new QLabel();
-    polyatomicStatusLabel = new QLabel();
-    diamondStatusLabel = new QLabel();
+    polyatomicWeaponsStatusLabel = new QLabel();
+    diamondWeaponsStatusLabel = new QLabel();
+    goldInClassStatusLabel = new QLabel();
 
-    globalUnlockedWeaponsLabel->setObjectName("globalUnlockedWeaponsLabel");
-    globalMaxedLevelWeaponsLabel->setObjectName("globalMaxedLevelWeaponsLabel");
+    unlockedWeaponsLabel->setObjectName("unlockedWeaponsLabel");
+    maxedLevelWeaponsLabel->setObjectName("maxedLevelWeaponsLabel");
     darkMatterStatusLabel->setObjectName("darkMatterStatusLabel");
-    polyatomicStatusLabel->setObjectName("polyatomicStatusLabel");
-    diamondStatusLabel->setObjectName("diamondStatusLabel");
+    polyatomicWeaponsStatusLabel->setObjectName("polyatomicWeaponsStatusLabel");
+    diamondWeaponsStatusLabel->setObjectName("diamondWeaponsStatusLabel");
+    goldInClassStatusLabel->setObjectName("goldInClassStatusLabel");
 
     // Add labels to statusLabels vector
-    statusLabels.push_back(globalUnlockedWeaponsLabel);
-    statusLabels.push_back(globalMaxedLevelWeaponsLabel);
+    statusLabels.push_back(unlockedWeaponsLabel);
+    statusLabels.push_back(maxedLevelWeaponsLabel);
     statusLabels.push_back(darkMatterStatusLabel);
-    statusLabels.push_back(polyatomicStatusLabel);
-    statusLabels.push_back(diamondStatusLabel);
+    statusLabels.push_back(polyatomicWeaponsStatusLabel);
+    statusLabels.push_back(diamondWeaponsStatusLabel);
+    statusLabels.push_back(goldInClassStatusLabel);
 
     // Add labels to status layout
-    statusLayout->addWidget(globalUnlockedWeaponsLabel);
-    statusLayout->addWidget(globalMaxedLevelWeaponsLabel);
+    statusLayout->addWidget(unlockedWeaponsLabel);
+    statusLayout->addWidget(maxedLevelWeaponsLabel);
     statusLayout->addWidget(darkMatterStatusLabel);
-    statusLayout->addWidget(polyatomicStatusLabel);
-    statusLayout->addWidget(diamondStatusLabel);
+    statusLayout->addWidget(polyatomicWeaponsStatusLabel);
+    statusLayout->addWidget(diamondWeaponsStatusLabel);
+    statusLayout->addWidget(goldInClassStatusLabel);
 
     // Add status layout to main layout
     mainLayout->addLayout(statusLayout);
@@ -123,7 +128,17 @@ void WeaponEditor::updateStatus() {
 
     QJsonObject weaponData = doc.object();
     QJsonArray weaponClassesArray = weaponData["WeaponClasses"].toArray();
-    QString selectedCamoType = camoTypeComboBox->currentText() == "Multiplayer" ? "M_GOLD" : "Z_GOLD";
+
+    QString selectedCamoType = camoTypeComboBox->currentText();
+    QString camoName;
+    if (selectedCamoType == "Multiplayer") {
+        camoName = "Gold";
+    } else if (selectedCamoType == "Warzone") {
+        camoName = "Gold Tiger";
+    } else {
+        camoName = "Mystic Gold";
+    }
+
     QString selectedClass = classComboBox->currentText();
 
     int totalWeapons = 0;
@@ -133,9 +148,10 @@ void WeaponEditor::updateStatus() {
     int goldInSelectedClass = 0;
     int totalClassWeapons = 0;
     int polyatomicUnlockedCamos = 0;
-    int polyatomicTotalCamos = 0;
-    int darkMatterUnlockedCamos = 0;
-    int darkMatterTotalCamos = 0;
+    int diamondWeapons = 0;
+    int totalCamos = 0;
+    int totalCamosExcludingLast = 0; // For camo count excluding the last one
+    int totalCamosOverallExcludingLast = 0; // Total camos overall excluding the last one
 
     QMap<QString, int> weaponPerClass;
     int index = 0;
@@ -163,29 +179,28 @@ void WeaponEditor::updateStatus() {
                 maxedWeapons++;
             }
 
-            // Diamond Status (unverändert)
             QJsonArray camosArray;
-            if (selectedCamoType == "M_GOLD") {
+            if (selectedCamoType == "Multiplayer") {
                 camosArray = weaponObject["M_CAMOS"].toArray();
-            } else if (selectedCamoType == "Z_GOLD") {
-                camosArray = weaponObject["Z_CAMOS"].toArray();
+            } else if (selectedCamoType == "Warzone") {
+                camosArray = weaponObject["W_CAMOS"].toArray();
             } else {
-                continue;
+                camosArray = weaponObject["Z_CAMOS"].toArray();
             }
 
-            bool hasSelectedGoldCamo = false;
+            bool hasSelectedCamo = false;
             for (const QJsonValue &camoValue : camosArray) {
                 QJsonObject camoObject = camoValue.toObject();
                 QString camoName = camoObject["Name"].toString();
                 bool camoStatus = camoObject["Status"].toBool();
 
-                if (camoName == selectedCamoType && camoStatus) {
-                    hasSelectedGoldCamo = true;
+                if (camoName == camoName && camoStatus) {
+                    hasSelectedCamo = true;
                     break;
                 }
             }
 
-            if (hasSelectedGoldCamo) {
+            if (hasSelectedCamo) {
                 goldCamoWeapons++;
                 if (weaponClassName == selectedClass) {
                     goldInSelectedClass++;
@@ -195,65 +210,84 @@ void WeaponEditor::updateStatus() {
             if (weaponClassName == selectedClass) {
                 totalClassWeapons++;
             }
-            if (camosArray[polyatomicPos].toObject()["Status"].toBool()) {
+
+            // Count all camos except the last one
+            int camoCount = camosArray.size();
+            if (camoCount > 1) {
+                int validCamos = camoCount - 1; // Exclude the last camo
+                for (int i = 0; i < validCamos; ++i) {
+                    if (camosArray[i].toObject()["Status"].toBool()) {
+                        totalCamosExcludingLast++;
+                    }
+                }
+                totalCamosOverallExcludingLast += validCamos;
+            }
+
+            if (camosArray.size() > polyatomicPos && camosArray[polyatomicPos].toObject()["Status"].toBool()) {
                 polyatomicUnlockedCamos++;
             }
-            if (camosArray[darkMatterPos].toObject()["Status"].toBool()) {
-                darkMatterUnlockedCamos++;
+            if (camosArray.size() > diamondPos && camosArray[diamondPos].toObject()["Status"].toBool()) {
+                diamondWeapons++;
             }
-            polyatomicTotalCamos++;
-            darkMatterTotalCamos++;
+            totalCamos++;
         }
     }
 
     if (totalWeapons > 0) {
-        double unlockedPercentage = (static_cast<double>(unlockedWeapons) / totalWeapons) * 100;
-        double maxedPercentage = (static_cast<double>(maxedWeapons) / totalWeapons) * 100;
-        double selectedClassGoldCamoPercentage = (totalClassWeapons > 0) ?
-                                                 (static_cast<double>(goldInSelectedClass) / weaponPerClass[selectedClass]) * 100 : 0.0;  // Für den Diamond Status (unverändert)
-        double polyatomicPercentage = (darkMatterTotalCamos > 0) ? (static_cast<double>(polyatomicUnlockedCamos) / totalStandardWeaponAmount) * 100 : 0.0;
-        double darkMatterPercentage = (darkMatterTotalCamos > 0) ? (static_cast<double>(darkMatterUnlockedCamos) / totalStandardWeaponAmount) * 100 : 0.0;
+        double polyatomicPercentage = (totalCamos > 0) ? (static_cast<double>(polyatomicUnlockedCamos) / totalCamos) * 100 : 0;
+        double diamondPercentage = (totalCamos > 0) ? (static_cast<double>(diamondWeapons) / totalCamos) * 100 : 0;
+        double goldInClassPercentage = (totalClassWeapons > 0) ? (static_cast<double>(goldInSelectedClass) / weaponPerClass[selectedClass]) * 100 : 0;
 
-        QString camoTypeText = (camoTypeComboBox->currentText() == "Multiplayer") ? "Multiplayer" : "Zombies";
-        QString classNameText = selectedClass.isEmpty() ? "Not Selected" : selectedClass;
+        if (statusLabels.size() == 6) {
+            QStringList camoList;
+            if (selectedCamoType == "Multiplayer") {
+                camoList = mCamos;
+            } else if (selectedCamoType == "Warzone") {
+                camoList = wCamos;
+            } else {
+                camoList = zCamos;
+            }
 
-        if (statusLabels.size() == 5) {
-            statusLabels[0]->setText(QString("Unlocked Weapons Status:\n%1% (%2 out of %3)")
-                                             .arg(QString::number(unlockedPercentage,'f', 2))
+            statusLabels[0]->setText(QString("Unlocked Weapons:\n%1% (%2 out of %3)")
+                                             .arg(QString::number((static_cast<double>(unlockedWeapons) / totalWeapons) * 100, 'f', 2))
                                              .arg(unlockedWeapons)
                                              .arg(totalWeapons));
 
-            statusLabels[1]->setText(QString("Maxed Level Weapons Status:\n%1% (%2 out of %3)")
-                                             .arg(QString::number(maxedPercentage, 'f', 2))
+            statusLabels[1]->setText(QString("Maxed Level Weapons:\n%1% (%2 out of %3)")
+                                             .arg(QString::number((static_cast<double>(maxedWeapons) / totalWeapons) * 100, 'f', 2))
                                              .arg(maxedWeapons)
                                              .arg(totalWeapons));
 
-            statusLabels[2]->setText(QString("%1 Dark-Matter Status:\n%2% (%3 %4 out of %5)")
-                                             .arg(camoTypeComboBox->currentText())
-                                             .arg(QString::number(darkMatterPercentage, 'f', 2))
-                                             .arg(darkMatterUnlockedCamos)
-                                             .arg((autoUnlockMasteryCamo) ? "diamonds" : "polyatomics")
-                                             .arg(totalStandardWeaponAmount));
+            statusLabels[2]->setText(QString("Total %1 Status:\n%2% (%3 out of %4)")
+                                             .arg(camoList[darkMatterPos])
+                                             .arg(QString::number((static_cast<double>(totalCamosExcludingLast) / totalCamosOverallExcludingLast) * 100, 'f', 2))
+                                             .arg(totalCamosExcludingLast)
+                                             .arg(totalCamosOverallExcludingLast));
 
-            statusLabels[3]->setText(QString("%1 Polyatomic Status:\n%2% (%3 diamonds out of %4)")
-                                             .arg(camoTypeComboBox->currentText())
+            statusLabels[3]->setText(QString("%1 Weapons:\n%2% (%3 out of %4)")
+                                             .arg(camoList[polyatomicPos])
                                              .arg(QString::number(polyatomicPercentage, 'f', 2))
                                              .arg(polyatomicUnlockedCamos)
-                                             .arg(totalStandardWeaponAmount));
+                                             .arg(totalCamos));
 
-            statusLabels[4]->setText(QString("%1 Diamond Status:\n%2% (%3 golds out of %4)")
-                                             .arg(classComboBox->currentText())
-                                             .arg(QString::number(selectedClassGoldCamoPercentage, 'f', 2))
+            statusLabels[4]->setText(QString("%1 Weapons:\n%2% (%3 out of %4)")
+                                             .arg(camoList[diamondPos])
+                                             .arg(QString::number(diamondPercentage, 'f', 2))
+                                             .arg(diamondWeapons)
+                                             .arg(totalCamos));
+
+            statusLabels[5]->setText(QString("%1 %2 Camos:\n%3% (%4 out of %5)")
+                                             .arg(selectedClass)
+                                             .arg(camoList[goldPos])
+                                             .arg(QString::number(goldInClassPercentage, 'f', 2))
                                              .arg(goldInSelectedClass)
-                                             .arg(weaponPerClass[selectedClass]));
+                                             .arg(totalClassWeapons));
         }
     } else {
-        if (statusLabels.size() == 5) {
-            statusLabels[0]->setText("No weapons found.");
-            statusLabels[1]->setText("No weapons found.");
-            statusLabels[2]->setText("No weapons found.");
-            statusLabels[3]->setText("No weapons found.");
-            statusLabels[4]->setText("No weapons found.");
+        if (statusLabels.size() == 6) {
+            for (QLabel *label : statusLabels) {
+                label->setText("No weapons found.");
+            }
         }
     }
 }
@@ -454,6 +488,7 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index, int ro
     bool unlocked = false;
     bool maxedLevel = false;
     QJsonArray mCamosArray;
+    QJsonArray wCamosArray;
     QJsonArray zCamosArray;
 
     if (weaponIndex != -1) {
@@ -466,6 +501,7 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index, int ro
                     unlocked = weaponObject["Unlocked"].toBool();
                     maxedLevel = weaponObject["MaxedLevel"].toBool();
                     mCamosArray = weaponObject["M_CAMOS"].toArray();
+                    wCamosArray = weaponObject["W_CAMOS"].toArray();
                     zCamosArray = weaponObject["Z_CAMOS"].toArray();
                 }
                 break;
@@ -535,7 +571,9 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index, int ro
     QJsonArray camosToShow;
     if (selectedCamoType == "Multiplayer") {
         camosToShow = mCamosArray;
-    } else if (selectedCamoType == "Zombies") {
+    } else if (selectedCamoType == "Warzone") {
+        camosToShow = wCamosArray;
+    } else {
         camosToShow = zCamosArray;
     }
 
@@ -628,6 +666,28 @@ void WeaponEditor::createWeaponTile(const QString &weaponName, int index, int ro
         QJsonObject camoObject = camoValue.toObject();
         QString camoName = camoObject["Name"].toString();
         bool camoStatus = camoObject["Status"].toBool();
+        QString goldName;
+        QString diamondName;
+        QString polyatomicName;
+        QString darkMatterName;
+
+        if (camoTypeComboBox->currentText() == "Multiplayer") {
+            goldName = mCamos[goldPos];
+            diamondName = mCamos[diamondPos];
+            polyatomicName = mCamos[polyatomicPos];
+            darkMatterName = mCamos[darkMatterPos];
+        } else if (camoTypeComboBox->currentText() == "Warzone") {
+            goldName = wCamos[goldPos];
+            diamondName = wCamos[diamondPos];
+            polyatomicName = wCamos[polyatomicPos];
+            darkMatterName = wCamos[darkMatterPos];
+        } else {
+            goldName = zCamos[goldPos];
+            diamondName = zCamos[diamondPos];
+            polyatomicName = zCamos[polyatomicPos];
+            darkMatterName = zCamos[darkMatterPos];
+        }
+
         if (autoUnlockMasteryCamo) {
             if (camoStatus) {
                 if (camoName.contains(goldName)) {

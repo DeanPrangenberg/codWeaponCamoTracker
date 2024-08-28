@@ -6,7 +6,7 @@ WeaponEditor::WeaponEditor(QWidget *parent) : QWidget(parent) {
     setupUI();
     loadWeaponData();
     if (autoUnlockMasteryCamo) {
-        polyatomicStatusLabel->hide();
+        diamondWeaponsStatusLabel->hide();
     }
 }
 
