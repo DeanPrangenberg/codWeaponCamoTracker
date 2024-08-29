@@ -338,12 +338,12 @@ void WeaponEditor::initializeWeaponData() {
     weaponMap["Assault Rifles"] = QStringList{
             "AK-74", "AMES 85", "XM4"
     };
-
+    /*
     standardWeaponAmount.push_back(1);
     weaponMap["Battle Rifles"] = QStringList{
             "PLACE_HOLDER"
     };
-
+    */
     standardWeaponAmount.push_back(1);
     weaponMap["LMGs"] = QStringList{
             "XMG"
@@ -361,7 +361,7 @@ void WeaponEditor::initializeWeaponData() {
 
     standardWeaponAmount.push_back(1);
     weaponMap["Melee"] = QStringList{
-            "Combat Knife"
+            "Knife"
     };
 
     standardWeaponAmount.push_back(2);

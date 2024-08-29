@@ -68,7 +68,6 @@ private:
     // camos var
     bool autoUnlockMasteryCamo = false;
     int standardCamoAmount = 4;
-    int masteryCamoAmount = 4;
     int camoNameLableWidth = 95;
 
     static constexpr int goldPos = 4;
