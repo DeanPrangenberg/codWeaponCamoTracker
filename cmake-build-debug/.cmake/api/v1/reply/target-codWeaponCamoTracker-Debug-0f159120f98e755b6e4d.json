@@ -363,11 +363,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "codWeaponCamoTracker_autogen::@6890427a1f51a3e7e1df"
+			"id" : "codWeaponCamoTracker_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "codWeaponCamoTracker_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "codWeaponCamoTracker_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "codWeaponCamoTracker::@6890427a1f51a3e7e1df",
@@ -380,7 +380,7 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "",
+				"fragment" : "-Wl,-subsystem,windows -Wl,-e,mainCRTStartup",
 				"role" : "flags"
 			},
 			{

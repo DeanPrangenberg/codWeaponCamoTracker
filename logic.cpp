@@ -5,7 +5,7 @@ void WeaponEditor::camoLogic() {
 
     QFile file(fileName);
     if (!file.open(QIODevice::ReadOnly)) {
-        qDebug() << "Error: Unable to open file.";
+        QMessageBox::critical(this, "Error", "Failed to open file:" + fileName);
         return;
     }
 
@@ -14,7 +14,7 @@ void WeaponEditor::camoLogic() {
 
     QJsonDocument doc(QJsonDocument::fromJson(data));
     if (doc.isNull() || !doc.isObject()) {
-        qDebug() << "Error: Failed to parse JSON.";
+        QMessageBox::critical(this, "Error", "Failed to parse JSON or not an object.");
         return;
     }
 
@@ -22,13 +22,13 @@ void WeaponEditor::camoLogic() {
     QJsonArray weaponClassesArray = weaponData["WeaponClasses"].toArray();
     camoStatus.clear();
 
-    for (const QJsonValue& classValue : weaponClassesArray) {
+    for (const auto &classValue: weaponClassesArray) {
         QJsonObject classObject = classValue.toObject();
         QJsonArray weaponsArray = classObject["Weapons"].toArray();
 
         QVector<QVector<QVector<bool>>> classCamos;
 
-        for (const QJsonValue& weaponValue : weaponsArray) {
+        for (const auto &weaponValue: weaponsArray) {
             QJsonObject weaponObject = weaponValue.toObject();
             QJsonArray mCamosArray = weaponObject["M_CAMOS"].toArray();
             QJsonArray wCamosArray = weaponObject["W_CAMOS"].toArray();
@@ -36,16 +36,16 @@ void WeaponEditor::camoLogic() {
 
             QVector<QVector<bool>> weaponCamos(3);
 
-            for (int i = 0; i < mCamosArray.size(); ++i) {
-                weaponCamos[0].append(mCamosArray[i].toObject()["Status"].toBool());
+            for (auto &&i: mCamosArray) {
+                weaponCamos[0].append(i.toObject()["Status"].toBool());
             }
 
-            for (int i = 0; i < wCamosArray.size(); ++i) {
-                weaponCamos[1].append(wCamosArray[i].toObject()["Status"].toBool());
+            for (auto &&i: wCamosArray) {
+                weaponCamos[1].append(i.toObject()["Status"].toBool());
             }
 
-            for (int i = 0; i < zCamosArray.size(); ++i) {
-                weaponCamos[2].append(zCamosArray[i].toObject()["Status"].toBool());
+            for (auto &&i: zCamosArray) {
+                weaponCamos[2].append(i.toObject()["Status"].toBool());
             }
 
             classCamos.append(weaponCamos);
@@ -59,8 +59,8 @@ void WeaponEditor::camoLogic() {
         // old cod logic
         for (int camoMode = 0; camoMode < 3; ++camoMode) {
             // gold
-            for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
-                for (QVector<QVector<bool>> &weaponVector : classVector) {
+            for (QVector<QVector<QVector<bool>>> &classVector: camoStatus) {
+                for (QVector<QVector<bool>> &weaponVector: classVector) {
                     bool goldAllowedForWeapon = true;
                     for (int i = 0; i < standardCamoAmount; ++i) {
                         if (!weaponVector[camoMode][i]) {
@@ -73,16 +73,16 @@ void WeaponEditor::camoLogic() {
 
             // diamond
             int index = 0;
-            for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
+            for (QVector<QVector<QVector<bool>>> &classVector: camoStatus) {
                 int goldForDiamond = 0;
-                for (QVector<QVector<bool>> &weaponVector : classVector) {
+                for (QVector<QVector<bool>> &weaponVector: classVector) {
                     if (weaponVector[camoMode][goldPos]) {
                         ++goldForDiamond;
                     }
                 }
 
                 if (goldForDiamond >= standardWeaponAmount[index]) {
-                    for (QVector<QVector<bool>> &weaponVector : classVector) {
+                    for (QVector<QVector<bool>> &weaponVector: classVector) {
                         weaponVector[camoMode][diamondPos] = weaponVector[camoMode][goldPos];
                     }
                 }
@@ -91,8 +91,8 @@ void WeaponEditor::camoLogic() {
 
             // dark matter
             int diamondClassesUnlocked = 0;
-            for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
-                for (QVector<QVector<bool>> &weaponVector : classVector) {
+            for (QVector<QVector<QVector<bool>>> &classVector: camoStatus) {
+                for (QVector<QVector<bool>> &weaponVector: classVector) {
                     if (weaponVector[camoMode][diamondPos]) {
                         ++diamondClassesUnlocked;
                         break;
@@ -101,8 +101,8 @@ void WeaponEditor::camoLogic() {
             }
 
             if (diamondClassesUnlocked >= standardWeaponAmount.size()) {
-                for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
-                    for (QVector<QVector<bool>> &weaponVector : classVector) {
+                for (QVector<QVector<QVector<bool>>> &classVector: camoStatus) {
+                    for (QVector<QVector<bool>> &weaponVector: classVector) {
                         weaponVector[camoMode][darkMatterPos] = weaponVector[camoMode][diamondPos];
                     }
                 }
@@ -113,18 +113,16 @@ void WeaponEditor::camoLogic() {
 
         for (int camoMode = 0; camoMode < 3; ++camoMode) {
             // gold
-            for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
-                for (QVector<QVector<bool>> &weaponVector : classVector) {
+            for (QVector<QVector<QVector<bool>>> &classVector: camoStatus) {
+                for (QVector<QVector<bool>> &weaponVector: classVector) {
                     bool goldAllowedForWeapon = true;
                     for (int i = 0; i < standardCamoAmount; ++i) {
                         if (!weaponVector[camoMode][i]) {
                             goldAllowedForWeapon = false;
-                            qDebug() << "set Gold false";
                         }
                     }
                     if (!goldAllowedForWeapon) {
                         weaponVector[camoMode][goldPos] = false;
-                        qDebug() << "set Gold false";
                     }
                 }
             }
@@ -132,15 +130,15 @@ void WeaponEditor::camoLogic() {
             // diamond
             int diamondIndex = 0;
             int goldInClass = 0;
-            for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
+            for (QVector<QVector<QVector<bool>>> &classVector: camoStatus) {
                 goldInClass = 0;
-                for (QVector<QVector<bool>> &weaponVector : classVector) {
+                for (QVector<QVector<bool>> &weaponVector: classVector) {
                     if (weaponVector[camoMode][goldPos]) {
                         ++goldInClass;
                     }
                 }
 
-                for (QVector<QVector<bool>> &weaponVector : classVector) {
+                for (QVector<QVector<bool>> &weaponVector: classVector) {
                     if (goldInClass >= standardWeaponAmount[diamondIndex]) {
                         if (!weaponVector[camoMode][goldPos]) {
                             weaponVector[camoMode][diamondPos] = false;
@@ -154,14 +152,14 @@ void WeaponEditor::camoLogic() {
 
             // polyatomic
             int diamondInAllClasses = 0;
-            for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
+            for (QVector<QVector<QVector<bool>>> &classVector: camoStatus) {
                 for (QVector<QVector<bool>> &weaponVector: classVector) {
                     if (weaponVector[camoMode][diamondPos]) {
                         ++diamondInAllClasses;
                     }
                 }
             }
-            for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
+            for (QVector<QVector<QVector<bool>>> &classVector: camoStatus) {
                 for (QVector<QVector<bool>> &weaponVector: classVector) {
                     if (diamondInAllClasses >= totalStandardWeaponAmount) {
                         if (!weaponVector[camoMode][diamondPos]) {
@@ -175,7 +173,7 @@ void WeaponEditor::camoLogic() {
 
             // dark Matter
             int polyatomicInAllClasses = 0;
-            for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
+            for (QVector<QVector<QVector<bool>>> &classVector: camoStatus) {
                 for (QVector<QVector<bool>> &weaponVector: classVector) {
                     if (weaponVector[camoMode][polyatomicPos]) {
                         ++polyatomicInAllClasses;
@@ -184,8 +182,8 @@ void WeaponEditor::camoLogic() {
             }
 
 
-            for (QVector<QVector<QVector<bool>>> &classVector : camoStatus) {
-                for (QVector<QVector<bool>> &weaponVector : classVector) {
+            for (QVector<QVector<QVector<bool>>> &classVector: camoStatus) {
+                for (QVector<QVector<bool>> &weaponVector: classVector) {
                     if (polyatomicInAllClasses >= totalStandardWeaponAmount) {
                         weaponVector[camoMode][darkMatterPos] = weaponVector[camoMode][polyatomicPos];
                     } else {
@@ -198,7 +196,7 @@ void WeaponEditor::camoLogic() {
 
     QFile writeFile(fileName);
     if (!writeFile.open(QIODevice::WriteOnly)) {
-        qDebug() << "Error: Unable to open file for writing.";
+        QMessageBox::critical(this, "Error", "Unable to open file for writing.");
         return;
     }
 
@@ -218,23 +216,7 @@ void WeaponEditor::camoLogic() {
             for (int i = 0; i < camoStatus[classIndex][weaponIndex][0].size(); ++i) {
                 QJsonObject camoObject;
                 camoObject["Condition"] = QString("todo for Camo");  // Maintain the condition as placeholder
-                switch (i) {
-                    case goldPos:
-                        camoObject["Name"] = mCamos[goldPos];
-                        break;
-                    case diamondPos:
-                        camoObject["Name"] = mCamos[diamondPos];
-                        break;
-                    case polyatomicPos:
-                        camoObject["Name"] = mCamos[polyatomicPos];
-                        break;
-                    case darkMatterPos:
-                        camoObject["Name"] = mCamos[darkMatterPos];
-                        break;
-                    default:
-                        camoObject["Name"] = QString("M_Camo%1").arg(i + 1); // Maintain the names as placeholders
-                        break;
-                }
+                camoObject["Name"] = mCamos[i];
                 camoObject["Status"] = camoStatus[classIndex][weaponIndex][0][i];
                 mCamosArray.append(camoObject);
             }
@@ -242,23 +224,7 @@ void WeaponEditor::camoLogic() {
             for (int i = 0; i < camoStatus[classIndex][weaponIndex][1].size(); ++i) {
                 QJsonObject camoObject;
                 camoObject["Condition"] = QString("todo for Camo");  // Maintain the condition as placeholder
-                switch (i) {
-                    case goldPos:
-                        camoObject["Name"] = wCamos[goldPos];
-                        break;
-                    case diamondPos:
-                        camoObject["Name"] = wCamos[diamondPos];
-                        break;
-                    case polyatomicPos:
-                        camoObject["Name"] = wCamos[polyatomicPos];
-                        break;
-                    case darkMatterPos:
-                        camoObject["Name"] = wCamos[darkMatterPos];
-                        break;
-                    default:
-                        camoObject["Name"] = QString("W_Camo%1").arg(i + 1); // Maintain the names as placeholders
-                        break;
-                }
+                camoObject["Name"] = wCamos[i];
                 camoObject["Status"] = camoStatus[classIndex][weaponIndex][1][i];
                 wCamosArray.append(camoObject);
             }
@@ -266,23 +232,7 @@ void WeaponEditor::camoLogic() {
             for (int i = 0; i < camoStatus[classIndex][weaponIndex][2].size(); ++i) {
                 QJsonObject camoObject;
                 camoObject["Condition"] = QString("todo for Camo");  // Maintain the condition as placeholder
-                switch (i) {
-                    case goldPos:
-                        camoObject["Name"] = zCamos[goldPos];
-                        break;
-                    case diamondPos:
-                        camoObject["Name"] = zCamos[diamondPos];
-                        break;
-                    case polyatomicPos:
-                        camoObject["Name"] = zCamos[polyatomicPos];
-                        break;
-                    case darkMatterPos:
-                        camoObject["Name"] = zCamos[darkMatterPos];
-                        break;
-                    default:
-                        camoObject["Name"] = QString("Z_Camo%1").arg(i + 1); // Maintain the names as placeholders
-                        break;
-                }
+                camoObject["Name"] = zCamos[i];
                 camoObject["Status"] = camoStatus[classIndex][weaponIndex][2][i];
                 zCamosArray.append(camoObject);
             }
@@ -319,7 +269,6 @@ void WeaponEditor::loadWeaponsForClass(const QString &weaponClass) {
         }
         delete item;
     }
-
     int widgetWidth = width();
     const int minTileSize = 316;
     int numTilesPerRow = widgetWidth / minTileSize;
@@ -381,12 +330,38 @@ void WeaponEditor::initializeWeaponData() {
 
     standardWeaponAmount.push_back(2);
     weaponMap["Sniper Rifles"] = QStringList{
-            "SVD","LR 7.62"
+            "SVD", "LR 7.62"
     };
 
-    for (int weaponsInClass : standardWeaponAmount) {
+    for (int weaponsInClass: standardWeaponAmount) {
         totalStandardWeaponAmount += weaponsInClass;
     }
+
+    mCamos = {
+            "Military_1", "Military_2", "Military_3", "Military_4", "Military_5", "Military_6",
+            "Military_7", "Military_8", "Military_9",
+            "Unique_1", "Unique_2",
+            "Gold", "Diamond", "Dark Spine", "Dark Matter"
+    };
+
+    zCamos = {
+            "Military_1", "Military_2", "Military_3", "Military_4", "Military_5", "Military_6",
+            "Military_7", "Military_8", "Military_9",
+            "Unique_1", "Unique_2",
+            "Mystic Gold", "Opal", "Afterlife", "Nebula"
+    };
+
+    wCamos = {
+            "Military_1", "Military_2", "Military_3", "Military_4", "Military_5", "Military_6",
+            "Military_7", "Military_8", "Military_9",
+            "Unique_1", "Unique_2",
+            "Gold Tiger", "Kings's Ransom", "Catalyst", "Abyss"
+    };
+
+    goldPos = static_cast<int>(mCamos.size() - 4);
+    diamondPos = static_cast<int>(mCamos.size() - 3);
+    polyatomicPos = static_cast<int>(mCamos.size() - 2);
+    darkMatterPos = static_cast<int>(mCamos.size() - 1);
 }
 
 void WeaponEditor::updateWeaponClass() {

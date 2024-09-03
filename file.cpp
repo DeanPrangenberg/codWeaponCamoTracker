@@ -3,7 +3,7 @@
 void WeaponEditor::loadWeaponData() {
     QFile file(fileName);
     if (!file.open(QIODevice::ReadOnly)) {
-        qDebug() << "Error: Unable to open file.";
+        QMessageBox::critical(this, "Error", "Failed to open file:" + fileName);
         return;
     }
 
@@ -12,7 +12,7 @@ void WeaponEditor::loadWeaponData() {
 
     QJsonDocument doc(QJsonDocument::fromJson(data));
     if (doc.isNull() || !doc.isObject()) {
-        qDebug() << "Error: Failed to parse JSON.";
+        QMessageBox::critical(this, "Error", "Failed to parse JSON or not an object.");
         return;
     }
 
@@ -20,14 +20,12 @@ void WeaponEditor::loadWeaponData() {
     QJsonArray weaponClassesArray = weaponData["WeaponClasses"].toArray();
 
     // Optionally populate the UI with data
-    for (const QJsonValue &value : weaponClassesArray) {
+    for (const QJsonValue &value: weaponClassesArray) {
         QJsonObject classObject = value.toObject();
-        QString className = classObject["Class"].toString();
         QJsonArray weaponsArray = classObject["Weapons"].toArray();
 
-        for (const QJsonValue &weaponValue : weaponsArray) {
+        for (const QJsonValue &weaponValue: weaponsArray) {
             QJsonObject weaponObject = weaponValue.toObject();
-            QString weaponName = weaponObject["Name"].toString();
             QJsonObject camosObject = weaponObject["Camos"].toObject();
         }
     }
@@ -43,7 +41,7 @@ void WeaponEditor::ensureFileExists() {
 void WeaponEditor::liveUpdateWeaponData(const QString &weaponName, const QString &key, bool status) {
     QFile file(fileName);
     if (!file.open(QIODevice::ReadOnly)) {
-        qDebug() << "Error: Unable to open file for reading.";
+        QMessageBox::critical(this, "Error", "Unable to open file for reading.");
         return;
     }
 
@@ -52,24 +50,23 @@ void WeaponEditor::liveUpdateWeaponData(const QString &weaponName, const QString
 
     QJsonDocument doc(QJsonDocument::fromJson(data));
     if (doc.isNull() || !doc.isObject()) {
-        qDebug() << "Error: Failed to parse JSON.";
+        QMessageBox::critical(this, "Error", "Failed to parse JSON or not an object.");
         return;
     }
 
     QJsonObject json = doc.object();
     QJsonArray weaponClassesArray = json["WeaponClasses"].toArray();
     QString selectedClass = classComboBox->currentText();
-    QStringList weaponsInClass = weaponMap.value(selectedClass);
 
     QJsonArray updatedWeaponClassesArray;
 
-    for (const QJsonValue &classValue : weaponClassesArray) {
+    for (const QJsonValue &classValue: weaponClassesArray) {
         QJsonObject classObject = classValue.toObject();
         if (classObject["Class"].toString() == selectedClass) {
             QJsonArray weaponsArray = classObject["Weapons"].toArray();
             QJsonArray updatedWeaponsArray;
 
-            for (const QJsonValue &weaponValue : weaponsArray) {
+            for (const QJsonValue &weaponValue: weaponsArray) {
                 QJsonObject weaponObject = weaponValue.toObject();
                 if (weaponObject["Name"].toString() == weaponName) {
                     if (key == "Unlocked") {
@@ -141,7 +138,7 @@ void WeaponEditor::liveUpdateWeaponData(const QString &weaponName, const QString
 
     QJsonDocument updatedDoc(json);
     if (!file.open(QIODevice::WriteOnly)) {
-        qDebug() << "Error: Unable to open file for writing.";
+        QMessageBox::critical(this, "Error", "Unable to open file for writing.");
         return;
     }
     file.write(updatedDoc.toJson());
@@ -156,14 +153,14 @@ void WeaponEditor::genJsonWeaponData() {
     QJsonObject json;
     QJsonArray classesArray;
 
-    for (const QString &className : weaponMap.keys()) {
+    for (const QString &className: weaponMap.keys()) {
         QJsonObject classObject;
         classObject["Class"] = className;
 
         QJsonArray weaponsArray;
         QStringList weapons = weaponMap.value(className);
 
-        for (const QString &weaponName : weapons) {
+        for (const QString &weaponName: weapons) {
             QJsonObject weaponObject;
             weaponObject["Name"] = weaponName;
             weaponObject["Unlocked"] = false;
@@ -171,7 +168,7 @@ void WeaponEditor::genJsonWeaponData() {
 
             // Fügen Sie Multiplayer Camos hinzu
             QJsonArray mCamosArray;
-            for (const QString &camoName : mCamos) {
+            for (const QString &camoName: mCamos) {
                 QJsonObject camoObject;
                 camoObject["Name"] = camoName;
                 camoObject["Status"] = false;
@@ -182,7 +179,7 @@ void WeaponEditor::genJsonWeaponData() {
 
             // Fügen Sie Zombies Camos hinzu
             QJsonArray zCamosArray;
-            for (const QString &camoName : zCamos) {
+            for (const QString &camoName: zCamos) {
                 QJsonObject camoObject;
                 camoObject["Name"] = camoName;
                 camoObject["Status"] = false;
@@ -192,7 +189,7 @@ void WeaponEditor::genJsonWeaponData() {
             weaponObject["Z_CAMOS"] = zCamosArray;
 
             QJsonArray wCamosArray;
-            for (const QString &camoName : wCamos) {
+            for (const QString &camoName: wCamos) {
                 QJsonObject camoObject;
                 camoObject["Name"] = camoName;
                 camoObject["Status"] = false;
@@ -213,7 +210,7 @@ void WeaponEditor::genJsonWeaponData() {
     QJsonDocument doc(json);
     QFile file(fileName);
     if (!file.open(QIODevice::WriteOnly)) {
-        qDebug() << "Error: Unable to open file for writing.";
+        QMessageBox::critical(this, "Error", "Unable to open file for writing.");
         return;
     }
     file.write(doc.toJson());

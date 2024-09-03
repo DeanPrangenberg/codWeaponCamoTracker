@@ -7,22 +7,57 @@
                     "M_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -52,22 +87,57 @@
                     "W_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -94,22 +164,57 @@
                     "Z_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -138,22 +243,57 @@
                     "M_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -183,22 +323,57 @@
                     "W_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -225,22 +400,57 @@
                     "Z_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -269,22 +479,57 @@
                     "M_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -314,22 +559,57 @@
                     "W_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -356,22 +636,57 @@
                     "Z_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -405,22 +720,57 @@
                     "M_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -450,22 +800,57 @@
                     "W_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -492,22 +877,57 @@
                     "Z_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -541,22 +961,57 @@
                     "M_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -586,22 +1041,57 @@
                     "W_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -628,22 +1118,57 @@
                     "Z_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -677,22 +1202,57 @@
                     "M_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -722,22 +1282,57 @@
                     "W_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -764,22 +1359,57 @@
                     "Z_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -808,22 +1438,57 @@
                     "M_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -853,22 +1518,57 @@
                     "W_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -895,22 +1595,57 @@
                     "Z_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -944,22 +1679,57 @@
                     "M_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -989,22 +1759,57 @@
                     "W_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -1031,22 +1836,57 @@
                     "Z_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -1080,22 +1920,57 @@
                     "M_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -1125,22 +2000,57 @@
                     "W_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -1167,22 +2077,57 @@
                     "Z_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -1211,22 +2156,57 @@
                     "M_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -1256,22 +2236,57 @@
                     "W_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -1298,22 +2313,57 @@
                     "Z_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -1347,22 +2397,57 @@
                     "M_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -1392,22 +2477,57 @@
                     "W_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -1434,22 +2554,57 @@
                     "Z_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -1478,22 +2633,57 @@
                     "M_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -1523,22 +2713,57 @@
                     "W_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -1565,22 +2790,57 @@
                     "Z_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -1609,22 +2869,57 @@
                     "M_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -1654,22 +2949,57 @@
                     "W_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -1696,22 +3026,57 @@
                     "Z_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -1745,22 +3110,57 @@
                     "M_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -1790,22 +3190,57 @@
                     "W_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -1832,22 +3267,57 @@
                     "Z_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -1881,22 +3351,57 @@
                     "M_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -1926,22 +3431,57 @@
                     "W_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -1968,22 +3508,57 @@
                     "Z_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -2012,22 +3587,57 @@
                     "M_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "M_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -2057,22 +3667,57 @@
                     "W_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "W_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {
@@ -2099,22 +3744,57 @@
                     "Z_CAMOS": [
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo1",
+                            "Name": "Military_1",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo2",
+                            "Name": "Military_2",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo3",
+                            "Name": "Military_3",
                             "Status": false
                         },
                         {
                             "Condition": "todo for Camo",
-                            "Name": "Z_Camo4",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
                             "Status": false
                         },
                         {

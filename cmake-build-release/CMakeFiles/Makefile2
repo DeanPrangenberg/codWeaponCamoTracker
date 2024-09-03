@@ -79,8 +79,8 @@ clean: CMakeFiles/codWeaponCamoTracker_autogen.dir/clean
 # Target rules for target CMakeFiles/codWeaponCamoTracker.dir
 
 # All Build rule for target.
-CMakeFiles/codWeaponCamoTracker.dir/all: CMakeFiles/codWeaponCamoTracker_autogen_timestamp_deps.dir/all
 CMakeFiles/codWeaponCamoTracker.dir/all: CMakeFiles/codWeaponCamoTracker_autogen.dir/all
+CMakeFiles/codWeaponCamoTracker.dir/all: CMakeFiles/codWeaponCamoTracker_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\codWeaponCamoTracker.dir\build.make CMakeFiles/codWeaponCamoTracker.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\codWeaponCamoTracker.dir\build.make CMakeFiles/codWeaponCamoTracker.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\MyRepo\c++ QT\codWeaponCamoTracker\cmake-build-release\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8 "Built target codWeaponCamoTracker"

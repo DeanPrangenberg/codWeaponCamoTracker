@@ -23,6 +23,7 @@
 #include <QCoreApplication>
 #include <QTimer>
 #include <QResizeEvent>
+#include <QMessageBox>
 
 class WeaponEditor : public QWidget {
 Q_OBJECT
@@ -36,12 +37,19 @@ protected:
     }
 
 private slots:
+
     void updateWeaponClass();
+
     void loadWeaponData();
+
     void ensureFileExists();
+
     void createWeaponTile(const QString &weaponName, int index, int rowSize);
+
     void genJsonWeaponData();
+
     void liveUpdateWeaponData(const QString &weaponName, const QString &key, bool status);
+
     void updateStatus();
 
 private:
@@ -66,34 +74,32 @@ private:
     int totalStandardWeaponAmount = 0;
 
     // camos var
+    QStringList mCamos;
+    QStringList zCamos;
+    QStringList wCamos;
+
     bool autoUnlockMasteryCamo = false;
-    int standardCamoAmount = 4;
+    int standardCamoAmount = 11;
     int camoNameLableWidth = 95;
 
-    static constexpr int goldPos = 4;
-    static constexpr int diamondPos = 5;
-    static constexpr int polyatomicPos = 6;
-    static constexpr int darkMatterPos = 7;
-
-    QStringList mCamos = {
-            "M_Camo1", "M_Camo2", "M_Camo3", "M_Camo4", "Gold", "Diamond", "Dark Spine", "Dark Matter"
-    };
-    QStringList zCamos = {
-            "Z_Camo1", "Z_Camo2", "Z_Camo3", "Z_Camo4", "Mystic Gold", "Opal", "Afterlife", "Nebula"
-    };
-    QStringList wCamos = {
-            "W_Camo1", "W_Camo2", "W_Camo3", "W_Camo4", "Gold Tiger", "Kings's Ransom", "Catalyst", "Abyss"
-    };
+    int goldPos;
+    int diamondPos;
+    int polyatomicPos;
+    int darkMatterPos;
 
     // style
     void updateStyles();
-    QVector<QComboBox*> comboBoxes;
-    QVector<QLabel*> statusLabels;
+
+    QVector<QComboBox *> comboBoxes;
+    QVector<QLabel *> statusLabels;
 
     // functions
     void initializeWeaponData();
+
     void setupUI();
+
     void loadWeaponsForClass(const QString &weaponClass);
+
     void camoLogic();
 };
 

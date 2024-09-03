@@ -31,15 +31,15 @@ target_link_libraries(codWeaponCamoTracker
 )
 
 # Verhindere das Konsolenfenster
-#if (WIN32)
-#    if (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
-#        # MinGW nutzt eine andere Syntax für das Subsystem
-#        set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-subsystem,windows -Wl,-e,mainCRTStartup")
-#    elseif (CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
-#        # MSVC verwendet /SUBSYSTEM:WINDOWS
-#        set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /SUBSYSTEM:WINDOWS /ENTRY:mainCRTStartup")
-#    endif()
-#endif()
+if (WIN32)
+    if (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
+        # MinGW nutzt eine andere Syntax für das Subsystem
+        set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-subsystem,windows -Wl,-e,mainCRTStartup")
+    elseif (CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
+        # MSVC verwendet /SUBSYSTEM:WINDOWS
+        set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /SUBSYSTEM:WINDOWS /ENTRY:mainCRTStartup")
+    endif()
+endif()
 
 
 if (WIN32 AND NOT DEFINED CMAKE_TOOLCHAIN_FILE)
