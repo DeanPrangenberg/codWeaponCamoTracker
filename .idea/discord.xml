@@ -4,4 +4,8 @@
     <option name="show" value="DISABLE" />
     <option name="description" value="" />
   </component>
+  <component name="DiscordProjectSettings">
+    <option name="show" value="ASK" />
+    <option name="description" value="" />
+  </component>
 </project>

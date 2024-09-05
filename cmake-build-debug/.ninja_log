@@ -1,35 +1,21 @@
 # ninja log v6
-13	872	7453308446109588	codWeaponCamoTracker_autogen/timestamp	920a80dae843f08
-13	872	7453308446109588	codWeaponCamoTracker_autogen/mocs_compilation.cpp	920a80dae843f08
-13	872	7453308446109588	D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-debug/codWeaponCamoTracker_autogen/timestamp	920a80dae843f08
-13	872	7453308446109588	D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-debug/codWeaponCamoTracker_autogen/mocs_compilation.cpp	920a80dae843f08
-878	4160	7453308447092485	CMakeFiles/codWeaponCamoTracker.dir/main.cpp.obj	275e89ef4e7542c1
-872	4249	7453308447031899	CMakeFiles/codWeaponCamoTracker.dir/codWeaponCamoTracker_autogen/mocs_compilation.cpp.obj	d2e7cca4696ee906
-884	4551	7453308447147565	CMakeFiles/codWeaponCamoTracker.dir/WeaponEditor.cpp.obj	aec10f24be8e2cfd
-4551	5055	7453308483825194	codWeaponCamoTracker.exe	ea8442173d90a714
-19	198	7453308719466981	codWeaponCamoTracker_autogen/timestamp	920a80dae843f08
-19	198	7453308719466981	codWeaponCamoTracker_autogen/mocs_compilation.cpp	920a80dae843f08
-19	198	7453308719466981	D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-debug/codWeaponCamoTracker_autogen/timestamp	920a80dae843f08
-19	198	7453308719466981	D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-debug/codWeaponCamoTracker_autogen/mocs_compilation.cpp	920a80dae843f08
-198	3144	7453308721251394	CMakeFiles/codWeaponCamoTracker.dir/main.cpp.obj	275e89ef4e7542c1
-3144	3951	7453308750709485	codWeaponCamoTracker.exe	ea8442173d90a714
-17	826	7453309267081214	codWeaponCamoTracker_autogen/timestamp	920a80dae843f08
-17	826	7453309267081214	codWeaponCamoTracker_autogen/mocs_compilation.cpp	920a80dae843f08
-17	826	7453309267081214	D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-debug/codWeaponCamoTracker_autogen/timestamp	920a80dae843f08
-17	826	7453309267081214	D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-debug/codWeaponCamoTracker_autogen/mocs_compilation.cpp	920a80dae843f08
-827	4039	7453309268071218	CMakeFiles/codWeaponCamoTracker.dir/codWeaponCamoTracker_autogen/mocs_compilation.cpp.obj	d2e7cca4696ee906
-833	4054	7453309268126411	CMakeFiles/codWeaponCamoTracker.dir/main.cpp.obj	275e89ef4e7542c1
-839	4341	7453309268186734	CMakeFiles/codWeaponCamoTracker.dir/WeaponEditor.cpp.obj	aec10f24be8e2cfd
-4341	4833	7453309303208015	codWeaponCamoTracker.exe	ea8442173d90a714
-21	200	7453309800239907	codWeaponCamoTracker_autogen/timestamp	920a80dae843f08
-21	200	7453309800239907	codWeaponCamoTracker_autogen/mocs_compilation.cpp	920a80dae843f08
-21	200	7453309800239907	D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-debug/codWeaponCamoTracker_autogen/timestamp	920a80dae843f08
-21	200	7453309800239907	D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-debug/codWeaponCamoTracker_autogen/mocs_compilation.cpp	920a80dae843f08
-201	3374	7453309802036259	CMakeFiles/codWeaponCamoTracker.dir/WeaponEditor.cpp.obj	aec10f24be8e2cfd
-3374	3859	7453309833773485	codWeaponCamoTracker.exe	ea8442173d90a714
 16	203	7453310312941625	codWeaponCamoTracker_autogen/timestamp	920a80dae843f08
+833	4054	7453309268126411	CMakeFiles/codWeaponCamoTracker.dir/main.cpp.obj	275e89ef4e7542c1
 16	203	7453310312941625	codWeaponCamoTracker_autogen/mocs_compilation.cpp	920a80dae843f08
+203	3378	7453310314817607	CMakeFiles/codWeaponCamoTracker.dir/WeaponEditor.cpp.obj	aec10f24be8e2cfd
 16	203	7453310312941625	D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-debug/codWeaponCamoTracker_autogen/timestamp	920a80dae843f08
 16	203	7453310312941625	D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-debug/codWeaponCamoTracker_autogen/mocs_compilation.cpp	920a80dae843f08
-203	3378	7453310314817607	CMakeFiles/codWeaponCamoTracker.dir/WeaponEditor.cpp.obj	aec10f24be8e2cfd
+827	4039	7453309268071218	CMakeFiles/codWeaponCamoTracker.dir/codWeaponCamoTracker_autogen/mocs_compilation.cpp.obj	d2e7cca4696ee906
 3379	3883	7453310346570948	codWeaponCamoTracker.exe	ea8442173d90a714
+21	1452	7470966707110248	codWeaponCamoTracker_autogen/timestamp	920a80dae843f08
+21	1452	7470966707110248	codWeaponCamoTracker_autogen/mocs_compilation.cpp	920a80dae843f08
+21	1452	7470966707110248	D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-debug/codWeaponCamoTracker_autogen/timestamp	920a80dae843f08
+21	1452	7470966707110248	D:/MyRepo/c++ QT/codWeaponCamoTracker/cmake-build-debug/codWeaponCamoTracker_autogen/mocs_compilation.cpp	920a80dae843f08
+1481	1689	7470966708756388	CMakeFiles/codWeaponCamoTracker.dir/resources.rc.obj	ddfe0bde8866baa3
+1463	6398	7470966708575542	CMakeFiles/codWeaponCamoTracker.dir/main.cpp.obj	275e89ef4e7542c1
+1454	6422	7470966708480244	CMakeFiles/codWeaponCamoTracker.dir/codWeaponCamoTracker_autogen/mocs_compilation.cpp.obj	d2e7cca4696ee906
+1472	6425	7470966708655892	CMakeFiles/codWeaponCamoTracker.dir/WeaponEditor.cpp.obj	aec10f24be8e2cfd
+1511	6544	7470966709052767	CMakeFiles/codWeaponCamoTracker.dir/file.cpp.obj	607ae8bc7c8a2c14
+1496	7066	7470966708897195	CMakeFiles/codWeaponCamoTracker.dir/ui.cpp.obj	7cc30d797c42ff97
+1527	7078	7470966709208396	CMakeFiles/codWeaponCamoTracker.dir/logic.cpp.obj	78864df2633af770
+7078	7981	7470966764720132	codWeaponCamoTracker.exe	de13bf24b191a285
