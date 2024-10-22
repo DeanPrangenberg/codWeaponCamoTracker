@@ -373,6 +373,7 @@ codWeaponCamoTracker_autogen/timestamp: \
 	C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersionImpl.cmake \
 	C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateTargets.cmake \
 	C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessTargets.cmake \
+	C:/Users/prang/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake \
 	D:/MyRepo/c++\ QT/codWeaponCamoTracker/CMakeLists.txt \
 	D:/MyRepo/c++\ QT/codWeaponCamoTracker/WeaponEditor.cpp \
 	D:/MyRepo/c++\ QT/codWeaponCamoTracker/WeaponEditor.h \
@@ -389,6 +390,7 @@ codWeaponCamoTracker_autogen/timestamp: \
 	G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake \
 	G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake \
+	G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDependentOption.cmake \
 	G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake \
 	G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake \
 	G:/Jet_brains_IDEs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake \

@@ -285,52 +285,47 @@ void WeaponEditor::loadWeaponsForClass(const QString &weaponClass) {
 void WeaponEditor::initializeWeaponData() {
     standardWeaponAmount.push_back(3);
     weaponMap["Assault Rifles"] = QStringList{
-            "AK-74", "AMES 85", "XM4"
+            "AK-74", "AMES 85", "XM4", "GPR 91", "MODEL L", "GOBLIN MK 2", "AS VAL"
     };
-    /*
-    standardWeaponAmount.push_back(1);
-    weaponMap["Battle Rifles"] = QStringList{
-            "PLACE_HOLDER"
-    };
-    */
+
     standardWeaponAmount.push_back(1);
     weaponMap["LMGs"] = QStringList{
-            "XMG"
+            "XMG", "PU-21", "GPMG-7"
     };
 
     standardWeaponAmount.push_back(1);
     weaponMap["Launchers"] = QStringList{
-            "Cigma 2B"
+            "Cigma 2B", "HE-1"
     };
 
     standardWeaponAmount.push_back(2);
     weaponMap["Marksman Rifles"] = QStringList{
-            "Swat 5.56", "DM-10"
+            "Swat 5.56", "DM-10", "Tsarkov 7.62", "AEK-973"
     };
 
     standardWeaponAmount.push_back(1);
     weaponMap["Melee"] = QStringList{
-            "Knife"
+            "Knife", "Baseball Bat"
     };
 
     standardWeaponAmount.push_back(2);
     weaponMap["Pistols"] = QStringList{
-            "GS45", "9mm PM"
+            "GS45", "9mm PM", "Grekhova", "Stryder .22"
     };
 
     standardWeaponAmount.push_back(3);
     weaponMap["SMGs"] = QStringList{
-            "C9", "Tanto .22", "Jackal PDW"
+            "C9", "Tanto .22", "Jackal PDW", "KSV", "PP-919", "KOMPAKT 92", ""
     };
 
     standardWeaponAmount.push_back(1);
     weaponMap["Shotguns"] = QStringList{
-            "Marine SP"
+            "Marine SP", "ASG-89"
     };
 
     standardWeaponAmount.push_back(2);
     weaponMap["Sniper Rifles"] = QStringList{
-            "SVD", "LR 7.62"
+            "SVD", "LR 7.62", "LW3A1 Frostline", ""
     };
 
     for (int weaponsInClass: standardWeaponAmount) {

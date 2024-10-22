@@ -710,6 +710,950 @@
                             "Status": false
                         }
                     ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Diamond",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Spine",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Matter",
+                            "Status": false
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "GPR 91",
+                    "Unlocked": false,
+                    "W_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold Tiger",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Kings's Ransom",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Catalyst",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Abyss",
+                            "Status": false
+                        }
+                    ],
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Mystic Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Opal",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Afterlife",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Nebula",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Diamond",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Spine",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Matter",
+                            "Status": false
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "MODEL L",
+                    "Unlocked": false,
+                    "W_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold Tiger",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Kings's Ransom",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Catalyst",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Abyss",
+                            "Status": false
+                        }
+                    ],
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Mystic Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Opal",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Afterlife",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Nebula",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Diamond",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Spine",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Matter",
+                            "Status": false
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "GOBLIN MK 2",
+                    "Unlocked": false,
+                    "W_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold Tiger",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Kings's Ransom",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Catalyst",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Abyss",
+                            "Status": false
+                        }
+                    ],
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Mystic Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Opal",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Afterlife",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Nebula",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Diamond",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Spine",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Matter",
+                            "Status": false
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "AS VAL",
+                    "Unlocked": false,
+                    "W_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold Tiger",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Kings's Ransom",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Catalyst",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Abyss",
+                            "Status": false
+                        }
+                    ],
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Mystic Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Opal",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Afterlife",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Nebula",
+                            "Status": false
+                        }
+                    ]
                 }
             ]
         },
@@ -951,6 +1895,478 @@
                             "Status": false
                         }
                     ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Diamond",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Spine",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Matter",
+                            "Status": false
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "PU-21",
+                    "Unlocked": false,
+                    "W_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold Tiger",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Kings's Ransom",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Catalyst",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Abyss",
+                            "Status": false
+                        }
+                    ],
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Mystic Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Opal",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Afterlife",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Nebula",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Diamond",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Spine",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Matter",
+                            "Status": false
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "GPMG-7",
+                    "Unlocked": false,
+                    "W_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold Tiger",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Kings's Ransom",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Catalyst",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Abyss",
+                            "Status": false
+                        }
+                    ],
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Mystic Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Opal",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Afterlife",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Nebula",
+                            "Status": false
+                        }
+                    ]
                 }
             ]
         },
@@ -1037,6 +2453,242 @@
                     ],
                     "MaxedLevel": false,
                     "Name": "Cigma 2B",
+                    "Unlocked": false,
+                    "W_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold Tiger",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Kings's Ransom",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Catalyst",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Abyss",
+                            "Status": false
+                        }
+                    ],
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Mystic Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Opal",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Afterlife",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Nebula",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Diamond",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Spine",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Matter",
+                            "Status": false
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "HE-1",
                     "Unlocked": false,
                     "W_CAMOS": [
                         {
@@ -1669,6 +3321,478 @@
                             "Status": false
                         }
                     ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Diamond",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Spine",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Matter",
+                            "Status": false
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "Tsarkov 7.62",
+                    "Unlocked": false,
+                    "W_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold Tiger",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Kings's Ransom",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Catalyst",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Abyss",
+                            "Status": false
+                        }
+                    ],
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Mystic Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Opal",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Afterlife",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Nebula",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Diamond",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Spine",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Matter",
+                            "Status": false
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "AEK-973",
+                    "Unlocked": false,
+                    "W_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold Tiger",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Kings's Ransom",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Catalyst",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Abyss",
+                            "Status": false
+                        }
+                    ],
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Mystic Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Opal",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Afterlife",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Nebula",
+                            "Status": false
+                        }
+                    ]
                 }
             ]
         },
@@ -1755,6 +3879,242 @@
                     ],
                     "MaxedLevel": false,
                     "Name": "Knife",
+                    "Unlocked": false,
+                    "W_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold Tiger",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Kings's Ransom",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Catalyst",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Abyss",
+                            "Status": false
+                        }
+                    ],
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Mystic Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Opal",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Afterlife",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Nebula",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Diamond",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Spine",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Matter",
+                            "Status": false
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "Baseball Bat",
                     "Unlocked": false,
                     "W_CAMOS": [
                         {
@@ -2232,6 +4592,478 @@
                     ],
                     "MaxedLevel": false,
                     "Name": "9mm PM",
+                    "Unlocked": false,
+                    "W_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold Tiger",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Kings's Ransom",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Catalyst",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Abyss",
+                            "Status": false
+                        }
+                    ],
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Mystic Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Opal",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Afterlife",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Nebula",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Diamond",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Spine",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Matter",
+                            "Status": false
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "Grekhova",
+                    "Unlocked": false,
+                    "W_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold Tiger",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Kings's Ransom",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Catalyst",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Abyss",
+                            "Status": false
+                        }
+                    ],
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Mystic Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Opal",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Afterlife",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Nebula",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Diamond",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Spine",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Matter",
+                            "Status": false
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "Stryder .22",
                     "Unlocked": false,
                     "W_CAMOS": [
                         {
@@ -3100,6 +5932,950 @@
                             "Status": false
                         }
                     ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Diamond",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Spine",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Matter",
+                            "Status": false
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "KSV",
+                    "Unlocked": false,
+                    "W_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold Tiger",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Kings's Ransom",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Catalyst",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Abyss",
+                            "Status": false
+                        }
+                    ],
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Mystic Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Opal",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Afterlife",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Nebula",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Diamond",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Spine",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Matter",
+                            "Status": false
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "PP-919",
+                    "Unlocked": false,
+                    "W_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold Tiger",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Kings's Ransom",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Catalyst",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Abyss",
+                            "Status": false
+                        }
+                    ],
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Mystic Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Opal",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Afterlife",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Nebula",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Diamond",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Spine",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Matter",
+                            "Status": false
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "KOMPAKT 92",
+                    "Unlocked": false,
+                    "W_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold Tiger",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Kings's Ransom",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Catalyst",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Abyss",
+                            "Status": false
+                        }
+                    ],
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Mystic Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Opal",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Afterlife",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Nebula",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Diamond",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Spine",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Matter",
+                            "Status": false
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "",
+                    "Unlocked": false,
+                    "W_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold Tiger",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Kings's Ransom",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Catalyst",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Abyss",
+                            "Status": false
+                        }
+                    ],
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Mystic Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Opal",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Afterlife",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Nebula",
+                            "Status": false
+                        }
+                    ]
                 }
             ]
         },
@@ -3186,6 +6962,242 @@
                     ],
                     "MaxedLevel": false,
                     "Name": "Marine SP",
+                    "Unlocked": false,
+                    "W_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold Tiger",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Kings's Ransom",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Catalyst",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Abyss",
+                            "Status": false
+                        }
+                    ],
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Mystic Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Opal",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Afterlife",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Nebula",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Diamond",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Spine",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Matter",
+                            "Status": false
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "ASG-89",
                     "Unlocked": false,
                     "W_CAMOS": [
                         {
@@ -3663,6 +7675,478 @@
                     ],
                     "MaxedLevel": false,
                     "Name": "LR 7.62",
+                    "Unlocked": false,
+                    "W_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold Tiger",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Kings's Ransom",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Catalyst",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Abyss",
+                            "Status": false
+                        }
+                    ],
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Mystic Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Opal",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Afterlife",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Nebula",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Diamond",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Spine",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Matter",
+                            "Status": false
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "LW3A1 Frostline",
+                    "Unlocked": false,
+                    "W_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold Tiger",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Kings's Ransom",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Catalyst",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Abyss",
+                            "Status": false
+                        }
+                    ],
+                    "Z_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Mystic Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Opal",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Afterlife",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Nebula",
+                            "Status": false
+                        }
+                    ]
+                },
+                {
+                    "M_CAMOS": [
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_3",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_4",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_5",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_6",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_7",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_8",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Military_9",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_1",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Unique_2",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Gold",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Diamond",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Spine",
+                            "Status": false
+                        },
+                        {
+                            "Condition": "todo for Camo",
+                            "Name": "Dark Matter",
+                            "Status": false
+                        }
+                    ],
+                    "MaxedLevel": false,
+                    "Name": "",
                     "Unlocked": false,
                     "W_CAMOS": [
                         {
